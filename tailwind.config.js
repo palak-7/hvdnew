@@ -21,6 +21,7 @@ module.exports = {
         lightgreen: "#0f9f51",
         secondary: "#06532c",
         skyblue: "#e4f3ff",
+        bluelightest: "#a5d8ff",
       },
     },
   },
