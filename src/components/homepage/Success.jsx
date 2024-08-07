@@ -7,7 +7,7 @@ import { GrNext } from "react-icons/gr";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Link from "next/link";
 const Success = () => {
   var settings = {
     dots: true,
@@ -37,9 +37,9 @@ const Success = () => {
         height={1000}
         className="w-full"
       />
-      <div className="bg-white absolute inset-0 opacity-80"></div>
+      <div className="bg-white absolute inset-0 opacity-60"></div>
       <div className="grid grid-cols-8 absolute inset-0">
-        <div className="col-span-3 bg-white">
+        <div className="col-span-3 bg-white border-r-bluelightest border-r-4">
           <div className="mx-10">
             <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10">
               Success Stories
@@ -130,7 +130,89 @@ const Success = () => {
               </div>
             </Slider>
           </div>
-          <div className="border-r-4 border-bluelightest"></div>
+          <div className="flex justify-center mt-10">
+            <Link
+              href="/"
+              className="bg-lightgreen py-2 text-white px-4 rounded-md"
+            >
+              View All
+            </Link>
+          </div>
+        </div>
+        <div className="col-span-5">
+          <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 ml-20">
+            Why choose HVD ?
+          </h1>
+          <div>
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+              <Image
+                src="/success/heart.png"
+                width={100}
+                height={100}
+                className="mr-10"
+              />
+              <div>
+                <h2 className="text-primary font-bold">
+                  24/7 Cardiology Support
+                </h2>
+                <p className="text-sm">
+                  Our center offers round-the-clock comprehensive diagnostic
+                  cardiology services.
+                </p>
+              </div>
+            </div>
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+              <Image
+                src="/success/heart.png"
+                width={100}
+                height={100}
+                className="mr-10"
+              />
+              <div>
+                <h2 className="text-primary font-bold">
+                  24/7 Cardiology Support
+                </h2>
+                <p className="text-sm">
+                  Our center offers round-the-clock comprehensive diagnostic
+                  cardiology services.
+                </p>
+              </div>
+            </div>
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+              <Image
+                src="/success/heart.png"
+                width={100}
+                height={100}
+                className="mr-10"
+              />
+              <div>
+                <h2 className="text-primary font-bold">
+                  24/7 Cardiology Support
+                </h2>
+                <p className="text-sm">
+                  Our center offers round-the-clock comprehensive diagnostic
+                  cardiology services.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+              <Image
+                src="/success/heart.png"
+                width={100}
+                height={100}
+                className="mr-10"
+              />
+              <div>
+                <h2 className="text-primary font-bold">
+                  24/7 Cardiology Support
+                </h2>
+                <p className="text-sm">
+                  Our center offers round-the-clock comprehensive diagnostic
+                  cardiology services.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
