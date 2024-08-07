@@ -25,6 +25,8 @@ module.exports = {
         bluelightest: "#a5d8ff",
         linkedin:"#0077b5",
         youtube:"#FF0000",
+        infobg:"#23418c",
+        bgclr:"#e4f3ff",
       },
     },
   },

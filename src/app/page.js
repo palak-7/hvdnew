@@ -5,6 +5,8 @@ import Booking from "@/components/homepage/Booking";
 import Packages from "@/components/homepage/Packages";
 import Success from "@/components/homepage/Success";
 import Introduction from "@/components/homepage/Introduction";
+import Infosection from "@/components/homepage/Infosection";
+import OurTrusted from "@/components/homepage/OurTrusted";
 const page = () => {
   return (
     <div>
@@ -14,6 +16,9 @@ const page = () => {
       <Booking />
       <Packages />
       <Success />
+      <OurTrusted />
+      <Infosection />
+      
     </div>
   );
 };
