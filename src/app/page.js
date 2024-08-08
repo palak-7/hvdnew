@@ -9,6 +9,8 @@ import Infosection from "@/components/homepage/Infosection";
 import OurTrusted from "@/components/homepage/OurTrusted";
 import AboutUs from "@/components/homepage/AboutUs";
 import UpcomingEvent from "@/components/homepage/UpcomingEvent";
+import Doctors from "@/components/homepage/Doctors";
+import Testimonials from "@/components/homepage/Testimonials";
 const page = () => {
   return (
     <div>
@@ -19,6 +21,8 @@ const page = () => {
       <Packages />
       <Success />
       <AboutUs />
+      <Doctors />
+      <Testimonials />
       <UpcomingEvent />
       <OurTrusted />
       <Infosection />
