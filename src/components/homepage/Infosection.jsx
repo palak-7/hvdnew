@@ -19,9 +19,9 @@ const Infosection = () => {
 
         <div className="col-start-4 col-span-3 border-r-2 border-l-2 pl-2">
           <h3 className="font-bold mb-2">Give us a Call</h3>
-          <div className="text-blue-600 flex gap-2">
+          <div className="text-blue-600 ">
             <Link href="tel:+919311883039" className="block text-white">
-              +91 9311883039 ,
+              +91 9311883039
             </Link>
             <Link href="tel:+01146536898" className="block text-white">
               +011 46536898
