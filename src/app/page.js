@@ -8,6 +8,7 @@ import Introduction from "@/components/homepage/Introduction";
 import Infosection from "@/components/homepage/Infosection";
 import OurTrusted from "@/components/homepage/OurTrusted";
 import AboutUs from "@/components/homepage/AboutUs";
+import UpcomingEvent from "@/components/homepage/UpcomingEvent";
 const page = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const page = () => {
       <Packages />
       <Success />
       <AboutUs />
+      <UpcomingEvent />
       <OurTrusted />
       <Infosection />
     </div>
