@@ -83,8 +83,8 @@ const Footer = () => {
         <div className="col-start-10 col-span-2">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.6484671583116!2d77.12395967529164!3d28.70016047562798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a69dcf1acd%3A0x46473ecd32974e35!2sHealth%20Vista%20Diagnostics%20-%20Best%20Diagnostic%20centre%20in%20Pitampura%2C%20Interventional%20Radiology%2C%20Cardiology%2C%20ECG%20in%20Pitampura!5e0!3m2!1sen!2sin!4v1722943500091!5m2!1sen!2sin"
-            width="300"
-            height="250"
+            width="350"
+            height="350"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
