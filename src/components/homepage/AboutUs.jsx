@@ -28,7 +28,7 @@ const AboutUs = () => {
             Know More
           </Link>
         </div>
-        <div className="col-start-6 col-span-8 relative">
+        <div className="col-start-6 col-span-8 relative mb-10">
           <Image
             src="/success/about.png"
             width={1000}

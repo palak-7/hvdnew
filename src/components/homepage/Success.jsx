@@ -35,7 +35,7 @@ const Success = () => {
         src="/success/about.png"
         width={1000}
         height={1000}
-        className="w-full"
+        className="w-full h-[700px]"
       />
       <div className="bg-white absolute inset-0 opacity-60"></div>
       <div className="grid grid-cols-8 absolute inset-0">
@@ -163,52 +163,52 @@ const Success = () => {
             </div>
             <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
               <Image
-                src="/success/heart.png"
+                src="/success/ultrasound.png"
                 width={100}
                 height={100}
                 className="mr-10"
               />
               <div>
                 <h2 className="text-primary font-bold">
-                  24/7 Cardiology Support
+                  Ultrasound-Guided Procedures
                 </h2>
                 <p className="text-sm">
-                  Our center offers round-the-clock comprehensive diagnostic
-                  cardiology services.
+                  FNAC, biopsies, aspirations, catheter drainage, pain
+                  injections, marker insertions, J-wire localization.
                 </p>
               </div>
             </div>
             <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
               <Image
-                src="/success/heart.png"
+                src="/success/radiology.png"
                 width={100}
                 height={100}
                 className="mr-10"
               />
               <div>
                 <h2 className="text-primary font-bold">
-                  24/7 Cardiology Support
+                  9+ Years of Radiology Expertise
                 </h2>
                 <p className="text-sm">
-                  Our center offers round-the-clock comprehensive diagnostic
-                  cardiology services.
+                  Our team has nine years of experience in interventional
+                  radiology procedures.
                 </p>
               </div>
             </div>
             <div className="flex justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
               <Image
-                src="/success/heart.png"
+                src="/success/services.png"
                 width={100}
                 height={100}
                 className="mr-10"
               />
               <div>
                 <h2 className="text-primary font-bold">
-                  24/7 Cardiology Support
+                  Comprehensive Medical Services
                 </h2>
                 <p className="text-sm">
-                  Our center offers round-the-clock comprehensive diagnostic
-                  cardiology services.
+                  We provide a wide range of diagnostic and interventional
+                  services tailored to meet diverse medical needs.
                 </p>
               </div>
             </div>
