@@ -100,10 +100,13 @@ const Footer = () => {
         className="lg:h-[450px] h-[1300px] w-full"
         alt="footerimg"
       />
-       <div className="text-center opacity-50">
-        <h1 className="text-xl pt-5"> <strong>© 2024 Health Vista Diagnostic . All Rights Reserved.</strong></h1>
-        <h4 className="mb-5">Handcrafted with excellence by <strong> Invincible Web Solutions </strong></h4>
-       </div>
+      <div className="text-center opacity-50">
+        <h1 className="text-xl pt-5">
+          {" "}
+          <strong>© 2024 Health Vista Diagnostic . All Rights Reserved.</strong>
+        </h1>
+        {/* <h4 className="mb-5">Handcrafted with excellence by <strong> Invincible Web Solutions </strong></h4> */}
+      </div>
     </div>
   );
 };
