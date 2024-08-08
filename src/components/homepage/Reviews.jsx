@@ -72,9 +72,9 @@ const Reviews = () => {
           <p className="line-clamp-3 my-4 mb-0 text-base font-normal leading-relaxed tracking-wide text-gray-400">
             As soon as I entered this centre, the vibes I felt were really
             positive. The staff was really polite and friendly. Dr. Rohit
-            Singla's prescribed medicines recovered me very quickly. The test
-            results here were quite accurate. I would really recommend visiting
-            this centre to everyone.
+            Singla&apos;s prescribed medicines recovered me very quickly. The
+            test results here were quite accurate. I would really recommend
+            visiting this centre to everyone.
           </p>
 
           <div className="flex flex-col justify-end mt-6">
