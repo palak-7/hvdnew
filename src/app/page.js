@@ -13,7 +13,7 @@ import Doctors from "@/components/homepage/Doctors";
 import Testimonials from "@/components/homepage/Testimonials";
 const page = () => {
   return (
-    <div>
+    <div className="">
       <Introduction />
       <Reviews />
       <Services />

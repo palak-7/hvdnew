@@ -11,7 +11,7 @@ const Doctors = () => {
           Dedicated Professionals Committed to Your Health and Well-being
         </p>
       </div>
-      <div className="grid grid-cols-3 mx-[200px]">
+      <div className="lg:grid grid-cols-3 lg:mx-[200px]">
         <div className="flex flex-col items-center px-10">
           <div className="p-2 rounded-[100%] border">
             <Image
@@ -33,7 +33,7 @@ const Doctors = () => {
             MBBS, MD (Medicine), FIAE (Echocardiography)
           </p>
         </div>
-        <div className="flex flex-col items-center px-10">
+        <div className="lg:mt-0 mt-10 flex flex-col items-center px-10">
           <div className="p-2 rounded-[100%] border">
             <Image
               src="/doctors/17.png"
@@ -55,7 +55,7 @@ const Doctors = () => {
             DM ( CARDIOLOGY )
           </p>
         </div>
-        <div className="flex flex-col items-center px-10">
+        <div className="lg:mt-0 mt-10 flex flex-col items-center px-10">
           <div className="p-2 rounded-[100%] border">
             <Image
               src="/doctors/15.png"

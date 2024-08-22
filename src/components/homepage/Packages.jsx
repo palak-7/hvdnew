@@ -13,11 +13,11 @@ const Packages = () => {
       <h1 className="font-extrabold text-3xl text-primary text-center pt-10">
         Our Health Packages
       </h1>
-      <div className="grid grid-cols-3 mt-10">
+      <div className="lg:grid grid-cols-3 mt-10">
         {filteredData.map((s) => (
           <div
             key={s.id}
-            className="bg-white mx-10 mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg"
+            className="bg-white lg:mx-10 mx-2 mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg"
           >
             <Image
               width={1000}

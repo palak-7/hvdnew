@@ -10,7 +10,7 @@ const Booking = () => {
         Enhanced Patient Services
       </h1>
       <p className="text-center text-xl text-primary">for Your Convenience</p>
-      <div className="grid grid-cols-3 gap-10 mt-16">
+      <div className="lg:grid grid-cols-3 gap-10 mt-16">
         <div className="rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
             <RiHomeHeartLine
@@ -34,7 +34,7 @@ const Booking = () => {
             </Link>
           </div>
         </div>
-        <div className="rounded-lg mx-auto shadow-3xl">
+        <div className="mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
             <RiHomeHeartLine
               className="bg-primary rounded-full p-3 text-white"
@@ -57,7 +57,7 @@ const Booking = () => {
             </Link>
           </div>
         </div>
-        <div className="rounded-lg mx-auto shadow-3xl">
+        <div className="mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
             <RiHomeHeartLine
               className="bg-primary rounded-full p-3 text-white"

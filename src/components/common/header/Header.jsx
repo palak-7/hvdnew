@@ -92,7 +92,7 @@ const Header = () => {
               </button>
             </form>
           </div>
-          <div className="max-w-lg mx-auto pt-4">
+          <div className="max-w-lg lg:mx-auto pt-4 mx-2">
             <div className="flex items-center justify-center space-x-10">
               <div className="flex space-x-4">
                 <div className="text-white text-xl">
@@ -111,9 +111,9 @@ const Header = () => {
                 <RiCustomerServiceFill className="text-lightgreen text-4xl" />
                 <div className="text-gray-500 text-sm">
                   <h4>For Support</h4>
-                  <h2 className="text-lightgreen">
+                  <div className="text-lightgreen">
                     +91 9311883059 | +011 46536898
-                  </h2>
+                  </div>
                 </div>
               </div>
             </div>
@@ -148,9 +148,9 @@ const Header = () => {
             </button>
             <nav
               id="navbarCollapse"
-              className={`navbar absolute right-0 z-30 rounded border-[.5px] border-body-color/50 px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static w-full lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+              className={`navbar absolute right-0 z-30 rounded px-6 py-4 duration-300 dark:bg-dark lg:visible lg:static w-full lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                 navbarOpen
-                  ? "visibility top-[45%] opacity-100"
+                  ? "visibility top-[58%] opacity-100"
                   : "invisible top-[120%] opacity-0"
               }`}
             >

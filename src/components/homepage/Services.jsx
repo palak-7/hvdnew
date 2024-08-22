@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
 
-const Services = () => {  
+const Services = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -43,7 +43,7 @@ const Services = () => {
           <Slider {...settings}>
             {servicesdata.map((s) => (
               <div key={s.id} className="">
-                <div className="bg-white mx-10 h-[430px] mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg">
+                <div className="bg-white lg:mx-10 mx-2 h-[430px] mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg">
                   <Image
                     width={1000}
                     height={1000}

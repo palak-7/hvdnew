@@ -3,15 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 const Introduction = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-clip">
       <Image
         width={1000}
         height={1000}
         src="/banner/banner.jpg"
         alt="banner"
-        className="w-full h-[500px]"
+        className="w-full h-[500px] object-cover"
       />
-      <div className="absolute inset-0 text-white pt-20 pl-20">
+      <div className="absolute inset-0 text-white pt-20 lg:pl-20 pl-4 lg:bg-transparent bg-white lg:bg-opacity-100 bg-opacity-40">
         <div className="text-lightblue font-extrabold text-4xl">
           At Health Vista Diagnostic
           <br /> Your Wellness, Our Commitment

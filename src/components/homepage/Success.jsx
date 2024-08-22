@@ -2,12 +2,12 @@
 
 import React from "react";
 import Image from "next/image";
-import { GrPrevious } from "react-icons/gr";
-import { GrNext } from "react-icons/gr";
+import { GrPrevious, GrNext } from "react-icons/gr";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
+
 const Success = () => {
   var settings = {
     dots: true,
@@ -29,8 +29,11 @@ const Success = () => {
       },
     ],
   };
+
   return (
-    <div className="relative">
+    <div className="relative z-20">
+      {" "}
+      {/* Added z-index */}
       <Image
         src="/success/about.png"
         width={1000}
@@ -38,8 +41,8 @@ const Success = () => {
         className="w-full h-[700px]"
       />
       <div className="bg-white absolute inset-0 opacity-60"></div>
-      <div className="grid grid-cols-8 absolute inset-0">
-        <div className="col-span-3 bg-white border-r-bluelightest border-r-4">
+      <div className="lg:grid grid-cols-8 absolute inset-0">
+        <div className="col-span-3 bg-white border-r-bluelightest border-r-4 z-30">
           <div className="mx-10">
             <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10">
               Success Stories
@@ -84,7 +87,7 @@ const Success = () => {
                     swift recovery.
                   </p>
                 </div>
-                <div className=" border-8 border-bluelightest mx-8 my-7"></div>
+                <div className="border-8 border-bluelightest mx-8 my-7"></div>
               </div>
               <div
                 style={{
@@ -126,7 +129,7 @@ const Success = () => {
                     precise placement of needle within the mass and lymph node.
                   </p>
                 </div>
-                <div className=" border-8 border-bluelightest mx-8 my-7"></div>
+                <div className="border-8 border-bluelightest mx-8 my-7"></div>
               </div>
             </Slider>
           </div>
@@ -139,12 +142,14 @@ const Success = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-5">
-          <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 ml-20">
+        <div className="col-span-5 z-10">
+          {" "}
+          {/* Adjusted z-index */}
+          <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 text-center">
             Why choose HVD ?
           </h1>
           <div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
               <Image
                 src="/success/heart.png"
                 width={100}
@@ -161,7 +166,7 @@ const Success = () => {
                 </p>
               </div>
             </div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
               <Image
                 src="/success/ultrasound.png"
                 width={100}
@@ -178,7 +183,7 @@ const Success = () => {
                 </p>
               </div>
             </div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
               <Image
                 src="/success/radiology.png"
                 width={100}
@@ -195,7 +200,7 @@ const Success = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-around bg-white p-3 rounded-lg mx-20 shadow-2xl">
+            <div className="flex justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
               <Image
                 src="/success/services.png"
                 width={100}

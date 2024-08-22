@@ -3,14 +3,14 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <div>
-      <div className="bg-skyblue">
+      <div className="bg-skyblue pb-3">
         <div className="text-center pt-10">
           <h1 className="text-lightblue text-3xl font-extrabold mb-2">
             Testimonials
           </h1>
           <p className="text-lightblue text-lg">What our customers say</p>
         </div>
-        <div className="grid grid-cols-3 mx-5 space-x-4 ">
+        <div className="lg:grid grid-cols-3 mx-5 space-x-4 ">
           <section className="bg-white mb-10 mt-5 dark:bg-gray-900 border-lightgreen border-2 rounded-[10%]">
             <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6">
               <figure className="max-w-screen-md mx-auto">

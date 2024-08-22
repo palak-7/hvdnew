@@ -4,8 +4,8 @@ import React from "react";
 import { FaRegPlayCircle } from "react-icons/fa";
 const AboutUs = () => {
   return (
-    <div className="bg-skyblue">
-      <div className="grid grid-cols-12 mx-28 pt-10">
+    <div className="bg-skyblue mt-[1000px] lg:mt-0">
+      <div className="lg:grid grid-cols-12 mx-3 lg:mx-28 pt-10">
         <div className="col-start-1 col-span-4">
           <h1 className="text-lightblue text-2xl font-extrabold mb-6">
             About Us
@@ -28,7 +28,7 @@ const AboutUs = () => {
             Know More
           </Link>
         </div>
-        <div className="col-start-6 col-span-8 relative mb-10">
+        <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10">
           <Image
             src="/success/about.png"
             width={1000}
