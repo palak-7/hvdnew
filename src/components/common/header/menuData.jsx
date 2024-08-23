@@ -25,13 +25,13 @@ const menuData = [
       {
         id: 41,
         title: "Digital X-Ray",
-        path: "/digital-xray",
+        path: "/services/digital-xray",
         newTab: false,
       },
       {
         id: 42,
         title: "Ultrasound",
-        path: "/ultrasound",
+        path: "/services/ultrasound",
         newTab: false,
       },
       {

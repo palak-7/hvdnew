@@ -34,7 +34,7 @@ const Booking = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-14 rounded-lg mx-auto shadow-3xl">
+        <div className="lg:mt-0 mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
             <RiHomeHeartLine
               className="bg-primary rounded-full p-3 text-white"
@@ -57,7 +57,7 @@ const Booking = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-14 rounded-lg mx-auto shadow-3xl">
+        <div className="lg:mt-0 mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
             <RiHomeHeartLine
               className="bg-primary rounded-full p-3 text-white"
