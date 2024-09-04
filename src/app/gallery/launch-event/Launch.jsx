@@ -5,51 +5,51 @@ const Launch = () => {
   const images = [
     {
       id: 1,
-      name: "1.jpg",
+      name: "one.jpg",
     },
     {
       id: 2,
-      name: "2.jpg",
+      name: "two.jpg",
     },
     {
       id: 3,
-      name: "3.jpg",
+      name: "three.jpg",
     },
     {
       id: 4,
-      name: "4.jpg",
+      name: "four.jpg",
     },
     {
       id: 5,
-      name: "5.jpg",
+      name: "five.jpg",
     },
     {
       id: 6,
-      name: "6.jpg",
+      name: "six.jpg",
     },
     {
       id: 7,
-      name: "7.jpg",
+      name: "seven.jpg",
     },
     {
       id: 8,
-      name: "8.jpg",
+      name: "eight.jpg",
     },
     {
       id: 9,
-      name: "9.jpg",
+      name: "nine.jpg",
     },
     {
       id: 10,
-      name: "10.jpg",
+      name: "ten.jpg",
     },
     {
       id: 12,
-      name: "12.jpg",
+      name: "twelve.jpg",
     },
     {
       id: 13,
-      name: "13.jpg",
+      name: "thirteen.jpg",
     },
   ];
   return (
