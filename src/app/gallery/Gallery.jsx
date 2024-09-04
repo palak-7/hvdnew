@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <div>
       <div className="m-10">
-        <div className="grid grid-cols-4 gap-10">
+        <div className="lg:grid grid-cols-4 gap-10">
           <Link href="/gallery/center" className="hover:scale-105">
             <Image
               src="/gallery/center/center_cover.png"

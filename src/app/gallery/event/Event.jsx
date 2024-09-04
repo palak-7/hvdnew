@@ -47,7 +47,7 @@ const Event = () => {
           Event Images
         </h1>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="lg:grid grid-cols-4">
         {images?.map((i) => (
           <div key={i.id} className="mt-6 flex justify-center">
             <Image
