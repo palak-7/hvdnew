@@ -49,6 +49,7 @@ const Services = () => {
                     height={1000}
                     className="w-full h-[250px] object-cover rounded-tl-[30%]"
                     src={`/services/${s.image}`}
+                    alt="service"
                   />
                   <div className="p-10">
                     <h2 className="text-lg text-primary font-bold">{s.name}</h2>

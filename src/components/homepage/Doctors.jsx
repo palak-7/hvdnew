@@ -59,7 +59,7 @@ const Doctors = () => {
           <div className="p-2 rounded-[100%] border">
             <Image
               src="/doctors/15.png"
-              alt="DDr. Rishu Sangal"
+              alt="Dr. Rishu Sangal"
               width={150}
               height={150}
               className="rounded-[100%] w-[210px] h-[200px]" // Changed to rounded-full for perfect circle

@@ -24,6 +24,7 @@ const Packages = () => {
               height={1000}
               className="w-full h-[250px] object-cover rounded-tl-[30%]"
               src={`${s.image}`}
+              alt="service"
             />
             <div className="px-10 pt-4">
               <div className="flex">

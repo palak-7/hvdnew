@@ -23,6 +23,7 @@ const Introduction = () => {
               width={40}
               height={40}
               className="border p-2 border-black"
+              alt="precision"
             />
             <div className="text-primary mt-2 ml-2 font-semibold">
               Precision in Diagnostics
@@ -34,6 +35,7 @@ const Introduction = () => {
               width={40}
               height={40}
               className="border p-2 border-black"
+              alt="tech"
             />
             <div className="text-primary mt-2 ml-2 font-semibold">
               Advanced Technology
@@ -45,6 +47,7 @@ const Introduction = () => {
               width={40}
               height={40}
               className="border p-2 border-black"
+              alt="healthcare"
             />
             <div className="text-primary mt-2 ml-2 font-semibold">
               Expertise in Healthcare

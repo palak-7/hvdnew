@@ -39,6 +39,7 @@ const Success = () => {
         width={1000}
         height={1000}
         className="w-full h-[700px]"
+        alt="about"
       />
       <div className="bg-white absolute inset-0 opacity-60"></div>
       <div className="lg:grid grid-cols-8 absolute inset-0">
@@ -155,6 +156,7 @@ const Success = () => {
                 width={100}
                 height={100}
                 className="mr-10"
+                alt="heart"
               />
               <div>
                 <h2 className="text-primary font-bold">
@@ -172,6 +174,7 @@ const Success = () => {
                 width={100}
                 height={100}
                 className="mr-10"
+                alt="ultrasound"
               />
               <div>
                 <h2 className="text-primary font-bold">
@@ -189,6 +192,7 @@ const Success = () => {
                 width={100}
                 height={100}
                 className="mr-10"
+                alt="radiology"
               />
               <div>
                 <h2 className="text-primary font-bold">
@@ -206,6 +210,7 @@ const Success = () => {
                 width={100}
                 height={100}
                 className="mr-10"
+                alt="services"
               />
               <div>
                 <h2 className="text-primary font-bold">

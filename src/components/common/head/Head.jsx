@@ -9,6 +9,7 @@ const Head = ({ service }) => {
         width={1000}
         height={1000}
         className="w-full h-[300px] object-cover"
+        alt="service"
       />
       <div className="bg-lightblue absolute inset-0 opacity-70"></div>
       <div className=" absolute inset-0 text-center text-white  grid grid-rows-8">

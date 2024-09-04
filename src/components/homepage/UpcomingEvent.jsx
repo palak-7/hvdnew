@@ -4,7 +4,7 @@ import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";
 import { SlCalender } from "react-icons/sl";
 import { IoLocationSharp } from "react-icons/io5";
-
+import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 const UpcomingEvent = () => {
@@ -47,9 +47,11 @@ const UpcomingEvent = () => {
               href="/"
               className="flex flex-col items-center bg-white rounded-3xl md:flex-row md:max-w-xl shadow-md dark:border-gray-700 dark:bg-gray-800 h-60"
             >
-              <img
+              <Image
+                width={1000}
+                height={1000}
                 className="object-cover w-full rounded-t-lg md:w-60 md:rounded-none md:rounded-s-lg h-60"
-                src="events/workshops.jpeg"
+                src="/events/workshops.jpeg"
                 alt=""
               />
               <div className="flex flex-col justify-between p-4 leading-normal mb-20">
@@ -80,9 +82,11 @@ const UpcomingEvent = () => {
               href="/"
               className="flex flex-col items-center bg-white border border-gray-200 rounded-3xl shadow-md md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 h-60"
             >
-              <img
+              <Image
+                width={1000}
+                height={1000}
                 className="object-cover w-full rounded-t-2xl md:h-auto md:w-60 md:rounded-none md:rounded-s-lg h-60"
-                src="events/diabetes.jpg"
+                src="/events/diabetes.jpg"
                 alt=""
               />
               <div className="flex flex-col justify-between p-4 leading-normal mb-20">

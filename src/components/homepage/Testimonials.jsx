@@ -36,30 +36,35 @@ const Testimonials = () => {
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                     </div>
                   </div>
@@ -101,30 +106,35 @@ const Testimonials = () => {
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                     </div>
                   </div>
@@ -164,30 +174,35 @@ const Testimonials = () => {
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                       <Image
                         width={100}
                         height={100}
                         src="/testimonials/star.png"
                         className="w-[30px] h-[30px]"
+                        alt="star"
                       />
                     </div>
                   </div>

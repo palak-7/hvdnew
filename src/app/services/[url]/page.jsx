@@ -14,6 +14,7 @@ const page = ({ params }) => {
             width={10000}
             height={1000}
             className="w-full"
+            alt="service"
           />
         </div>
         <div className="my-10">

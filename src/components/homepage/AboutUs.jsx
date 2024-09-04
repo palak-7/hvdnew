@@ -34,6 +34,7 @@ const AboutUs = () => {
             width={1000}
             height={1000}
             className="w-full rounded-bl-[30%] rounded-tr-[30%]"
+            alt="success"
           />
           <div className="absolute inset-0 flex justify-center mt-24">
             <FaRegPlayCircle className="text-white w-[150px] h-[150px]" />
