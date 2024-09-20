@@ -37,7 +37,9 @@ const Header = () => {
     }
   };
   const usePathName = usePathname();
-
+  const handleCloseNavbar = () => {
+    setNavbarOpen(false);
+  };
   return (
     <div
       className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold`}
@@ -171,6 +173,7 @@ const Header = () => {
                   >
                     {menuItem.path ? (
                       <Link
+                        onClick={handleCloseNavbar}
                         href={menuItem.path}
                         className={`flex py-2 px-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-3 `}
                       >
@@ -208,6 +211,7 @@ const Header = () => {
                             >
                               {submenuItem.path ? (
                                 <Link
+                                  onClick={handleCloseNavbar}
                                   href={submenuItem.path}
                                   key={index}
                                   className={`block rounded py-2 text-sm text-dark hover:bg-lightgreen lg:px-3`}
@@ -251,6 +255,7 @@ const Header = () => {
                                     {submenuItem.submenu.map(
                                       (subsubmenuItem, index) => (
                                         <Link
+                                          onClick={handleCloseNavbar}
                                           href={subsubmenuItem.path}
                                           key={index}
                                           className="bg-lightblue block rounded py-2.5 text-sm text-dark hover:bg-lightgreen lg:px-3"

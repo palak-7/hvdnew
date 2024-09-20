@@ -194,14 +194,20 @@ const menuData = [
     submenu: [
       {
         id: 61,
-        title: "Gallery",
-        path: "/gallery",
+        title: "Our Team",
+        path: "/our-team",
         newTab: false,
       },
       {
         id: 62,
         title: "Updates and Events",
         path: "/updates-and-events",
+        newTab: false,
+      },
+      {
+        id: 63,
+        title: "Gallery",
+        path: "/gallery",
         newTab: false,
       },
     ],
