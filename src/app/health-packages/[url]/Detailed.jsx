@@ -29,7 +29,7 @@ const Detailed = ({ url }) => {
                 src={`${p.image}`}
                 width={1000}
                 height={1000}
-                className=""
+                alt="health-package"
               />
             </div>
             <table className="w-full ml-5">
