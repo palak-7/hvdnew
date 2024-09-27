@@ -14,7 +14,7 @@ const menuData = [
   {
     id: 3,
     title: "Health Packages",
-    path: "/health-package",
+    path: "/health-packages",
     newTab: false,
   },
   {

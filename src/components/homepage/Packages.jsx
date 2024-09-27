@@ -17,7 +17,7 @@ const Packages = () => {
         {filteredData.map((s) => (
           <div
             key={s.id}
-            className="bg-white lg:mx-10 mx-2 mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg"
+            className="bg-white hover:-translate-y-2 duration-300 lg:mx-10 mx-2 mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg"
           >
             <Image
               width={1000}
@@ -53,7 +53,7 @@ const Packages = () => {
                   </del>
                 </div>
                 <Link
-                  href="/"
+                  href={`/health-packages/${s.url}`}
                   className="bg-primary mt-2 mb-4 text-white p-1 rounded-md flex w-1/2 justify-center"
                 >
                   <div className="flex">
@@ -67,7 +67,7 @@ const Packages = () => {
       </div>
       <div className="flex justify-center">
         <Link
-          href="/"
+          href="/health-packages"
           className="bg-lightgreen py-2 px-4 rounded-md text-white mb-4"
         >
           View All Health Packages
