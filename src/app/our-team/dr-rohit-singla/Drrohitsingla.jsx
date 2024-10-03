@@ -2,6 +2,7 @@
 
 import React from "react";
 import ImageGallery from "react-image-gallery";
+import Image from "next/image";
 const Drrohitsingla = () => {
   const data = [
     {
@@ -24,12 +25,12 @@ const Drrohitsingla = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-2 lg:mx-20 lg:mt-10">
-        <ImageGallery
-          items={data}
-          thumbnailPosition="bottom"
-          showNav={false}
-          showPlayButton={false}
-          showFullscreenButton={false}
+        <Image
+          src="/team/dr5.jpg"
+          width={1000}
+          height={1000}
+          className="w-full"
+          alt="dr-rohit-singla"
         />
         <div className="mx-10 lg:mt-0 my-10 leading-loose">
           <div>

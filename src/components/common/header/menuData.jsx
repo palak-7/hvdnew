@@ -14,8 +14,68 @@ const menuData = [
   {
     id: 3,
     title: "Health Packages",
-    path: "/health-packages",
-    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "HVD Esential",
+        path: "/health-packages/hvd-essential",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "HVD Advance",
+        path: "/health-packages/hvd-advance",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "HVD Platinum",
+        path: "/health-packages/hvd-platinum",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "HVD EXCLUSIVE (MALE)",
+        path: "/health-packages/hvd-exclusive-male",
+        newTab: false,
+      },
+      {
+        id: 45,
+        title: "HVD EXCLUSIVE (MALE)",
+        path: "/health-packages/hvd-exclusive-female",
+        newTab: false,
+      },
+      {
+        id: 46,
+        title: "HVD AYUSHMAN",
+        path: "/health-packages/hvd-ayushman",
+        newTab: false,
+      },
+      {
+        id: 47,
+        title: "HVD COMPREHENSIVE (SENIOR CITIZEN MALE)",
+        path: "/health-packages/hvd-comprehensive-senior-citizen-male",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "HVD COMPREHENSIVE (SENIOR CITIZEN FEMALE)",
+        path: "/health-packages/hvd-comprehensive-senior-citizen-female",
+        newTab: false,
+      },
+      {
+        id: 49,
+        title: "HVD CARDIAC HEALTH PACKAGE",
+        path: "/health-packages/hvd-cardiac",
+        newTab: false,
+      },
+      {
+        id: 50,
+        title: "HVD FEVER PACKAGE",
+        path: "/health-packages/hvd-fever",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 4,

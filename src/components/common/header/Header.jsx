@@ -29,7 +29,6 @@ const Header = () => {
     }
   };
   const handleSubSubmenu = (index) => {
-    console.log(index);
     if (openSubIndex === index) {
       setSubOpenIndex(-1);
     } else {

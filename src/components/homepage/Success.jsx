@@ -38,7 +38,7 @@ const Success = () => {
         src="/success/about.png"
         width={1000}
         height={1000}
-        className="w-full h-[700px]"
+        className="w-full h-[800px]"
         alt="about"
       />
       <div className="bg-white absolute inset-0 opacity-60"></div>
@@ -144,82 +144,112 @@ const Success = () => {
           </div>
         </div>
         <div className="col-span-5 z-10">
-          {" "}
           {/* Adjusted z-index */}
           <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 text-center">
             Why choose HVD ?
           </h1>
           <div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
-              <Image
-                src="/success/heart.png"
-                width={100}
-                height={100}
-                className="mr-10"
-                alt="heart"
-              />
-              <div>
-                <h2 className="text-primary font-bold">
-                  24/7 Cardiology Support
-                </h2>
-                <p className="text-sm">
-                  Our center offers round-the-clock comprehensive diagnostic
-                  cardiology services.
-                </p>
+            <div className="grid grid-cols-4 mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
+              <div className="flex items-center">
+                <Image
+                  src="/success/heart.png"
+                  width={100}
+                  height={100}
+                  className="mr-10 h-[70px] object-contain"
+                  alt="heart"
+                />
+              </div>
+              <div className="col-span-3 flex items-center lg:ml-0 ml-3">
+                <div>
+                  <h2 className="text-primary font-bold">Cardiology Care</h2>
+                  <p className="text-sm">
+                    Comprehensive cardiology services available from 8 AM to 8
+                    PM.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
-              <Image
-                src="/success/ultrasound.png"
-                width={100}
-                height={100}
-                className="mr-10"
-                alt="ultrasound"
-              />
-              <div>
-                <h2 className="text-primary font-bold">
-                  Ultrasound-Guided Procedures
-                </h2>
-                <p className="text-sm">
-                  FNAC, biopsies, aspirations, catheter drainage, pain
-                  injections, marker insertions, J-wire localization.
-                </p>
+            <div className="grid grid-cols-4 mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
+              <div className="flex items-center">
+                <Image
+                  src="/success/ultrasound.png"
+                  width={100}
+                  height={100}
+                  className="mr-10 h-[70px] object-contain"
+                  alt="ultrasound"
+                />
+              </div>
+              <div className="col-span-3 flex items-center lg:ml-0 ml-3">
+                <div>
+                  <h2 className="text-primary font-bold">
+                    Weekly Ultrasound Procedures
+                  </h2>
+                  <p className="text-sm">
+                    Ultrasound-guided procedures available 7 days a week.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="flex mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
-              <Image
-                src="/success/radiology.png"
-                width={100}
-                height={100}
-                className="mr-10"
-                alt="radiology"
-              />
-              <div>
-                <h2 className="text-primary font-bold">
-                  9+ Years of Radiology Expertise
-                </h2>
-                <p className="text-sm">
-                  Our team has nine years of experience in interventional
-                  radiology procedures.
-                </p>
+            <div className="grid grid-cols-4 mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
+              <div className="flex items-center">
+                <Image
+                  src="/success/radiology.png"
+                  width={100}
+                  height={100}
+                  className="mr-10"
+                  alt="radiology"
+                />
+              </div>
+              <div className="col-span-3 flex items-center lg:ml-0 ml-3">
+                <div>
+                  <h2 className="text-primary font-bold">
+                    Expert Breast Radiology
+                  </h2>
+                  <p className="text-sm">
+                    Subspecialty experience in breast radiology with over 13
+                    years of expertise.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="flex justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
-              <Image
-                src="/success/services.png"
-                width={100}
-                height={100}
-                className="mr-10"
-                alt="services"
-              />
-              <div>
-                <h2 className="text-primary font-bold">
-                  Comprehensive Medical Services
-                </h2>
-                <p className="text-sm">
-                  We provide a wide range of diagnostic and interventional
-                  services tailored to meet diverse medical needs.
-                </p>
+            <div className="grid grid-cols-4 mb-7 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
+              <div className="flex items-center">
+                <Image
+                  src="/success/services.png"
+                  width={80}
+                  height={80}
+                  className="mr-10 object-contain"
+                  alt="services"
+                />
+              </div>
+              <div className="col-span-3 flex items-center lg:ml-0 ml-3">
+                <div>
+                  <h2 className="text-primary font-bold">
+                    Dedicated Female Radiologist
+                  </h2>
+                  <p className="text-sm">
+                    Female radiologist for ultrasound scans.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-4 justify-around bg-white p-3 rounded-lg lg:mx-20 mx-3 shadow-2xl">
+              <div className="flex items-center">
+                <Image
+                  src="/success/o-ultrasound.png"
+                  width={100}
+                  height={100}
+                  className="mr-10"
+                  alt="services"
+                />
+              </div>
+              <div className="col-span-3 flex items-center lg:ml-0 ml-3">
+                <div>
+                  <h2 className="text-primary font-bold">
+                    Advanced Obstetric Ultrasound
+                  </h2>
+                  <p className="text-sm">Obstetric ultrasound 3D/4D/5D</p>
+                </div>
               </div>
             </div>
           </div>

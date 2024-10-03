@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import ImageGallery from "react-image-gallery";
 const Drbssingla = () => {
@@ -24,13 +25,20 @@ const Drbssingla = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-2 lg:mx-20 lg:mt-10">
-        <ImageGallery
+        <Image
+          src="/team/dr1.jpg"
+          width={1000}
+          height={1000}
+          className="w-full"
+          alt="dr-bs-singla"
+        />
+        {/* <ImageGallery
           items={data}
           thumbnailPosition="bottom"
           showNav={false}
           showPlayButton={false}
           showFullscreenButton={false}
-        />
+        /> */}
         <div className="lg:mt-0 my-10 mx-10 leading-loose">
           <div>
             <h1 className="text-4xl font-extrabold text-primary">
