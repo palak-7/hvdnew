@@ -15,6 +15,7 @@ const Xray = () => {
           width={10000}
           height={10000}
           className="w-full"
+          alt="overview2"
         />
         <div className="lg:absolute inset-0 lg:grid grid-cols-12">
           <div className="flex items-center -mt-10 col-start-2 col-span-6">
@@ -55,6 +56,7 @@ const Xray = () => {
                     className="rounded-md"
                     width={1000}
                     height={1000}
+                    alt="xray"
                   />
                 </div>
               </div>
@@ -74,6 +76,7 @@ const Xray = () => {
                     className="rounded-md"
                     width={1000}
                     height={1000}
+                    alt="xray"
                   />
                 </div>
               </div>
