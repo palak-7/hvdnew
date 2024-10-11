@@ -27,9 +27,6 @@ const Health = () => {
               <div className="px-10 pt-4">
                 <div className="flex">
                   <h2 className="text-lg text-primary font-bold">{s.name}</h2>
-                  <p className="text-gray-500 font-bold ml-3">
-                    ({s.number} Tests)
-                  </p>
                 </div>
                 <div>
                   <ul className="text-gray-700 grid grid-cols-2 text-sm gap-x-4 mt-3">
@@ -38,9 +35,6 @@ const Health = () => {
                         {d.heading}
                       </li>
                     ))}
-                    <div className="list-disc font-bold">
-                      + {s.number - 5} Tests
-                    </div>
                   </ul>
                   <div className="flex mt-3">
                     <div className="text-lightgreen text-lg font-bold">

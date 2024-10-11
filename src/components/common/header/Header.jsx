@@ -10,6 +10,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { RiCustomerServiceFill } from "react-icons/ri";
+import SearchBar from "../SearchBar";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -58,40 +60,7 @@ const Header = () => {
         </div>
         <div className="pt-4">
           <div className="max-w-lg mx-auto">
-            <form className="flex items-center">
-              <label htmlFor="simple-search" className="sr-only">
-                Search
-              </label>
-              <div className="relative w-full">
-                <input
-                  type="text"
-                  id="simple-search"
-                  className="bg-gray-50 border rounded-full border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full ps-5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Search for Test & Health Checkups"
-                />
-              </div>
-              <button
-                type="submit"
-                className="p-2.5 ms-2 text-sm font-medium text-white bg-lightgreen rounded-full border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                <svg
-                  className="w-4 h-4"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                  />
-                </svg>
-                <span className="sr-only">Search</span>
-              </button>
-            </form>
+            <SearchBar />
           </div>
           <div className="max-w-lg lg:mx-auto pt-4 mx-2">
             <div className="flex items-center justify-center space-x-10">
@@ -187,16 +156,7 @@ const Header = () => {
                           className=" px-2 flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:bg-lightgreen lg:mr-0 lg:inline-flex lg:px-0 lg:py-3"
                         >
                           {menuItem.title}
-                          <span className="pl-3 ">
-                            <svg width="25" height="24" viewBox="0 0 25 24">
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M6.29289 8.8427C6.68342 8.45217 7.31658 8.45217 7.70711 8.8427L12 13.1356L16.2929 8.8427C16.6834 8.45217 17.3166 8.45217 17.7071 8.8427C18.0976 9.23322 18.0976 9.86639 17.7071 10.2569L12 15.964L6.29289 10.2569C5.90237 9.86639 5.90237 9.23322 6.29289 8.8427Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </span>
+                          <IoMdArrowDropdown size={20}/>
                         </p>
                         <div
                           className={`submenu relative left-0 top-full lg:ml-0 pl-4 rounded-sm transition-[top] duration-300 lg:absolute lg:top-[102%] lg:w-[250px] lg:p-4 bg-lightblue lg:shadow-lg ${
@@ -229,20 +189,7 @@ const Header = () => {
                                     className="rounded py-2 text-sm lg:px-3 flex cursor-pointer justify-between text-dark hover:bg-lightgreen"
                                   >
                                     {submenuItem.title}
-                                    <span className="pl-3">
-                                      <svg
-                                        width="25"
-                                        height="24"
-                                        viewBox="0 0 25 24"
-                                      >
-                                        <path
-                                          fillRule="evenodd"
-                                          clipRule="evenodd"
-                                          d="M6.29289 8.8427C6.68342 8.45217 7.31658 8.45217 7.70711 8.8427L12 13.1356L16.2929 8.8427C16.6834 8.45217 17.3166 8.45217 17.7071 8.8427C18.0976 9.23322 18.0976 9.86639 17.7071 10.2569L12 15.964L6.29289 10.2569C5.90237 9.86639 5.90237 9.23322 6.29289 8.8427Z"
-                                          fill="currentColor"
-                                        />
-                                      </svg>
-                                    </span>
+                                    <IoMdArrowDropdown size={20}/>
                                   </p>
                                   <div
                                     className={`lg:ml-[225px] rounded-sm bg-lightblue lg:px-3 lg:py-2 lg:-mt-6 ml-4 transition-[top] duration-300 lg:absolute lg:w-[250px] lg:shadow-lg ${

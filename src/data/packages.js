@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     name: "HVD Essential",
     url: "hvd-essential",
-    image: "/packages/pack1.webp",
+    image: "/packages/new-1.png",
     number: 26,
     description: [
       {
@@ -45,7 +45,7 @@ export const data = [
     id: 2,
     name: "HVD Advance",
     url: "hvd-advance",
-    image: "/packages/pack2.webp",
+    image: "/packages/new-2.png",
     number: 56,
     description: [
       {
@@ -92,7 +92,7 @@ export const data = [
     id: 3,
     name: "HVD Platinum",
     url: "hvd-platinum",
-    image: "/packages/pack6.png",
+    image: "/packages/new-3.png",
     number: 60,
     description: [
       {
@@ -143,7 +143,7 @@ export const data = [
     id: 4,
     name: "HVD EXCLUSIVE (MALE)",
     url: "hvd-exclusive-male",
-    image: "/packages/pack11.jpg",
+    image: "/packages/new-3.jpg",
     number: 56,
     description: [
       {
@@ -202,7 +202,7 @@ export const data = [
     id: 5,
     name: "HVD EXCLUSIVE (FEMALE)",
     url: "hvd-exclusive-female",
-    image: "/packages/pack9.png",
+    image: "/packages/new-5.png",
     number: 72,
     description: [
       {
@@ -390,7 +390,7 @@ export const data = [
     id: 8,
     name: "HVD COMPREHENSIVE ( SENIOR CITIZEN FEMALE)",
     url: "hvd-comprehensive-senior-citizen-female",
-    image: "/packages/pack5.webp",
+    image: "/packages/new-8.jpg",
     description: [
       {
         heading: "Complete Blood Count",
@@ -456,7 +456,7 @@ export const data = [
     id: 9,
     name: "HVD CARDIAC HEALTH PACKAGE",
     url: "hvd-cardiac",
-    image: "/packages/pack3.webp",
+    image: "/packages/new-9.png",
     description: [
       {
         heading: "Complete Blood Count",

@@ -19,7 +19,7 @@ const Head = ({ service }) => {
         <div className="row-start-5 flex justify-center">
           <Link
             href={`/services/${service.url}`}
-            className="bg-lightgreen shadow-white text-xl hover:scale-105 shadow-md text-white rounded-md flex items-center px-9"
+            className="bg-lightgreen shadow-white text-xl duration-300 hover:scale-105 shadow-md text-white rounded-md flex items-center px-9"
           >
             Book Now
           </Link>

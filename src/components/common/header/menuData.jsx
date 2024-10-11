@@ -17,7 +17,7 @@ const menuData = [
     submenu: [
       {
         id: 41,
-        title: "HVD Esential",
+        title: "HVD Essential",
         path: "/health-packages/hvd-essential",
         newTab: false,
       },
@@ -41,7 +41,7 @@ const menuData = [
       },
       {
         id: 45,
-        title: "HVD EXCLUSIVE (MALE)",
+        title: "HVD EXCLUSIVE (FEMALE)",
         path: "/health-packages/hvd-exclusive-female",
         newTab: false,
       },

@@ -7,27 +7,42 @@ const Detailed = ({ url }) => {
   const p = data.find((d) => d.url === url);
   return (
     <div>
-      <div className="lg:grid grid-cols-2">
-        <div className="col-span-2 lg:my-7 mx-5">
-          <h1 className="uppercase text-5xl font-bold text-center pt-5">
-            {p.name}
-          </h1>
-          <div className="flex justify-center pb-5">
-            <div className="flex mt-3">
-              <div className="text-lightgreen text-2xl font-bold">
-                ₹ {p.price} /-
+      <div className="relative">
+        <Image
+          src={`/packages/package-banner.png`}
+          width={1000}
+          height={1000}
+          className="w-full h-[250px] object-cover hidden lg:block"
+          alt="service"
+        />
+        <div className=" lg:absolute inset-0 text-white lg:grid grid-cols-2">
+          <div className="ml-10 flex justify-center mt-6 font-bold text-5xl">
+            <div>
+              <h1 className="uppercase text-black text-4xl font-bold pt-5">
+                {p.name}
+              </h1>
+              <div className="pb-5">
+                <div className="flex mt-3">
+                  <div className="text-lightgreen text-2xl font-bold">
+                    ₹ {p.price} /-
+                  </div>
+                  <del className="ml-5 text-gray-500 text-2xl">
+                    ₹ {p.cancelled} /-
+                  </del>
+                </div>
+                <Link
+                  href="/"
+                  className="bg-lightgreen text-white px-3 py-2 rounded-md text-lg font-bold mt-2"
+                >
+                  Book Now
+                </Link>
               </div>
-              <del className="ml-5 text-gray-500 text-2xl">
-                ₹ {p.cancelled} /-
-              </del>
             </div>
-            <Link
-              href="/"
-              className="bg-lightgreen text-white px-3 py-2 rounded-md text-lg font-bold mt-2 ml-4"
-            >
-              Book Now
-            </Link>
           </div>
+        </div>
+      </div>
+      <div className="lg:grid grid-cols-2 lg:mx-20">
+        <div className="col-span-2 lg:my-7 mx-5">
           <div className="lg:grid grid-cols-2">
             <div>
               <Image
@@ -35,9 +50,10 @@ const Detailed = ({ url }) => {
                 width={1000}
                 height={1000}
                 alt="health-package"
+                className="rounded-md"
               />
             </div>
-            <table className="w-full mx-5 bg-white shadow-lg rounded-lg">
+            <table className="w-full lg:mx-5 my-3 lg:my-0 bg-white shadow-lg rounded-lg">
               <tbody>
                 {p.description.map((d, index) => (
                   <tr

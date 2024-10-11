@@ -5,9 +5,9 @@ const Introduction = () => {
   return (
     <div className="relative overflow-x-clip">
       <Image
-        width={1000}
-        height={1000}
-        src="/banner/banner.jpg"
+        width={10000}
+        height={10000}
+        src="/banner/hvd-banner-2.png"
         alt="banner"
         className="w-full h-[500px] object-cover"
       />

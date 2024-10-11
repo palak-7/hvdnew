@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
         <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10">
           <Image
-            src="/success/about.png"
+            src="/about/about.jpg"
             width={1000}
             height={1000}
             className="w-full rounded-bl-[30%] rounded-tr-[30%]"

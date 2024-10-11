@@ -51,7 +51,7 @@ const Services = () => {
                     src={`/services/${s.image}`}
                     alt="service"
                   />
-                  <div className="p-10">
+                  <div className="px-10 py-5">
                     <h2 className="text-lg text-primary font-bold">{s.name}</h2>
                     <p className="text-gray-700 line-clamp-3">{s.short_desc}</p>
                   </div>

@@ -37,7 +37,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     id: 2,
     name: "Ultrasound",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Non-invasive scan which uses high frequency sound waves of the inside of your body.",
     image: "ultrasound.png",
     url: "ultrasound",
     imageurl: "ultrasound.png",
@@ -45,27 +45,7 @@ Tell your healthcare provider about your health history, allergies and any medic
       {
         id: 21,
         ques: "What is an Ultrasound scan?",
-        ans: `<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;">Ultrasound is a non-invasive scan which uses high frequency sound waves of the inside of your body. During your private Ultrasound scan, a probe is passed over the skin and this emits sound waves. These sound waves bounce off your organs and send a signal via the microphone to the computer which then displays the sound as an image.</span></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><br></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;">Ultrasound is highly effective so can be used for a range of medical concerns:&nbsp;</span></p>
-<ul>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">The urinary tract or KUB (kidneys, ureters and bladder)</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Upper / lower abdomen and pelvis</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Fetal well being (Obstetrics scan)</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Anomaly scan</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Gynaecological (female pelvis)</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Neck</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Thyroid</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Prostate and testicular</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Musculoskeletal (MSK)</span></li>
-    <li style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; font-size: 13px; font-family: Calibri, sans-serif;"><span style="font-size: 17px;">Soft tissue</span></li>
-</ul>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;">&nbsp;</span></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;"><strong>An ultrasound is also a helpful way to guide interventinal radiologist/surgeon&rsquo; movements during certain medical procedures, such as biopsies.</strong></span></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;">&nbsp;</span></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 20px;"><strong>Advantages of Ultrasounds:</strong><strong>&nbsp;</strong></span></p>
-<p style='margin:0cm;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size: 17px;">Ultrasound captures highly detailed images of the soft tissues that do not usually appear well on X-rays. They also enable real-time imaging. They have no risk of radiation</span></p>`,
-      },
+        ans: `Ultrasound is a non-invasive scan which uses high frequency sound waves of the inside of your body. During your private Ultrasound scan, a probe is passed over the skin and this emits sound waves. These sound waves bounce off your organs and send a signal via the microphone to the computer which then displays the sound as an image.`},
       {
         id: 22,
         ques: "How do I prepare for an ultrasound?",
