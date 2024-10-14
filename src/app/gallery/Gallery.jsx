@@ -24,6 +24,7 @@ const Gallery = () => {
                 width={1000}
                 height={1000}
                 className="h-full object-cover rounded-md"
+                alt="gallery images"
               />
               <div className="text-xl font-bold absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white py-3 rounded-b-md">
                 <span className="ml-3 flex">
@@ -47,6 +48,7 @@ const Gallery = () => {
                       width={1000}
                       height={1000}
                       className="rounded-md h-full object-cover"
+                      alt="gallery images"
                     />
                     <div className="text-xl font-bold absolute inset-0 w-full bg-black bg-opacity-60 text-white py-3 rounded-b-md">
                       <div className="flex h-full items-center justify-center">

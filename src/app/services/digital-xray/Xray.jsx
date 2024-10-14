@@ -85,7 +85,7 @@ const Xray = () => {
                   {servicesdata[0].content[2].ques}
                 </h1>
                 <p className="text-lg mt-2">
-                  Preparation for an X-ray depends on the type of X-ray you're
+                  Preparation for an X-ray depends on the type of X-ray you&apos;re
                   getting. Your provider may ask you to:
                 </p>
                 <table className="text-lg mt-3 w-full">

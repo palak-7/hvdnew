@@ -160,7 +160,7 @@ const SearchBar = () => {
             filteredPackages.length === 0 &&
             query !== "" && (
               <div className="text-center text-gray-600">
-                <p>No results found for "{query}".</p>
+                <p>No results found for &quot;{query}&quot;.</p>
               </div>
             )}
         </div>
