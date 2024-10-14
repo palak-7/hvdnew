@@ -38,10 +38,10 @@ const Gallery = () => {
             {allImages
               .filter((d) => d.categroy !== "all") // Skip "all" category
               .map((d, index) => (
-                <div key={index} className="mt-4">
+                <div key={index} className="lg:mt-0 mt-4">
                   <Link
                     href={d.url}
-                    className="relative hover:scale-105 duration-300 t-4"
+                    className="relative hover:scale-105 duration-300 "
                   >
                     <Image
                       src={`/gallery${d.image}`} // Assuming you want the first image from the category
