@@ -101,7 +101,7 @@ const Footer = () => {
         alt="footerimg"
       />
       <div className="text-center opacity-50">
-        <h1 className="text-xl pt-5">
+        <h1 className="text-xl p-2">
           {" "}
           <strong>© 2024 Health Vista Diagnostic . All Rights Reserved.</strong>
         </h1>
