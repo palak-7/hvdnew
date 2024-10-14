@@ -121,7 +121,7 @@ export const allImages = [
       "instruments/6.jpg",
       "instruments/7.jpg",
       "instruments/8.jpg",
-      "instruments/9.jpg",
+      "instruments/9.1.png",
       "launch_photos/1.jpg",
       "launch_photos/2.jpg",
       "launch_photos/3.jpg",
