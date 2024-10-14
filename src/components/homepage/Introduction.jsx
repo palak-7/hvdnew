@@ -7,7 +7,7 @@ const Introduction = () => {
       <Image
         width={10000}
         height={10000}
-        src="/banner/hvd-banner-2.png"
+        src="/banner/hvd-banner-3.png"
         alt="banner"
         className="w-full h-[500px] object-cover"
       />
