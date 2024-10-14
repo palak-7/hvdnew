@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import menuData from "./menuData";
 import Top from "./Top";
 import "animate.css";
@@ -156,7 +156,7 @@ const Header = () => {
                           className=" px-2 flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:bg-lightgreen lg:mr-0 lg:inline-flex lg:px-0 lg:py-3"
                         >
                           {menuItem.title}
-                          <IoMdArrowDropdown size={20}/>
+                          <IoMdArrowDropdown size={20} />
                         </p>
                         <div
                           className={`submenu relative left-0 top-full lg:ml-0 pl-4 rounded-sm transition-[top] duration-300 lg:absolute lg:top-[102%] lg:w-[250px] lg:p-4 bg-lightblue lg:shadow-lg ${
@@ -189,7 +189,7 @@ const Header = () => {
                                     className="rounded py-2 text-sm lg:px-3 flex cursor-pointer justify-between text-dark hover:bg-lightgreen"
                                   >
                                     {submenuItem.title}
-                                    <IoMdArrowDropdown size={20}/>
+                                    <IoMdArrowDropdown size={20} />
                                   </p>
                                   <div
                                     className={`lg:ml-[225px] rounded-sm bg-lightblue lg:px-3 lg:py-2 lg:-mt-6 ml-4 transition-[top] duration-300 lg:absolute lg:w-[250px] lg:shadow-lg ${
