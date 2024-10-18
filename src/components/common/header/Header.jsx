@@ -213,9 +213,9 @@ const Header = () => {
                                     onMouseEnter={() => {
                                       handleSubSubmenu(submenuItem.id);
                                     }}
-                                    onMouseLeave={() => {
-                                      handleSubSubmenu(-1);
-                                    }}
+                                    // onMouseLeave={() => {
+                                    //   handleClosing();
+                                    // }}
                                     onClick={() => {
                                       handleSubSubmenu(submenuItem.id);
                                     }}
@@ -234,6 +234,7 @@ const Header = () => {
                                     {submenuItem.submenu.map(
                                       (subsubmenuItem, index) => (
                                         <Link
+                                        onMouseEnter={()=>(console.log(subsubmenuItem.id))}
                                           onClick={handleCloseNavbar}
                                           href={subsubmenuItem.path}
                                           key={index}
