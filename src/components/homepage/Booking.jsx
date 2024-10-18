@@ -36,18 +36,18 @@ const Booking = () => {
         </div>
         <div className="lg:mt-0 mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
-            <RiHomeHeartLine
+            <FaHeartbeat
               className="bg-primary rounded-full p-3 text-white"
               size={70}
             />
           </div>
           <div className="text-center -mt-4 px-14 pb-5">
             <h1 className="text-primary font-bold text-lg">
-              Home Sample Collection
+              Cardiologist Consultation
             </h1>
             <p className="text-justify text-gray-500 leading-tight mb-4">
-              Enjoy the convenience of free home sample collection, ensuring a
-              hassle-free process from the comfort of your home.
+              Schedule a consultation with our cardiologists by phone, ensuring
+              timely and expert care for your heart health.
             </p>
             <Link
               href="/contact"
@@ -59,18 +59,16 @@ const Booking = () => {
         </div>
         <div className="lg:mt-0 mt-14 rounded-lg mx-auto shadow-3xl">
           <div className="flex justify-center -translate-y-1/2">
-            <RiHomeHeartLine
+            <FaFileMedicalAlt
               className="bg-primary rounded-full p-3 text-white"
               size={70}
             />
           </div>
           <div className="text-center -mt-4 px-14 pb-5">
-            <h1 className="text-primary font-bold text-lg">
-              Home Sample Collection
-            </h1>
+            <h1 className="text-primary font-bold text-lg">Test Booking</h1>
             <p className="text-justify text-gray-500 leading-tight mb-4">
-              Enjoy the convenience of free home sample collection, ensuring a
-              hassle-free process from the comfort of your home.
+              Easily book your tests by calling our center, where our team will
+              assist you with scheduling & any questions you may have.
             </p>
             <Link
               href="/contact"

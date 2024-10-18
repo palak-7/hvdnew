@@ -920,6 +920,7 @@ export const service = [
     id: 132,
     category: "URINE",
     name: "KETONE BODIES (ACETONE)",
+    url: "/",
     price: "1700",
   },
   {
@@ -1512,14 +1513,14 @@ export const service = [
   {
     id: 217,
     category: "SPECIAL TEST ",
-    name: "X ray any part- single view",
+    name: "Digital X ray any part- single view",
     url: "/services/digital-xray",
     price: "450",
   },
   {
     id: 218,
     category: "SPECIAL TEST ",
-    name: "X ray any part-two views",
+    name: "Digital X ray any part-two views",
     url: "/services/digital-xray",
     price: "450",
   },

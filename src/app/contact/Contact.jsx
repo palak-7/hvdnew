@@ -9,6 +9,7 @@ import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 import { form } from "@/services/form";
 import { useRouter } from "next/navigation";
+import { IoMdMail } from "react-icons/io";
 
 const Contact = () => {
   const router = useRouter();
@@ -61,11 +62,7 @@ const Contact = () => {
       <div className="grid lg:grid-cols-3 gap-10 mx-4 lg:mx-10 mt-10 p-5">
         <div className="rounded-md">
           <div
-            className="p-5 rounded-md translate-x-3 translate-y-3"
-            style={{
-              boxShadow:
-                "rgba(34, 197, 94, 0.4) -5px 5px, rgba(34, 197, 94, 0.3) -10px 10px, rgba(34, 197, 94, 0.2) -15px 15px, rgba(34, 197, 94, 0.1) -20px 20px, rgba(34, 197, 94, 0.05) -25px 25px",
-            }}
+            className="p-5 rounded-md shadow-lg shadow-lightgreen"
           >
             <h1 className="font-bold text-xl">Our Address</h1>
             <Link
@@ -85,33 +82,34 @@ const Contact = () => {
           </div>
         </div>
         <div
-          className="rounded-md "
-          style={{
-            boxShadow:
-              "rgba(34, 197, 94, 0.4) -5px 5px, rgba(34, 197, 94, 0.3) -10px 10px, rgba(34, 197, 94, 0.2) -15px 15px, rgba(34, 197, 94, 0.1) -20px 20px, rgba(34, 197, 94, 0.05) -25px 25px",
-          }}
+          className="rounded-md shadow-lg shadow-lightgreen"
+          
         >
           <div className="p-5 rounded-md translate-x-3 translate-y-3">
-            <h1 className="font-bold text-xl">Phone Number</h1>
+            <h1 className="font-bold text-xl mb-2">Phone Number</h1>
 
             <Link
               href="tel:+91 9311883059"
               target="__blank"
-              className="flex hover:text-orange duration-300"
+              className="flex hover:text-lightgreen font-semibold text-primary duration-300"
             >
-              <IoCall className="mt-1 mr-1 text-[#25d366]" /> +91 9311883059
+              <IoCall className="mt-1 mr-1" />+91 9311883059
+            </Link>
+            <Link
+              href="tel:+011 46536898"
+              target="__blank"
+              className="flex hover:text-lightgreen font-semibold text-primary duration-300"
+            >
+              <IoCall className="mt-1 mr-1" />+011 46536898
             </Link>
           </div>
         </div>
         <div
-          className="rounded-md"
-          style={{
-            boxShadow:
-              "rgba(34, 197, 94, 0.4) -5px 5px, rgba(34, 197, 94, 0.3) -10px 10px, rgba(34, 197, 94, 0.2) -15px 15px, rgba(34, 197, 94, 0.1) -20px 20px, rgba(34, 197, 94, 0.05) -25px 25px",
-          }}
+          className="rounded-md shadow-lg shadow-lightgreen"
         >
           <div className="p-5 rounded-md translate-x-3 translate-y-3">
-            <h1 className="font-bold text-xl">Email Address</h1>
+            <h1 className="font-bold text-xl mb-2">Email Address</h1>
+            <Link href="mailto:healthvista.diagnostics@gmail.com" className="text-primary hover:text-lightgreen duration-300 font-semibold flex "><IoMdMail className="mt-1 mr-1"/>healthvista.diagnostics@gmail.com</Link>
           </div>
         </div>
       </div>

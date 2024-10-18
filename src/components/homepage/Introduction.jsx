@@ -13,7 +13,7 @@ const Introduction = () => {
       />
       <div className="absolute inset-0 text-white pt-20 lg:pl-20 pl-4 lg:bg-transparent bg-white lg:bg-opacity-100 bg-opacity-40">
         <div className="text-lightblue font-extrabold text-4xl">
-          At Health Vista Diagnostic
+          At Health Vista Diagnostics
           <br /> Your Wellness, Our Commitment
         </div>
         <div className="space-y-4 mt-3">

@@ -30,9 +30,10 @@ const Infosection = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-2 lg:border-r-2 pl-5">
+        <div className="lg:col-span-2 lg:border-r-2 pl-5 lg:pl-0">
           <h3 className="font-bold mb-2">Opening Hours</h3>
-          <p className="text-white">8 am - 8 pm</p>
+          <p className="text-white">8am - 8pm (Mon to Sat)</p>
+          <p className="text-white">8am - 4pm (Sunday)</p>
         </div>
 
         <div className="lg:col-span-4 pl-5">
@@ -47,7 +48,7 @@ const Infosection = () => {
         src="/banner/hvd(2).png"
         width={1000}
         height={1000}
-        className="lg:h-[120px] h-[350px] w-full object-cover"
+        className="lg:h-[120px] h-[400px] w-full object-cover"
         alt="footerimg"
       />
     </div>

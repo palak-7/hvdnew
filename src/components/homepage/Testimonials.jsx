@@ -71,7 +71,7 @@ const Testimonials = () => {
                 </figcaption>
                 <blockquote>
                   <p className=" font-medium text-gray-500 dark:text-white">
-                    I highly recommend health vista Diagnostic for their
+                    I highly recommend health vista Diagnostics for their
                     professionalism and accuracy. The staff made me feel
                     comfortable during the tests, and the results were delivered
                     in a timely manner. A reliable choice for health vista

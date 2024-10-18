@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { RiCustomerServiceFill } from "react-icons/ri";
 import SearchBar from "../SearchBar";
 import { IoMdArrowDropdown } from "react-icons/io";
-
+import { FaYoutube } from "react-icons/fa";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -65,16 +65,34 @@ const Header = () => {
           <div className="max-w-lg lg:mx-auto pt-4 mx-2">
             <div className="flex items-center justify-center space-x-10">
               <div className="flex space-x-4">
-                <div className="text-white text-xl">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61552586340123"
+                  target="__blank"
+                  className="text-white text-xl"
+                >
                   <FaFacebookF className="px-1 text-xl bg-lightgreen" />
-                </div>
-
-                <div className="text-white text-xl">
+                </Link>
+                <Link
+                  href="https://www.instagram.com/healthvistadiagnostics/"
+                  target="__blank"
+                  className="text-white text-xl"
+                >
                   <FaInstagram className="px-1 bg-lightgreen" />
-                </div>
-                <div className="text-white text-xl">
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/rishu-sangal-45b92715/"
+                  target="__blank"
+                  className="text-white text-xl"
+                >
                   <FaLinkedinIn className="px-1 bg-lightgreen" />
-                </div>
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@HealthVistaDiagnostics"
+                  target="__blank"
+                  className="text-white text-xl"
+                >
+                  <FaYoutube className="px-1 bg-lightgreen" />
+                </Link>
               </div>
               <div className="text-gray-400">|</div>
               <div className="flex items-center">
@@ -82,7 +100,19 @@ const Header = () => {
                 <div className="text-gray-500 text-sm">
                   <h4>For Support</h4>
                   <div className="text-lightgreen">
-                    +91 9311883059 | +011 46536898
+                    <Link
+                      href="tel:+91 9311883059"
+                      className="hover:text-primary"
+                    >
+                      +91 9311883059
+                    </Link>{" "}
+                    |{" "}
+                    <Link
+                      href="tel:+011 46536898"
+                      className="hover:text-primary"
+                    >
+                      +011 46536898
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -182,6 +212,9 @@ const Header = () => {
                                   <p
                                     onMouseEnter={() => {
                                       handleSubSubmenu(submenuItem.id);
+                                    }}
+                                    onMouseLeave={() => {
+                                      handleSubSubmenu(-1);
                                     }}
                                     onClick={() => {
                                       handleSubSubmenu(submenuItem.id);

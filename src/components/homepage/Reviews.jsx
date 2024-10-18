@@ -96,7 +96,7 @@ const Reviews = () => {
           </div>
 
           <p className="line-clamp-3 my-4 mb-0 text-base font-normal leading-relaxed tracking-wide text-gray-400">
-            I highly recommend health vista Diagnostic for their professionalism
+            I highly recommend health vista Diagnostics for their professionalism
             and accuracy. The staff made me feel comfortable during the tests,
             and the results were delivered in a timely manner. A reliable choice
             for health vista diagnostics.

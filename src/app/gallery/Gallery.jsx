@@ -41,7 +41,7 @@ const Gallery = () => {
                 <div key={index} className="lg:mt-0 mt-4">
                   <Link
                     href={d.url}
-                    className="relative hover:scale-105 duration-300 "
+                    className="relative hover:scale-105 duration-300"
                   >
                     <Image
                       src={`/gallery${d.image}`} // Assuming you want the first image from the category

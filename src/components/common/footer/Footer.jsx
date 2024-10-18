@@ -30,16 +30,28 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-2 py-2 leading-loose">
-            <Link href="/">
+            <Link
+              href="https://www.facebook.com/profile.php?id=61552586340123"
+              target="__blank"
+            >
               <FaFacebookF className="text-4xl bg-primary text-white rounded-md p-2" />
             </Link>
-            <Link href="/">
+            <Link
+              href="https://www.instagram.com/healthvistadiagnostics/"
+              target="__blank"
+            >
               <FaInstagram className="text-4xl bg-instagram text-white rounded-md p-2" />
             </Link>
-            <Link href="/">
+            <Link
+              href="https://www.linkedin.com/in/rishu-sangal-45b92715/"
+              target="__blank"
+            >
               <FaLinkedinIn className="text-4xl bg-linkedin text-white rounded-md p-2" />
             </Link>
-            <Link href="/">
+            <Link
+              href="https://www.youtube.com/@HealthVistaDiagnostics"
+              target="__blank"
+            >
               <FaYoutube className="text-4xl bg-youtube text-white rounded-md p-2" />
             </Link>
           </div>
@@ -47,37 +59,33 @@ const Footer = () => {
 
         <div className="col-start-5 col-span-2 leading-8">
           <h1 className="font-bold text-primary">Quick Links</h1>
-          <Link href="/">Home</Link>
+          <Link href="/about">About us</Link>
           <br />
-          <Link href="/">About us</Link>
+          <Link href="/health-packages">Health Packages</Link>
           <br />
-          <Link href="/">Health Packages & Services</Link>
+          <Link href="/services">Sevices</Link>
           <br />
-          <Link href="/">Upcoming Events</Link>
+          <Link href="/updates and events">Upcoming Events</Link>
           <br />
-          <Link href="/">Reviews & Gallery</Link>
+          <Link href="/gallery">Gallery</Link>
           <br />
-          <Link href="/">Home Sample Collection</Link>
+          <Link href="/success-stories">Success Stories</Link>
           <br />
-          <Link href="/">Cardiologist Consultation</Link>
+          <Link href="/our-team">Our Team</Link>
           <br />
-          <Link href="/">Team</Link>
-          <br />
-          <Link href="/">Blogs and FAQs</Link>
-          <br />
-          <Link href="/">Contact Us</Link>
+          <Link href="/contact">Contact Us</Link>
         </div>
         <div className="col-start-8 col-span-2 leading-loose">
           <h1 className="font-bold text-primary">Services</h1>
-          <Link href="/">Diagnostic Radiology</Link>
+          <Link href="/services/digital-xray">Digital X-Ray</Link>
           <br />
-          <Link href="/">Interventional Radiology</Link>
+          <Link href="/services/ultrasound">Ultrasound</Link>
           <br />
-          <Link href="/">Cardiology</Link>
+          <Link href="/services/liver-fibroscan">Liver Fibroscan</Link>
           <br />
-          <Link href="/">Pathology</Link>
+          <Link href="/services/pathology">Pathology</Link>
           <br />
-          <Link href="/">Others</Link>
+          <Link href="/services/holter">Holter</Link>
           <br />
         </div>
         <div className="col-start-10 col-span-2">
@@ -103,7 +111,9 @@ const Footer = () => {
       <div className="text-center opacity-50">
         <h1 className="text-xl p-2">
           {" "}
-          <strong>© 2024 Health Vista Diagnostic . All Rights Reserved.</strong>
+          <strong>
+            © 2024 Health Vista Diagnostics . All Rights Reserved.
+          </strong>
         </h1>
         {/* <h4 className="mb-5">Handcrafted with excellence by <strong> Invincible Web Solutions </strong></h4> */}
       </div>
