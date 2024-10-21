@@ -254,7 +254,7 @@ const menuData = [
     submenu: [
       {
         id: 61,
-        title: "Our Team",
+        title: "Our Doctor",
         path: "/our-team",
         newTab: false,
       },

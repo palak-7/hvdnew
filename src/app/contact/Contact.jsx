@@ -5,7 +5,6 @@ import React from "react";
 import Image from "next/image";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 import { form } from "@/services/form";
 import { useRouter } from "next/navigation";

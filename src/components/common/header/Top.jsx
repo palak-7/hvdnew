@@ -6,7 +6,7 @@ const Top = () => {
       <Marquee>
         <div className="text-center bg-primary text-white p-2 text-sm">
           Free Home Sample Collection | Full Body Health Packages Available |
-          Extra 10% discount on all tests for Senior Citizens
+          Extra 10% discount on all tests for Senior Citizens | Free Pick and Drop for senior citizen within 2km.
         </div>
       </Marquee>
     </div>
