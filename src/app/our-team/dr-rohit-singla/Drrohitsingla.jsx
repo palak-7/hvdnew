@@ -44,7 +44,7 @@ const Drrohitsingla = () => {
 
             <div className="border border-lightgreen"></div>
 
-            <p className="text-justify leading-relaxed">
+            <p className="text-justify leading-relaxed dark:text-black">
               Dr. Rohit Singla is one of the leading interventional cardiologist
               of Delhi with more than 11 years of experience in interventional
               cardiology. Dr. Rohit Singla is an alumnus from AIIMS, New Delhi.
@@ -52,21 +52,21 @@ const Drrohitsingla = () => {
               Jaipur.
             </p>
 
-            <p className="text-justify leading-relaxed mt-2">
+            <p className="text-justify leading-relaxed mt-2 dark:text-black">
               Dr Rohit Singla has been performing complex interventional
               procedures for nearly a decade with highly successful outcomes. He
               is also trained in the trans-radial angioplasty and is one of the
               few doctors who perform it regularly.
             </p>
 
-            <p className="text-justify leading-relaxed mt-2">
+            <p className="text-justify leading-relaxed mt-2 dark:text-black">
               Dr. RohitS ingla has been involved in academics and research from
               his days at AIIMS. He has more than 15 publications in various
               national and international journals. He is also a reviewer for
               many cardiology journals.
             </p>
 
-            <p className="text-justify leading-relaxed mt-2">
+            <p className="text-justify leading-relaxed mt-2 dark:text-black">
               Dr. Rohit Singla is a life member of multiple national and
               international professional organizations in the field of
               cardiology such as SCAI.
@@ -80,7 +80,7 @@ const Drrohitsingla = () => {
           {/** EDUCATION Section **/}
           <div className="py-5">
             <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
                 <span>EDUCATION</span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
@@ -99,7 +99,7 @@ const Drrohitsingla = () => {
                 </span>
               </summary>
               <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside dark:text-black">
                   <li>
                     MBBS: All India Institute of Medical Sciences, New Delhi
                   </li>
@@ -116,7 +116,7 @@ const Drrohitsingla = () => {
           {/** WORK EXPERIENCE Section **/}
           <div className="py-5">
             <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
                 <span>WORK EXPERIENCE</span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
@@ -135,7 +135,7 @@ const Drrohitsingla = () => {
                 </span>
               </summary>
               <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside dark:text-black">
                   <li>2013-2014: Delhi Heart & Lung Institute</li>
                   <li>2014-2015: Balaji Action Cancer Hospital</li>
                   <li>
@@ -152,7 +152,7 @@ const Drrohitsingla = () => {
           {/** MEMBERSHIPS Section **/}
           <div className="py-5">
             <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
                 <span>MEMBERSHIPS</span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
@@ -171,7 +171,7 @@ const Drrohitsingla = () => {
                 </span>
               </summary>
               <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside dark:text-black">
                   <li>Lifetime Member of North Delhi Physician Forum</li>
                   <li>Lifetime Member of Cardiology Society of India (CSI)</li>
                   <li>IMA DNZ</li>
@@ -183,7 +183,7 @@ const Drrohitsingla = () => {
           {/** FELLOWSHIPS Section **/}
           <div className="py-5">
             <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
                 <span>FELLOWSHIPS</span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
@@ -202,7 +202,7 @@ const Drrohitsingla = () => {
                 </span>
               </summary>
               <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside dark:text-black">
                   <li>
                     Fellow of the Society for Cardiovascular Angiography and
                     Interventions (FSCAI)
