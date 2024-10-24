@@ -103,370 +103,6 @@ export const data = [
   },
   {
     id: 3,
-    name: "HVD Platinum",
-    url: "hvd-platinum",
-    image: "/packages/new-3.png",
-    number: 60,
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, FT3, FT4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-    ],
-    price: "3999",
-    cancelled: "7000",
-  },
-  {
-    id: 4,
-    name: "HVD EXCLUSIVE (MALE)",
-    url: "hvd-exclusive-male",
-    image: "/packages/new-3.jpg",
-    number: 56,
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, FT3, FT4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Prostate Specific Antigen",
-        content: "Total PSA, Free PSA",
-      },
-      {
-        heading: "Iron profile",
-        content: "Serum Iron, UIBC-Serum, TIBC, Transferrin Saturation",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-    ],
-    price: "5499",
-    cancelled: "8500",
-  },
-  {
-    id: 5,
-    name: "HVD EXCLUSIVE (FEMALE)",
-    url: "hvd-exclusive-female",
-    image: "/packages/new-5.png",
-    number: 72,
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, FT3, FT4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Iron Profile",
-        content: "Serum Iron, UIBC-Serum, TIBC, Transferrin Saturation",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-    ],
-    price: "4499",
-    cancelled: "7000",
-  },
-  {
-    id: 6,
-    name: "HVD AYUSHMAN",
-    url: "hvd-ayushman",
-    image: "/packages/pack12.png",
-    number: 60,
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, T3, T4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-      {
-        heading: "Ultrasound Whole Abdomen",
-        content: "",
-      },
-      {
-        heading: "Chest X Ray",
-        content: "",
-      },
-      {
-        heading: "ECG",
-        content: "",
-      },
-    ],
-    price: "5499",
-    cancelled: "10000",
-  },
-  {
-    id: 7,
-    name: "HVD COMPREHENSIVE ( SENIOR CITIZEN MALE)",
-    url: "hvd-comprehensive-senior-citizen-male",
-    image: "/packages/pack7.png",
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC, RBC Count, PCV, MCV, MCH, MCHC, Platelet Count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, T3, T4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric Acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Prostate Specific Antigen",
-        content: "Total PSA, Free PSA",
-      },
-      {
-        heading: "Iron profile",
-        content: "Serum Iron, UIBC- Serum, TIBC, Transferrin saturation",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-      {
-        heading: "Ultrasound Whole Abdomen",
-        content: "",
-      },
-      {
-        heading: "Chest X Ray",
-        content: "",
-      },
-      {
-        heading: "ECG",
-        content: "",
-      },
-    ],
-    price: "6999",
-    cancelled: "12000",
-  },
-  {
-    id: 8,
-    name: "HVD COMPREHENSIVE ( SENIOR CITIZEN FEMALE)",
-    url: "hvd-comprehensive-senior-citizen-female",
-    image: "/packages/new-8.jpg",
-    description: [
-      {
-        heading: "Complete Blood Count",
-        content:
-          "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
-      },
-      {
-        heading: "Diabetes profile",
-        content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
-      },
-      {
-        heading: "Lipid profile",
-        content:
-          "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
-      },
-      {
-        heading: "Thyroid profile",
-        content: "TSH, T3, T4",
-      },
-      {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
-      },
-      {
-        heading: "Liver profile",
-        content:
-          "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
-      },
-      {
-        heading: "Bone health",
-        content: "Calcium, Phosphorus, Vitamin D",
-      },
-      {
-        heading: "Nervous System",
-        content: "Vitamin B12",
-      },
-      {
-        heading: "Iron Profile",
-        content: "Serum Iron, UIBC-Serum, TIBC, Transferrin Saturation",
-      },
-      {
-        heading: "Urine R/M",
-        content:
-          "Colour, Transparency, Specific gravity, pH, Albumin, Sugar, Pus cells, RBC, Casts, Crystals, Epithelial cells, Bacteria, Others",
-      },
-      {
-        heading: "Ultrasound Whole Abdomen",
-        content: "",
-      },
-      {
-        heading: "Chest X Ray",
-        content: "",
-      },
-      {
-        heading: "ECG",
-        content: "",
-      },
-    ],
-    price: "5999",
-    cancelled: "10000",
-  },
-  {
-    id: 9,
     name: "HVD CARDIAC HEALTH PACKAGE",
     url: "hvd-cardiac",
     image: "/packages/new-9.png",
@@ -500,7 +136,7 @@ export const data = [
     cancelled: "12000",
   },
   {
-    id: 10,
+    id: 4,
     name: "HVD FEVER PACKAGE",
     url: "hvd-fever",
     image: "/packages/pack8.png",
@@ -541,7 +177,7 @@ export const data = [
   },
 
   {
-    id: 11,
+    id: 5,
     name: "HVD ANC 1 PACKAGE",
     url: "hvd-anc1-package",
     image: "/packages/anc1.jpg",
@@ -588,7 +224,7 @@ export const data = [
   },
 
   {
-    id: 12,
+    id: 6,
     name: "HVD ANC 2 PACKAGE",
     url: "hvd-anc2-package",
     image: "/packages/anc2.png",
@@ -639,7 +275,7 @@ export const data = [
   },
 
   {
-    id: 13,
+    id: 7,
     name: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE",
     url: "polycystic-ovarian-desease-profile",
     image: "/packages/pcod.jpg",
@@ -676,13 +312,12 @@ export const data = [
         heading: "DEHYDROEPIANDROSTERONE SULPHATE (DHEA-S)",
         content: "",
       },
-      
     ],
     price: "2800",
     cancelled: "3000",
   },
   {
-    id: 14,
+    id: 8,
     name: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE ADVANCE",
     url: "polycystic-ovarian-desease-profile-advance",
     image: "/packages/pcodAdv.avif",

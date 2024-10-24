@@ -1580,4 +1580,5 @@ export const service = [
     name: "Loopogram",
     price: "5000",
   },
+
 ];

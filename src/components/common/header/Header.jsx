@@ -63,7 +63,7 @@ const Header = () => {
             <SearchBar />
           </div>
           <div className="max-w-lg lg:mx-auto pt-4 mx-2">
-            <div className="flex items-center justify-center space-x-10">
+            <div className="flex items-center justify-evenly">
               <div className="flex space-x-4">
                 <Link
                   href="https://www.facebook.com/profile.php?id=61552586340123"
@@ -99,7 +99,7 @@ const Header = () => {
                 <RiCustomerServiceFill className="text-lightgreen md:text-4xl text-2xl" />
                 <div className="text-gray-500 text-sm">
                   <h4>For Support</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 text-lightgreen lg:gap-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2 text-lightgreen md:gap-2">
                     <Link
                       href="tel:+91 9311883059"
                       className="hover:text-primary"

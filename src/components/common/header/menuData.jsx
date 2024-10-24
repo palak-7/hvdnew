@@ -29,72 +29,40 @@ const menuData = [
       },
       {
         id: 33,
-        title: "HVD Platinum",
-        path: "/health-packages/hvd-platinum",
-        newTab: false,
-      },
-      {
-        id: 34,
-        title: "HVD EXCLUSIVE (MALE)",
-        path: "/health-packages/hvd-exclusive-male",
-        newTab: false,
-      },
-      {
-        id: 35,
-        title: "HVD EXCLUSIVE (FEMALE)",
-        path: "/health-packages/hvd-exclusive-female",
-        newTab: false,
-      },
-      {
-        id: 36,
-        title: "HVD AYUSHMAN",
-        path: "/health-packages/hvd-ayushman",
-        newTab: false,
-      },
-      {
-        id: 37,
-        title: "HVD COMPREHENSIVE (SENIOR CITIZEN MALE)",
-        path: "/health-packages/hvd-comprehensive-senior-citizen-male",
-        newTab: false,
-      },
-      {
-        id: 38,
-        title: "HVD COMPREHENSIVE (SENIOR CITIZEN FEMALE)",
-        path: "/health-packages/hvd-comprehensive-senior-citizen-female",
-        newTab: false,
-      },
-      {
-        id: 39,
-        title: "HVD CARDIAC HEALTH PACKAGE",
-        path: "/health-packages/hvd-cardiac",
-        newTab: false,
-      },
-      {
-        id: 311,
         title: "HVD FEVER PACKAGE",
         path: "/health-packages/hvd-fever",
         newTab: false,
       },
+     
+
       {
-        id: 312,
+        id: 34,
         title: "HVD ANC 1 PACKAGE",
         path: "/health-packages/hvd-anc1-package",
         newTab: false,
       },
       {
-        id: 313,
+        id: 35,
         title: "HVD ANC 2 PACKAGE",
         path: "/health-packages/hvd-anc2-package",
         newTab: false,
       },
+
       {
-        id: 314,
+        id: 36,
+        title: "HVD CARDIAC HEALTH PACKAGE",
+        path: "/health-packages/hvd-cardiac",
+        newTab: false,
+      },
+
+      {
+        id: 37,
         title: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE",
         path: "/health-packages/polycystic-ovarian-desease-profile",
         newTab: false,
       },
       {
-        id: 315,
+        id: 38,
         title: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE ADVANCE",
         path: "/health-packages/polycystic-ovarian-desease-profile-advance",
         newTab: false,

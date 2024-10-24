@@ -3,12 +3,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import { service } from "@/data/service";
 import { data } from "@/data/packages";
+import { rate } from "@/data/testrate";
 import Link from "next/link";
 import { servicesdata } from "@/data/serviceData";
 const SearchBar = () => {
   const [query, setQuery] = useState("");
   const [filteredServices, setFilteredServices] = useState([]);
   const [filteredPackages, setFilteredPackages] = useState([]);
+  const [filteredRate, setFilteredRate] = useState([]);
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
   const searchRef = useRef();
   const handleSearch = (e) => {
@@ -18,9 +20,14 @@ const SearchBar = () => {
     if (searchQuery === "") {
       setFilteredServices([]);
       setFilteredPackages([]);
+      setFilteredRate([]);
       setIsDropdownVisible(false);
       return;
     }
+
+    const filteredRate = rate.filter((s) =>
+      s.name.toLowerCase().includes(searchQuery)
+    );
 
     const filteredServices = service.filter((s) =>
       s.name.toLowerCase().includes(searchQuery)
@@ -35,6 +42,7 @@ const SearchBar = () => {
 
     setFilteredServices(filteredServices);
     setFilteredPackages(filteredPackages);
+    setFilteredRate(filteredRate);
     setIsDropdownVisible(true); // Show the dropdown
   };
 
@@ -43,6 +51,7 @@ const SearchBar = () => {
       setQuery("");
       setFilteredServices([]);
       setFilteredPackages([]);
+      setFilteredRate([]);
       setIsDropdownVisible(false); // Hide the dropdown
     }
   };
@@ -51,6 +60,7 @@ const SearchBar = () => {
     setQuery("");
     setFilteredServices([]);
     setFilteredPackages([]);
+    setFilteredRate([]);
     setIsDropdownVisible(false); // Hide the dropdown
   };
 
@@ -156,8 +166,39 @@ const SearchBar = () => {
               </ul>
             </div>
           )}
+
+          {filteredRate.length > 0 && (
+            <div>
+              <ul className="space-y-2">
+                {filteredRate.map((p) => (
+                  <Link
+                    href={`/`}
+                    key={p.id}
+                    className=""
+                    onClick={handleResultClick}
+                  >
+                    <li className="hover:bg-blue-100 col-span-5 p-2 text-gray-800 rounded-md transition-colors duration-300">
+                      <div className="flex">
+                        <div className="bg-blue-800 text-white px-2 py-1 rounded-md text-xs">
+                          {p.category}
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-6">
+                        <div className="col-span-5">{p.name}</div>
+                        <p className=" text-lightgreen font-extrabold flex">
+                          <div>₹</div> {p.price}
+                        </p>
+                      </div>
+                    </li>
+                  </Link>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {filteredServices.length === 0 &&
             filteredPackages.length === 0 &&
+            filteredRate.length === 0 &&
             query !== "" && (
               <div className="text-center text-gray-600">
                 <p>No results found for &quot;{query}&quot;.</p>
