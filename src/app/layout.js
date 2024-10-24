@@ -33,13 +33,13 @@ export default function RootLayout({ children }) {
         </div>
 
         {/* Location Button - Moved slightly up and left to prevent overlap */}
-        <div className="fixed bottom-20 right-5 flex items-center bg-red-500 text-white p-2 rounded-full shadow-lg z-50 hover:bg-red-600 transition duration-300 ease-in-out">
+        <div className="fixed bottom-20 right-5 flex items-center bg-blue-800 text-white p-2 rounded-full shadow-lg z-50 hover:bg-blue-900 transition duration-300 ease-in-out">
           <Link
             href="https://www.google.com/maps/place/Health+Vista+Diagnostics+-+Best+Diagnostic+centre+in+Pitampura+%7C+Interventional+Radiology+%7C+Cardiology+%7C+ECG+in+Pitampura/@28.700161,77.126535,16z/data=!4m6!3m5!1s0x390d03a69dcf1acd:0x46473ecd32974e35!8m2!3d28.7001605!4d77.1265346!16s%2Fg%2F11y1m4m_hx?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
             className="flex items-center font-semibold"
             target="_blank"
           >
-            <IoLocationSharp className="text-4xl" />
+            <IoLocationSharp className="text-4xl shadow-inner" />
           </Link>
         </div>
 

@@ -7,7 +7,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 const Xray = () => {
   return (
-    <div>
+    <div className="dark:bg-white">
       <Head service={servicesdata[0]} />
       <div className="lg:relative">
         <Image
@@ -17,7 +17,7 @@ const Xray = () => {
           className="w-full"
           alt="overview2"
         />
-        <div className="lg:absolute inset-0 lg:grid grid-cols-12">
+        <div className="lg:absolute inset-0 lg:grid grid-cols-12 dark:text-black">
           <div className="flex items-center -mt-10 col-start-2 col-span-6">
             <div className="lg:bg-white p-4 bg-opacity-70 rounded-md">
               <h1 className="font-extrabold text-4xl">
@@ -40,7 +40,7 @@ const Xray = () => {
       </div>
       {/* ques 2 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
@@ -67,7 +67,7 @@ const Xray = () => {
       {/* ques 3 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[600px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
-          <div className="lg:flex items-center justify-center h-full">
+          <div className="lg:flex items-center justify-center h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <div>

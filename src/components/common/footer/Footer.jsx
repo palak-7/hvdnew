@@ -21,7 +21,7 @@ const Footer = () => {
               className="w-[190px] h-[120px]"
             />
           </Link>
-          <p className="py-2">
+          <p className="py-2 dark:text-black">
             At Health Vista Diagnostics, your well-being is our priority. As a
             trusted, family-owned center, we provide compassionate care and
             comprehensive diagnostics, including in-house interventional
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-start-5 col-span-2 leading-8">
+        <div className="col-start-5 col-span-2 leading-8 dark:text-black">
           <h1 className="font-bold text-primary">Quick Links</h1>
           <Link href="/about">About us</Link>
           <br />
@@ -75,7 +75,7 @@ const Footer = () => {
           <br />
           <Link href="/contact">Contact Us</Link>
         </div>
-        <div className="col-start-8 col-span-2 leading-loose">
+        <div className="col-start-8 col-span-2 leading-loose dark:text-black">
           <h1 className="font-bold text-primary">Services</h1>
           <Link href="/services/digital-xray">Digital X-Ray</Link>
           <br />
@@ -108,7 +108,7 @@ const Footer = () => {
         className="lg:h-[450px] h-[1300px] w-full"
         alt="footerimg"
       />
-      <div className="text-center opacity-50">
+      <div className="text-center opacity-50 dark:text-black">
         <h1 className="text-xl p-2">
           {" "}
           <strong>

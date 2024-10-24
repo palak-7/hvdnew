@@ -6,7 +6,7 @@ import Link from "next/link";
 const Detailed = ({ url }) => {
   const p = data.find((d) => d.url === url);
   return (
-    <div>
+    <div className="dark:bg-white">
       <div className="relative">
         <Image
           src={`/packages/package-banner.png`}

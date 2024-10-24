@@ -43,7 +43,7 @@ const Header = () => {
   };
   return (
     <div
-      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold`}
+      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold dark:bg-white`}
     >
       <Top />
       <div className="lg:grid grid-cols-2">
@@ -99,7 +99,7 @@ const Header = () => {
                 <RiCustomerServiceFill className="text-lightgreen md:text-4xl text-2xl" />
                 <div className="text-gray-500 text-sm">
                   <h4>For Support</h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 text-lightgreen sm:gap-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2 text-lightgreen lg:gap-2">
                     <Link
                       href="tel:+91 9311883059"
                       className="hover:text-primary"

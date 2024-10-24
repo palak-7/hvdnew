@@ -4,7 +4,7 @@ import GalleryImages from "./GalleryImages";
 const page = ({ params }) => {
   const url = params.url;
   return (
-    <div>
+    <div className="dark:bg-white">
       <GalleryImages url={url} />
     </div>
   );

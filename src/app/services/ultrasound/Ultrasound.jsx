@@ -6,7 +6,7 @@ import Link from "next/link";
 import { MdArrowRightAlt } from "react-icons/md";
 const Ultrasound = () => {
   return (
-    <div>
+    <div className=" dark:bg-white">
       <Head service={servicesdata[1]} />
       <div className="lg:relative">
         <Image
@@ -18,7 +18,7 @@ const Ultrasound = () => {
         />
         <div className="lg:absolute inset-0 lg:grid grid-cols-12">
           <div className="flex items-center -mt-10 col-start-2 col-span-6">
-            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md">
+            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md dark:text-black">
               <h1 className="font-extrabold text-4xl">
                 {servicesdata[1].content[0].ques}
               </h1>
@@ -41,7 +41,7 @@ const Ultrasound = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[600px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center dark:text-black">
               <div className="col-span-2 col-start-4 p-4">
                 <div>
                   <Image
@@ -144,7 +144,7 @@ const Ultrasound = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[600px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center dark:text-black">
               
               
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
@@ -203,7 +203,7 @@ const Ultrasound = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[600px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center dark:text-black">
               <div className="col-span-2 col-start-4 p-4">
                 <div>
                   <Image

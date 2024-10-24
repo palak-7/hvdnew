@@ -31,7 +31,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="lg:mx-10 overflow-x-clip">
+    <div className="lg:mx-10 overflow-x-clip ">
       <Slider {...settings}>
         <div className="flex flex-col justify-between p-5">
           <div className="text-lightgreen flex gap-2">

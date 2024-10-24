@@ -11,9 +11,9 @@ const Testimonials = () => {
           <p className="text-lightblue text-lg">What our customers say</p>
         </div>
         <div className="lg:grid grid-cols-3 mx-5 space-x-4 ">
-          <section className="bg-white mb-10 mt-5 dark:bg-gray-900 border-lightgreen border-2 rounded-[10%]">
-            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6">
-              <figure className="max-w-screen-md mx-auto">
+          <section className="bg-white mb-10 mt-5  border-lightgreen border-2 rounded-[10%] dark:bg-white">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6 ">
+              <figure className="max-w-screen-md mx-auto ">
                 <svg
                   className="h-12 mx-auto text-lightgreen dark:text-gray-600"
                   viewBox="0 0 24 27"
@@ -25,9 +25,9 @@ const Testimonials = () => {
                     fill="currentColor"
                   />
                 </svg>
-                <figcaption className="flex items-center justify-center my-2 space-x-3">
+                <figcaption className="flex items-center justify-center my-2 space-x-3 dark:text-black">
                   <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                    <div className="pr-3 font-medium text-gray-900">
                       Ritu Battan
                     </div>
                     <div className="flex pl-3">
@@ -70,7 +70,7 @@ const Testimonials = () => {
                   </div>
                 </figcaption>
                 <blockquote>
-                  <p className=" font-medium text-gray-500 dark:text-white">
+                  <p className=" font-medium text-gray-500">
                     I highly recommend health vista Diagnostics for their
                     professionalism and accuracy. The staff made me feel
                     comfortable during the tests, and the results were delivered
@@ -81,8 +81,8 @@ const Testimonials = () => {
               </figure>
             </div>
           </section>
-          <section className="bg-white mb-10 mt-5 dark:bg-gray-900 border-lightgreen border-2 rounded-[10%]">
-            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6">
+          <section className="bg-white mb-10 mt-5 border-lightgreen border-2 dark:bg-white rounded-[10%]">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6 ">
               <figure className="max-w-screen-md mx-auto">
                 <svg
                   className="h-12 mx-auto text-lightgreen dark:text-gray-600"
@@ -96,8 +96,8 @@ const Testimonials = () => {
                   />
                 </svg>
                 <figcaption className="flex items-center justify-center my-2 space-x-3">
-                  <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                  <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700 ">
+                    <div className="pr-3 font-medium dark:text-black">
                       Vani Kucchal
                     </div>
                     <div className="flex pl-3">
@@ -140,7 +140,7 @@ const Testimonials = () => {
                   </div>
                 </figcaption>
                 <blockquote>
-                  <p className=" font-medium text-gray-500 dark:text-white">
+                  <p className=" font-medium text-gray-500">
                     We had a very good experience at HVD. The doctors and staff
                     were very helpful and attentive to our queries!! Good job
                     Team HVD !
@@ -149,7 +149,7 @@ const Testimonials = () => {
               </figure>
             </div>
           </section>
-          <section className="bg-white mb-10 mt-5 dark:bg-gray-900 border-lightgreen border-2 rounded-[10%]">
+          <section className="bg-white mb-10 mt-5 dark:bg-white border-lightgreen border-2 rounded-[10%]">
             <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -165,7 +165,7 @@ const Testimonials = () => {
                 </svg>
                 <figcaption className="flex items-center justify-center my-2 space-x-3">
                   <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                    <div className="pr-3 font-medium dark:text-black">
                       Nitesh Gupta
                     </div>
                     <div className="flex pl-3">
@@ -208,7 +208,7 @@ const Testimonials = () => {
                   </div>
                 </figcaption>
                 <blockquote>
-                  <p className=" font-medium text-gray-500 dark:text-white">
+                  <p className=" font-medium text-gray-500">
                     Excellent infrastructure and the staff is extremely helpful
                     and polite... Doctors are very polite and highly competent..
                     I would highly recommend HEALTH VISTA DIAGNOSTICS to each

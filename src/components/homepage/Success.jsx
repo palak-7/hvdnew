@@ -100,7 +100,7 @@ const story = [
                       </svg>
                     </div>
                     <h2 className="font-bold text-center text-primary">{s.name}</h2>
-                    <p className="text-sm dark:text-gray-200">
+                    <p className="text-sm dark:text-black">
                       {s.content}
                     </p>
                   </div>

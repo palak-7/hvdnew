@@ -5,7 +5,7 @@ const Breadcrumbs = ({ bread }) => {
   return (
     <div className="flex justify-center">
       <nav
-        className="flex px-5 py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+        className="flex px-5 py-3 dark:bg-white text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:border-gray-700"
         aria-label="Breadcrumb"
       >
         <ol className="inline-flex items-center rtl:space-x-reverse">
@@ -13,7 +13,7 @@ const Breadcrumbs = ({ bread }) => {
             <li className="inline-flex items-center" key={b.id}>
               <Link
                 href={b.url}
-                className="inline-flex font-bold items-center text-sm hover:text-blue-600 dark:text-gray-400 dark:hover:text-white"
+                className="inline-flex font-bold items-center text-sm dark:text-gray-800"
               >
                 {b.name}
               </Link>

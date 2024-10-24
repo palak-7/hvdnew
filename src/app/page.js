@@ -13,7 +13,7 @@ import Doctors from "@/components/homepage/Doctors";
 import Testimonials from "@/components/homepage/Testimonials";
 const page = () => {
   return (
-    <div className="">
+    <div className="dark:bg-white">
       <Introduction />
       <Reviews />
       <Services />

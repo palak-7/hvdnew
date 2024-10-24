@@ -45,7 +45,7 @@ const UpcomingEvent = () => {
           <Link href="/">
             <Link
               href="/"
-              className="flex flex-col items-center bg-white rounded-3xl md:flex-row md:max-w-xl shadow-md dark:border-gray-700 dark:bg-gray-800 h-60"
+              className="flex flex-col items-center bg-white rounded-3xl md:flex-row md:max-w-xl shadow-md dark:border-gray-700 h-60 dark:bg-white"
             >
               <Image
                 width={1000}
@@ -55,12 +55,12 @@ const UpcomingEvent = () => {
                 alt=""
               />
               <div className="flex flex-col justify-between p-4 leading-normal mb-20">
-                <p className="mb-3 text-xl font-semibold tracking-tight dark:text-white text-primary">
+                <p className="mb-3 text-xl font-semibold tracking-tight text-primary">
                   Health & Wellness Workshop
                 </p>
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
                   <SlCalender className="text-xl text-primary font-bold" />
-                  <span className="font-medium opacity-70">
+                  <span className="font-medium opacity-70 dark:text-gray-900">
                     {" "}
                     August 15, 2024, 9:00 AM 4:00 PM{" "}
                   </span>
@@ -68,7 +68,7 @@ const UpcomingEvent = () => {
 
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
                   <IoLocationSharp className="text-xl text-primary font-bold" />
-                  <span className="font-medium opacity-70">
+                  <span className="font-medium opacity-70 dark:text-gray-900">
                     {" "}
                     Diagnostic Center Main Hall{" "}
                   </span>
@@ -80,7 +80,7 @@ const UpcomingEvent = () => {
           <Link href="/">
             <Link
               href="/"
-              className="flex flex-col items-center bg-white border border-gray-200 rounded-3xl shadow-md md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 h-60"
+              className="flex flex-col items-center bg-white rounded-3xl shadow-md md:flex-row md:max-w-xl   h-60 dark:bg-white"
             >
               <Image
                 width={1000}
@@ -90,12 +90,12 @@ const UpcomingEvent = () => {
                 alt=""
               />
               <div className="flex flex-col justify-between p-4 leading-normal mb-20">
-                <h5 className="mb-2 text-xl font-semibold tracking-tight dark:text-white text-primary">
+                <h5 className="mb-2 text-xl font-semibold tracking-tight text-primary">
                   Free Diabetes Screening Day
                 </h5>
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
                   <SlCalender className="text-xl text-primary font-bold" />
-                  <span className="font-medium opacity-70">
+                  <span className="font-medium opacity-70 dark:text-gray-900">
                     {" "}
                     August 15, 2024, 9:00 AM 4:00 PM{" "}
                   </span>
@@ -103,7 +103,7 @@ const UpcomingEvent = () => {
 
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
                   <IoLocationSharp className="text-xl text-primary font-bold" />
-                  <span className="font-medium opacity-70">
+                  <span className="font-medium opacity-70 dark:text-gray-900">
                     {" "}
                     Diagnostic Center Main Hall{" "}
                   </span>

@@ -43,7 +43,7 @@ const Contact = () => {
     }
   };
   return (
-    <div>
+    <div className="dark:bg-white dark:text-black">
       <div className="relative">
         <Image
           src={`/contact/contact-banner.png`}

@@ -3,7 +3,7 @@ import Doctors from "@/components/homepage/Doctors";
 
 const page = () => {
   return (
-    <div>
+    <div className="dark:bg-white">
       <Doctors />
     </div>
   );

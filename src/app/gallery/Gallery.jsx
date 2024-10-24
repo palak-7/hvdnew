@@ -7,7 +7,7 @@ import { allImages } from "@/data/gallery";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className=" dark:bg-white">
       <div className="lg:mx-32 my-5 mx-4">
         <div>
           <h1 className="text-primary text-6xl font-extrabold text-center py-7">
