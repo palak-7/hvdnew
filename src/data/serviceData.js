@@ -85,6 +85,9 @@ Tell your healthcare provider about your health history, allergies and any medic
   {
     id: 6,
     name: "ECG",
+    image: "ecg.png",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     subnames: [
       {
         id: 61,
