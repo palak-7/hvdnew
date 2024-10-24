@@ -26,9 +26,9 @@ const Detailed = ({ url }) => {
                   <div className="text-lightgreen text-2xl font-bold">
                     ₹ {p.price} /-
                   </div>
-                  <del className="ml-5 text-gray-500 text-2xl">
+                  {/* <del className="ml-5 text-gray-500 text-2xl">
                     ₹ {p.cancelled} /-
-                  </del>
+                  </del> */}
                 </div>
                 <Link
                   href="/"

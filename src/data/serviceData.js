@@ -33,6 +33,7 @@ Tell your healthcare provider about your health history, allergies and any medic
       },
     ],
   },
+
   {
     id: 2,
     name: "Ultrasound",
@@ -45,7 +46,8 @@ Tell your healthcare provider about your health history, allergies and any medic
       {
         id: 21,
         ques: "What is an Ultrasound scan?",
-        ans: `Ultrasound is a non-invasive scan which uses high frequency sound waves of the inside of your body. During your private Ultrasound scan, a probe is passed over the skin and this emits sound waves. These sound waves bounce off your organs and send a signal via the microphone to the computer which then displays the sound as an image.`},
+        ans: `Ultrasound is a non-invasive scan which uses high frequency sound waves of the inside of your body. During your private Ultrasound scan, a probe is passed over the skin and this emits sound waves. These sound waves bounce off your organs and send a signal via the microphone to the computer which then displays the sound as an image.`,
+      },
       {
         id: 22,
         ques: "How do I prepare for an ultrasound?",
@@ -57,79 +59,187 @@ Tell your healthcare provider about your health history, allergies and any medic
       },
     ],
   },
+
   {
     id: 3,
+    name: "Color Doppler",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "liver-fibroscan.jpg",
+  },
+
+  {
+    id: 4,
     name: "Liver fibroscan",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "liver-fibroscan.jpg",
   },
   {
-    id: 4,
+    id: 5,
     name: "Breast elastography",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "breast-elastography.webp",
   },
   {
-    id: 5,
+    id: 6,
     name: "ECG",
-    short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "ecg.png",
+    subnames: [
+      {
+        id: 61,
+        name: "ECG Testing",
+      },
+      {
+        id: 62,
+        name: "ECG Monitoring",
+      },
+    ],
   },
   {
-    id: 6,
-    name: "Holter",
+    id: 7,
+    name: "24 Hours Holter Monitoring",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "holter.png",
   },
-  {
-    id: 7,
-    name: "Ambulatory BP monitoring (ABPM)",
-    short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "abpm.png",
-  },
+
   {
     id: 8,
     name: "ECHO",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "echo.png",
+    subnames: [
+      {
+        id: 81,
+        name: "2D ECHO",
+      },
+      {
+        id: 82,
+        name: "Exercise Stress echo",
+      },
+
+      {
+        id: 83,
+        name: "Dobutamine Stress echo",
+      },
+
+      {
+        id: 84,
+        name: "Pediatric echo",
+      },
+
+      {
+        id: 85,
+        name: "Fetal echo",
+      },
+    ],
   },
+
   {
     id: 9,
-    name: "Uroflowmetry",
+    name: "TMT",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "abpm.png",
+  },
+
+
+  {
+    id: 10,
+    name: "Ambulatory BP monitoring (ABPM)",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "abpm.png",
+  },
+
+  {
+    id: 11,
+    name: "Ultrasound Guided Interventions",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "uroflowmetry.jpg",
+
+    subnames: [
+      {
+        id: 111,
+        name: "FNAC",
+      },
+      {
+        id: 112,
+        name: "Biopsy",
+      },
+
+      {
+        id: 113,
+        name: "Breast Biopsy",
+      },
+
+      {
+        id: 114,
+        name: "Pain Injection",
+      },
+
+      {
+        id: 115,
+        name: "PRP Injection",
+      },
+      {
+        id: 116,
+        name: "Aspiration",
+      },
+      {
+        id: 117,
+        name: "Catheter drainage",
+      },
+    ],
   },
   {
-    id: 10,
+    id: 12,
     name: "Pulmonary function test (PFT)",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "pulmunory.png",
   },
   {
-    id: 11,
-    name: "Ultrasound guided interventions",
+    id: 13,
+    name: "Uroflow Metry",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "ultrasound-guided.png",
   },
   {
-    id: 12,
-    name: "Pathology",
+    id: 14,
+    name: "EEG",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "service4.webp",
   },
   {
-    id: 13,
-    name: "Blood Pressure monitoring",
+    id: 15,
+    name: "NCV",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "bp.png",
+  },
+  {
+    id: 16,
+    name: "EMG",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "bp.png",
+  },
+  {
+    id: 17,
+    name: "Pathology (Blood Tests)",
+    short_desc:
+      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+    image: "bp.png",
+  },
+  {
+    id: 18,
+    name: "Blood Pressure Monitoring",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "bp.png",

@@ -96,17 +96,17 @@ const Header = () => {
               </div>
               <div className="text-gray-400">|</div>
               <div className="flex items-center">
-                <RiCustomerServiceFill className="text-lightgreen text-4xl" />
+                <RiCustomerServiceFill className="text-lightgreen md:text-4xl text-2xl" />
                 <div className="text-gray-500 text-sm">
                   <h4>For Support</h4>
-                  <div className="text-lightgreen">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 text-lightgreen sm:gap-2">
                     <Link
                       href="tel:+91 9311883059"
                       className="hover:text-primary"
                     >
                       +91 9311883059
-                    </Link>{" "}
-                    |{" "}
+                    </Link>
+
                     <Link
                       href="tel:+011 46536898"
                       className="hover:text-primary"
@@ -234,7 +234,9 @@ const Header = () => {
                                     {submenuItem.submenu.map(
                                       (subsubmenuItem, index) => (
                                         <Link
-                                        onMouseEnter={()=>(console.log(subsubmenuItem.id))}
+                                          onMouseEnter={() =>
+                                            console.log(subsubmenuItem.id)
+                                          }
                                           onClick={handleCloseNavbar}
                                           href={subsubmenuItem.path}
                                           key={index}
