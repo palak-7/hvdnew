@@ -1,9 +1,19 @@
 "use client";
 
 import React from "react";
-import ImageGallery from "react-image-gallery";
+import { MdCastForEducation } from "react-icons/md";
+import { FaPenFancy } from "react-icons/fa";
+import { MdCardMembership } from "react-icons/md";
+import { MdFolderSpecial } from "react-icons/md";
+import { useState } from "react";
+
 import Image from "next/image";
 const Drrohitsingla = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
   const data = [
     {
       original: "/team/dr5.jpg",
@@ -24,64 +34,90 @@ const Drrohitsingla = () => {
   ];
   return (
     <div>
-      <div className="lg:grid grid-cols-2 lg:mx-20 lg:mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center bg-lightgreen">
         <Image
           src="/team/dr5.jpg"
           width={1000}
           height={1000}
-          className="w-full"
+          className="w-full px-10 lg:px-20 lg:pt-5  pb-5"
           alt="dr-rohit-singla"
         />
-        <div className="mx-10 lg:mt-0 my-10 leading-loose">
+        <div className="mx-5 leading-loose">
           <div>
-            <h1 className="text-4xl font-extrabold text-primary">
+            <h1 className="text-4xl font-extrabold text-white mb-2">
               Dr. Rohit Singla
             </h1>
-            <h3 className="text-primary font-semibold leading-relaxed">
+
+            <h3 className="text-white font-semibold leading-relaxed mb-4">
               MBBS (AIIMS), MD (AIIMS) <br /> DM Cardiology <br /> Senior
               Consultant Interventional Cardiologist
             </h3>
+          </div>
+        </div>
+      </div>
 
-            <div className="border border-lightgreen"></div>
+      <div
+        className="mx-5 lg:mx-10 mt-10 p-10 rounded-xl"
+        style={{
+          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+        }}
+      >
+        <div className="inline-block">
+          <h2 className="text-4xl font-semibold text-gray-700 ">
+            About Dr. Rohit Singla{" "}
+            <div className="border-t border-blue-700 my-2 font-extrabold"></div>
+          </h2>
+        </div>
+        <p className="text-justify leading-relaxed text-black dark:text-black pt-2">
+          Dr. Rohit Singla is one of the leading interventional cardiologist of
+          Delhi with more than 11 years of experience in interventional
+          cardiology. Dr. Rohit Singla is an alumnus from AIIMS, New Delhi. He
+          received his cardiology training at SMS Medical College, Jaipur.
+        </p>
 
-            <p className="text-justify leading-relaxed dark:text-black">
-              Dr. Rohit Singla is one of the leading interventional cardiologist
-              of Delhi with more than 11 years of experience in interventional
-              cardiology. Dr. Rohit Singla is an alumnus from AIIMS, New Delhi.
-              He received his cardiology training at SMS Medical College,
-              Jaipur.
-            </p>
-
-            <p className="text-justify leading-relaxed mt-2 dark:text-black">
+        {isExpanded && (
+          <>
+            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
               Dr Rohit Singla has been performing complex interventional
               procedures for nearly a decade with highly successful outcomes. He
               is also trained in the trans-radial angioplasty and is one of the
               few doctors who perform it regularly.
             </p>
 
-            <p className="text-justify leading-relaxed mt-2 dark:text-black">
-              Dr. RohitS ingla has been involved in academics and research from
+            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
+              Dr. Rohit Singla has been involved in academics and research from
               his days at AIIMS. He has more than 15 publications in various
               national and international journals. He is also a reviewer for
               many cardiology journals.
             </p>
 
-            <p className="text-justify leading-relaxed mt-2 dark:text-black">
+            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
               Dr. Rohit Singla is a life member of multiple national and
               international professional organizations in the field of
               cardiology such as SCAI.
             </p>
-          </div>
-        </div>
+          </>
+        )}
+
+        <button
+          onClick={toggleReadMore}
+          className="mt-4 text-white bg-blue-800 px-6 py-2 rounded-3xl hover:bg-blue-700 transition-all duration-300"
+        >
+          {isExpanded ? "Read Less" : "Read More"}
+        </button>
       </div>
 
-      <div className="relative lg:mx-10  bg-white shadow-xl ring-1 ring-gray-900/5 rounded-md sm:px-6 px-4 mb-10">
+      <div className="relative lg:mx-10  bg-white shadow-xl ring-1 ring-gray-900/5 rounded-md sm:px-6 px-4 mb-10 mt-10">
         <div className="w-full divide-y divide-neutral-200">
           {/** EDUCATION Section **/}
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span>EDUCATION</span>
+                <span className="flex gap-1 items-center">
+                  {" "}
+                  <MdCastForEducation className="text-lightgreen font-extrabold" />{" "}
+                  EDUCATION
+                </span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
                     fill="none"
@@ -117,7 +153,11 @@ const Drrohitsingla = () => {
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span>WORK EXPERIENCE</span>
+                <span className="flex gap-1 items-center">
+                  {" "}
+                  <FaPenFancy className="text-lightgreen font-extrabold" /> WORK
+                  EXPERIENCE
+                </span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
                     fill="none"
@@ -153,7 +193,11 @@ const Drrohitsingla = () => {
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span>MEMBERSHIPS</span>
+                <span className="flex gap-1 items-center">
+                  {" "}
+                  <MdCardMembership className="text-lightgreen font-extrabold" />{" "}
+                  MEMBERSHIPS
+                </span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
                     fill="none"
@@ -184,7 +228,11 @@ const Drrohitsingla = () => {
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span>FELLOWSHIPS</span>
+                <span className="flex gap-1 items-center">
+                  {" "}
+                  <MdFolderSpecial className="text-lightgreen font-extrabold" />{" "}
+                  FELLOWSHIPS
+                </span>
                 <span className="transition-transform duration-200 group-open:rotate-180">
                   <svg
                     fill="none"
