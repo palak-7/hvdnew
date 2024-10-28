@@ -39,13 +39,15 @@ const Success = () => {
     },
     {
       title: "Cardiology Care",
-      description: "Comprehensive cardiology services available from 8 AM to 8 PM.",
+      description:
+        "Comprehensive cardiology services available from 8 AM to 8 PM.",
       img: "/success/heart.png",
       alt: "heart",
     },
     {
       title: "Expert Breast Radiology",
-      description: "Subspecialty experience in breast radiology with over 13 years of expertise.",
+      description:
+        "Subspecialty experience in breast radiology with over 13 years of expertise.",
       img: "/success/radiology.png",
       alt: "radiology",
     },
@@ -62,18 +64,20 @@ const Success = () => {
       alt: "ultrasound procedures",
     },
   ];
-const story = [
-  {
-    id: "1",
-    name: "Timely Diagnosis and Intervention",
-    content: "A middle-aged patient came to Health Vista Diagnostics with unexplained abdominal pain. Our advanced imaging technology quickly identified a rare vascular condition. Thanks to our inhouse interventional radiology services, we were able to perform a minimally invasive procedure, preventing a potentially life-threatening complication and ensuring a swift recovery."
-  },
-  {
-    id: "2",
-    name: "Diagnostic Imaging and Biopsy for Suspicious Breast Mass and Axillary Node",
-    content: "56 yr old female presented with breast lump for 2 months. It was painless. She had another palpable lesion in left axilla. Her ultrasound breast and mammography suggested suspicious for malignancy BIRADS 4c with suspicious nodes. She was advised biopsy from breast mass and fnac from node. We did both under ultrasound guidance. The images depict precise placement of needle within the mass and lymph node."
-  }
-]
+  const story = [
+    {
+      id: "1",
+      name: "patient was examined",
+      content:
+        "A 56 year old female, resident of guwahati, visited delhi for her husband’s surgery. She herself was suffering from right cervical swelling with other symptoms such as weakness, malaise and evening rise of temperature.FNAC was done from cervical swelling but no definite diagnosis was made and her agony persisted.She was referred to us for guided FNAC / biopsy so that we reach definite diagnosis this time.",
+    },
+    {
+      id: "2",
+      name: "Diagnostic Imaging and Biopsy for Suspicious Breast Mass and Axillary Node",
+      content:
+        "56 yr old female presented with breast lump for 2 months. It was painless. She had another palpable lesion in left axilla. Her ultrasound breast and mammography suggested suspicious for malignancy BIRADS 4c with suspicious nodes. She was advised biopsy from breast mass and fnac from node. We did both under ultrasound guidance. The images depict precise placement of needle within the mass and lymph node.",
+    },
+  ];
   return (
     <div className="lg:relative z-20">
       <Image
@@ -89,20 +93,30 @@ const story = [
         {/* Left Section */}
         <div className="col-span-3 bg-white border-r-bluelightest border-r-4 z-30">
           <div className="mx-10">
-            <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10">Success Stories</h1>
+            <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10">
+              Success Stories
+            </h1>
             <Slider {...settings}>
               {story.map((s) => (
-                <div key={s.id} className="flex flex-col max-w-md align-center justify-between border border-gray-200 bg-white rounded-xl shadow-md">
+                <div
+                  key={s.id}
+                  className="flex flex-col max-w-md align-center justify-between border border-gray-200 bg-white rounded-xl shadow-md"
+                >
                   <div className="flex flex-col px-6 pt-8 mb-10 space-y-5">
                     <div className="flex justify-center">
-                      <svg width="36" height="32" fill="none" className="text-gray-A400 text-bluelightest fill-current">
+                      <svg
+                        width="36"
+                        height="32"
+                        fill="none"
+                        className="text-gray-A400 text-bluelightest fill-current"
+                      >
                         <path d="M24 7.3h-5.1L22.3.4H17l-3.4 6.9v10.3H24V7.3zM10.3 17.6V7.3H5L8.6.4H3.4L0 7.3v10.3h10.3z" />
                       </svg>
                     </div>
-                    <h2 className="font-bold text-center text-primary">{s.name}</h2>
-                    <p className="text-sm dark:text-black">
-                      {s.content}
-                    </p>
+                    <h2 className="font-bold text-center text-primary">
+                      {s.name}
+                    </h2>
+                    <p className="text-sm dark:text-black">{s.content}</p>
                   </div>
                   <div className="border-8 border-bluelightest mx-8 my-7"></div>
                 </div>
@@ -110,13 +124,20 @@ const story = [
             </Slider>
           </div>
           <div className="flex justify-center mt-10">
-            <Link href="/" className="bg-lightgreen py-2 text-white px-4 rounded-md">Know More</Link>
+            <Link
+              href="/"
+              className="bg-lightgreen py-2 text-white px-4 rounded-md"
+            >
+              Know More
+            </Link>
           </div>
         </div>
 
         {/* Right Section */}
         <div className="col-span-5 z-10">
-          <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 text-center">Why choose HVD ?</h1>
+          <h1 className="font-extrabold text-3xl text-primary mb-10 pt-10 text-center">
+            Why choose HVD ?
+          </h1>
           <div>
             {services.map((service, index) => (
               <div
