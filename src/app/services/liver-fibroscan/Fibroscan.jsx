@@ -71,7 +71,7 @@ const Fibroscan = () => {
                     className="rounded-md"
                     width={1000}
                     height={1000}
-                    alt="xray"
+                    alt="fabroscan"
                   />
                 </div>
               </div>
