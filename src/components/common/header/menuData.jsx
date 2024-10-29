@@ -89,13 +89,13 @@ const menuData = [
       {
         id: 43,
         title: "Color Doppler",
-        path: "/color-doppler",
+        path: "/services/color-doppler",
         newTab: false,
       },
       {
         id: 44,
         title: "Liver fibroscan",
-        path: "/liver-fibroscan",
+        path: "/services/liver-fibroscan",
         newTab: false,
       },
       {

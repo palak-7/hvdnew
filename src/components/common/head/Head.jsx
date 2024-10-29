@@ -18,7 +18,7 @@ const Head = ({ service }) => {
         </div>
         <div className="row-start-5 flex justify-center">
           <Link
-            href={`/services/${service.url}`}
+            href={"/contact"}
             className="bg-lightgreen shadow-white text-xl duration-300 hover:scale-105 shadow-md text-white rounded-md flex items-center px-9"
           >
             Book Now
