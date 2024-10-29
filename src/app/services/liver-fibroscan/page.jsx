@@ -1,5 +1,5 @@
 import React from "react";
-import Fibroscan from "./fibroscan";
+import Fibroscan from "./Fibroscan";
 
 const page = () => {
   return (
