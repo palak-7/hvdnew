@@ -51,7 +51,7 @@ const Drrishusangal = () => {
             <div className="border-t border-blue-700 my-2 font-extrabold"></div>
           </h2>
         </div>
-        <p className="text-justify">
+        <p className="text-justify dark:text-black">
           Dr. Rishu Sangal is dedicated radiologist and skilled practitioner
           with more than 13 years of experience.{" "}
           <strong>
