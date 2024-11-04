@@ -31,7 +31,7 @@ const Detailed = ({ url }) => {
                   </del> */}
                 </div>
                 <Link
-                  href="/"
+                  href="/contact"
                   className="bg-lightgreen text-white px-3 py-2 rounded-md text-lg font-bold mt-2"
                 >
                   Book Now
@@ -74,6 +74,15 @@ const Detailed = ({ url }) => {
               </tbody>
             </table>
           </div>
+
+          {p.newInfo ? (
+            <h1
+              className={`border-b bg-gray-100 hover:bg-gray-200 transition-colors duration-300 py-5 px-5 mt-10 flex gap-2 items-center`}
+            >
+              <GiCheckMark className="mr-2 text-green-600" />
+              {p.newInfo}
+            </h1>
+          ) : null}
         </div>
         {/* <div className="lg:block hidden">
           <Sidebar url={p.url} />

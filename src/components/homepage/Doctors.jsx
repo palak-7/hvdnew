@@ -8,7 +8,7 @@ const Doctors = () => {
         <h1 className="text-lightblue text-3xl font-extrabold mb-2">
           Meet Our Expert Team
         </h1>
-        <p className="text-lightblue text-xl text-center">
+        <p className="text-lightblue text-xl text-center font-semibold">
           Dedicated Professionals Committed to Your Health and Well-being
         </p>
       </div>
@@ -19,7 +19,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/doctors/dr1.png"
+              src="/team/dr1.jpg"
               alt="Dr. B.S. Singla"
               width={150}
               height={150}
@@ -43,7 +43,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/doctors/dr2.png"
+              src="/team/dr7.jpg"
               alt="Dr. Rohit Singla"
               width={150}
               height={150}
@@ -54,12 +54,11 @@ const Doctors = () => {
             Dr. Rohit Singla
           </h1>
           <h2 className="text-md text-center text-lightblue">
-            Director & Senior Consultant Interventional Cardiology
+            Senior Consultant Interventional Cardiologist
           </h2>
           <div className="border border-lightblue my-4 w-full"></div>
           <p className="text-gray-800 text-center text-sm">
-            MBBS, MD ( AIIMS ) <br />
-            DM ( CARDIOLOGY )
+            MBBS (AIIMS), MD (AIIMS), DM Cardiology
           </p>
         </Link>
         <Link
@@ -68,7 +67,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/doctors/dr3.png"
+              src="/team/rishumam.jpg"
               alt="Dr. Rishu Sangal"
               width={150}
               height={150}
@@ -79,11 +78,11 @@ const Doctors = () => {
             Dr. Rishu Sangal
           </h1>
           <h2 className="text-md text-center text-lightblue">
-            Consultant Physician & Non Invasive Cardiologist
+            Senior Consultant <br /> Radiologist
           </h2>
           <div className="border border-lightblue my-4 w-full"></div>
           <p className="text-gray-800 text-center text-sm">
-            MBBS, MD (Medicine), FIAE (Echocardiography)
+            MBBS, MD (Radiology), Oncoradiology
           </p>
         </Link>
       </div>

@@ -96,10 +96,10 @@ const Reviews = () => {
           </div>
 
           <p className="line-clamp-3 my-4 mb-0 text-base font-normal leading-relaxed tracking-wide text-gray-400">
-            I highly recommend health vista Diagnostics for their professionalism
-            and accuracy. The staff made me feel comfortable during the tests,
-            and the results were delivered in a timely manner. A reliable choice
-            for health vista diagnostics.
+            I highly recommend health vista Diagnostics for their
+            professionalism and accuracy. The staff made me feel comfortable
+            during the tests, and the results were delivered in a timely manner.
+            A reliable choice for health vista diagnostics.
           </p>
 
           <div className="flex flex-col justify-end mt-6">
@@ -129,7 +129,7 @@ const Reviews = () => {
           <div className="flex flex-col justify-end mt-6">
             <div>
               <p className="leading-relaxed tracking-wide text-gray-600">
-                Abinav Vats
+                Abhinav Vats
               </p>
             </div>
           </div>

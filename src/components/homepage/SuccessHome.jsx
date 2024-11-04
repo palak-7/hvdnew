@@ -2,13 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
+import { story } from "@/data/success";
 import { GrPrevious, GrNext } from "react-icons/gr";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
 
-const Success = () => {
+const SuccessHome = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -64,20 +65,7 @@ const Success = () => {
       alt: "ultrasound procedures",
     },
   ];
-  const story = [
-    {
-      id: "1",
-      name: "patient was examined",
-      content:
-        "A 56 year old female, resident of guwahati, visited delhi for her husband’s surgery. She herself was suffering from right cervical swelling with other symptoms such as weakness, malaise and evening rise of temperature.FNAC was done from cervical swelling but no definite diagnosis was made and her agony persisted.She was referred to us for guided FNAC / biopsy so that we reach definite diagnosis this time.",
-    },
-    {
-      id: "2",
-      name: "Diagnostic Imaging and Biopsy for Suspicious Breast Mass and Axillary Node",
-      content:
-        "56 yr old female presented with breast lump for 2 months. It was painless. She had another palpable lesion in left axilla. Her ultrasound breast and mammography suggested suspicious for malignancy BIRADS 4c with suspicious nodes. She was advised biopsy from breast mass and fnac from node. We did both under ultrasound guidance. The images depict precise placement of needle within the mass and lymph node.",
-    },
-  ];
+
   return (
     <div className="lg:relative z-20">
       <Image
@@ -116,20 +104,21 @@ const Success = () => {
                     <h2 className="font-bold text-center text-primary">
                       {s.name}
                     </h2>
-                    <p className="text-sm dark:text-black">{s.content}</p>
+                    <p className="text-sm dark:text-black line-clamp-3">{s.content}</p>
                   </div>
                   <div className="border-8 border-bluelightest mx-8 my-7"></div>
+
+                  <div className="flex justify-center pb-5">
+                    <Link
+                      href={`/successStories/${s.id}`}
+                      className="bg-lightgreen py-2 text-white px-4 rounded-md"
+                    >
+                      Know More
+                    </Link>
+                  </div>
                 </div>
               ))}
             </Slider>
-          </div>
-          <div className="flex justify-center mt-10">
-            <Link
-              href="/"
-              className="bg-lightgreen py-2 text-white px-4 rounded-md"
-            >
-              Know More
-            </Link>
           </div>
         </div>
 
@@ -157,7 +146,7 @@ const Success = () => {
                 <div className="col-span-3 flex items-center lg:ml-0 ml-3">
                   <div>
                     <h2 className="text-primary font-bold">{service.title}</h2>
-                    <p className="text-sm">{service.description}</p>
+                    <p className="text-sm dark:text-black">{service.description}</p>
                   </div>
                 </div>
               </div>
@@ -169,4 +158,4 @@ const Success = () => {
   );
 };
 
-export default Success;
+export default SuccessHome;

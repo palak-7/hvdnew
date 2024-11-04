@@ -8,7 +8,10 @@ const Testimonials = () => {
           <h1 className="text-lightblue text-3xl font-extrabold mb-2">
             Testimonials
           </h1>
-          <p className="text-lightblue text-lg">What our customers say</p>
+          {/* <h3 className="text-lightblue text-lg font-semibold"></h3> */}
+          <h3 className="text-lightblue text-xl font-semibold">
+          "What our patients say"
+        </h3>
         </div>
         <div className="lg:grid grid-cols-3 mx-5 space-x-4 ">
           <section className="bg-white mb-10 mt-5  border-lightgreen border-2 rounded-[10%] dark:bg-white">

@@ -68,12 +68,12 @@ const Contact = () => {
               href="https://www.google.com/maps/place/Health+Vista+Diagnostics+-+Best+Diagnostic+centre+in+Pitampura+%7C+Interventional+Radiology+%7C+Cardiology+%7C+ECG+in+Pitampura/@28.700161,77.126535,16z/data=!4m6!3m5!1s0x390d03a69dcf1acd:0x46473ecd32974e35!8m2!3d28.7001605!4d77.1265346!16s%2Fg%2F11y1m4m_hx?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex"
+              className="flex text-primary hover:text-lightgreen"
             >
               <div>
-                <IoLocationSharp className="mt-1 mr-1 text-[#25d366] text-xl" />
+                <IoLocationSharp className="mt-1 mr-1" />
               </div>
-              <p className="font-semibold flex">
+              <p className="font-semibold flex ">
                 C 546, Upper Ground floor, near Pitampura, Block C, Saraswati
                 Vihar, Pitampura, Delhi, 110034
               </p>

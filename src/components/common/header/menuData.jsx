@@ -17,13 +17,13 @@ const menuData = [
     submenu: [
       {
         id: 31,
-        title: "HVD Essential",
+        title: "HVD ESSENTIAL",
         path: "/health-packages/hvd-essential",
         newTab: false,
       },
       {
         id: 32,
-        title: "HVD Advance",
+        title: "HVD ADVANCE",
         path: "/health-packages/hvd-advance",
         newTab: false,
       },
@@ -76,31 +76,31 @@ const menuData = [
     submenu: [
       {
         id: 41,
-        title: "Digital X-Ray",
+        title: "DIGITAL X-RAY",
         path: "/services/digital-xray",
         newTab: false,
       },
       {
         id: 42,
-        title: "Ultrasound",
+        title: "ULTRASOUND",
         path: "/services/ultrasound",
         newTab: false,
       },
       {
         id: 43,
-        title: "Color Doppler",
+        title: "COLOR DOPPLER",
         path: "/services/color-doppler",
         newTab: false,
       },
       {
         id: 44,
-        title: "Liver fibroscan",
+        title: "LIVER FIBROSCAN",
         path: "/services/liver-fibroscan",
         newTab: false,
       },
       {
         id: 45,
-        title: "Breast elastography",
+        title: "BREAST ELASTOGRAPHY",
         path: "/breast-elastrography",
         newTab: false,
       },
@@ -111,13 +111,13 @@ const menuData = [
         submenu: [
           {
             id: 461,
-            title: "ECG testing",
+            title: "ECG TESTING",
             path: "/ecg-testing",
             newTab: false,
           },
           {
             id: 462,
-            title: "ECG monitoring (at home)",
+            title: "ECG MONITORING (AT HOME)",
             path: "/ecg-monitoring",
             newTab: false,
           },
@@ -125,7 +125,7 @@ const menuData = [
       },
       {
         id: 47,
-        title: "24 Hour Holter Monitoring",
+        title: "24 HOUR HOLTER MONITORING",
         path: "/24hour-holter-monitoring",
         newTab: false,
       },
@@ -147,25 +147,25 @@ const menuData = [
           },
           {
             id: 482,
-            title: "Exercise Stress Echo",
+            title: "EXERCISE STRESS ECHO",
             path: "/exercise-stress-echo",
             newTab: false,
           },
           {
             id: 483,
-            title: "Dobutamine Stress Echo",
+            title: "DOBUTAMINE STRESS ECHO",
             path: "/dobutamine-stress-echo",
             newTab: false,
           },
           {
             id: 484,
-            title: "Pediatric Echo",
+            title: "PEDIATRIC ECHO",
             path: "/pediatric-echo",
             newTab: false,
           },
           {
             id: 485,
-            title: "Fetal Echo",
+            title: "FETAL ECHO",
             path: "/fetal-echo",
             newTab: false,
           },
@@ -181,13 +181,13 @@ const menuData = [
 
       {
         id: 50,
-        title: "Ambulatory BP monitoring (ABPM)",
+        title: "AMBULATORY BP MONITORING (ABPM)",
         path: "/ambulatory-bp-monitoring",
         newTab: false,
       },
       {
         id: 51,
-        title: "Ultrasound guided interventions",
+        title: "ULTRASOUND GUIDED INTERVENTIONS",
         submenu: [
           {
             id: 510,
@@ -197,39 +197,39 @@ const menuData = [
           },
           {
             id: 511,
-            title: "Biopsy",
+            title: "BIOPSY",
             path: "/biopsy",
             newTab: false,
           },
           {
             id: 512,
-            title: "Breast Biopsy",
+            title: "BREAST BIOPSY",
             path: "/breast-biopsy",
             newTab: false,
           },
 
           {
             id: 513,
-            title: "Pain Injection",
+            title: "PAIN INJECTION",
             path: "/pain-injection",
             newTab: false,
           },
           {
             id: 514,
-            title: "PRP Injection",
+            title: "PRP INJECTION",
             path: "/prp injection",
             newTab: false,
           },
 
           {
             id: 515,
-            title: "Aspiration",
+            title: "ASPIRATION",
             path: "/aspiration",
             newTab: false,
           },
           {
             id: 516,
-            title: "Catheter Drainage",
+            title: "CATHETER DRAINAGE",
             path: "/catheter-drainage",
             newTab: false,
           },
@@ -237,13 +237,13 @@ const menuData = [
       },
       {
         id: 52,
-        title: "Pulmonary Function Test (PFT)",
+        title: "PULMONARY FUNCTION TEST (PFT)",
         path: "/pulmonary-function-test",
         newTab: false,
       },
       {
         id: 53,
-        title: "Uroflow metry",
+        title: "UROFLOW METRY",
         path: "/uroflometry",
         newTab: false,
       },
@@ -268,13 +268,13 @@ const menuData = [
 
       {
         id: 57,
-        title: "Pathology (Blood Tests)",
+        title: "PATHOLOGY (BLOOD TESTS)",
         path: "/pathology",
         newTab: false,
       },
       {
         id: 58,
-        title: "Blood Pressure Monitoring",
+        title: "BLOOD PRESSURE MONITORING",
         path: "/blood-pressure-monitoring",
         newTab: false,
       },
@@ -286,12 +286,6 @@ const menuData = [
     path: "/contact",
     newTab: false,
   },
-  //   {
-  //     id: 5,
-  //     title: "Team",
-  //     path: "/team",
-  //     newTab: false,
-  //   },
   {
     id: 6,
     title: "More",
@@ -299,19 +293,25 @@ const menuData = [
     submenu: [
       {
         id: 61,
-        title: "Our Doctor",
+        title: "OUR DOCTOR",
         path: "/our-team",
         newTab: false,
       },
       {
         id: 62,
-        title: "Updates and Events",
+        title: "UPDATES AND EVENTS",
         path: "/updates-and-events",
         newTab: false,
       },
       {
         id: 63,
-        title: "Gallery",
+        title: "SUCCESS STORIES",
+        path: "/successStories",
+        newTab: false,
+      },
+      {
+        id: 64,
+        title: "GALLERY",
         path: "/gallery",
         newTab: false,
       },

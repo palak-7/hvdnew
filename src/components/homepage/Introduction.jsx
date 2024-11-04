@@ -54,7 +54,7 @@ const Introduction = () => {
             </div>
           </div>
           <div className="">
-            <Link href="/" className="bg-lightgreen py-2 px-3 rounded-md">
+            <Link href="/contact" className="bg-lightgreen py-2 px-3 rounded-md">
               Book Online
             </Link>
           </div>

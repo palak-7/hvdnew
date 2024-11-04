@@ -9,7 +9,7 @@ const Xray = () => {
   return (
     <div className="dark:bg-white">
       <Head service={servicesdata[0]} />
-      <div className="lg:relative">
+      {/* <div className="lg:relative">
         <Image
           src="/services/xray/overview2.png"
           width={10000}
@@ -37,7 +37,7 @@ const Xray = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ques 2 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
@@ -49,10 +49,10 @@ const Xray = () => {
                 </h1>
                 <p className="text-lg mt-3">{servicesdata[0].content[1].ans}</p>
               </div>
-              <div className="col-span-2 p-4">
+              <div className="col-span-2">
                 <div>
                   <Image
-                    src="/services/xray/xray-1.png"
+                    src="/services/xray/xraynew.jpg"
                     className="rounded-md"
                     width={1000}
                     height={1000}
@@ -85,8 +85,8 @@ const Xray = () => {
                   {servicesdata[0].content[2].ques}
                 </h1>
                 <p className="text-lg mt-2">
-                  Preparation for an X-ray depends on the type of X-ray you&apos;re
-                  getting. Your provider may ask you to:
+                  Preparation for an X-ray depends on the type of X-ray
+                  you&apos;re getting. Your provider may ask you to:
                 </p>
                 <table className="text-lg mt-3 w-full">
                   <tbody>
@@ -144,6 +144,23 @@ const Xray = () => {
                 </table>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-x-hidden">
+        <div className="lg:grid grid-cols-12 mb-5 bg-skyblue">
+          <div className="col-start-2 col-span-4 py-5">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>

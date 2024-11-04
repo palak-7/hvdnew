@@ -1,5 +1,5 @@
 import AboutUs from "@/components/homepage/AboutUs";
-import Success from "@/components/homepage/Success";
+import Success from "@/components/homepage/SuccessHome";
 import React from "react";
 
 const About = () => {

@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    name: "HVD Essential",
+    name: "HVD ESSENTIAL",
     url: "hvd-essential",
     image: "/packages/new-1.png",
     number: 26,
@@ -45,10 +45,11 @@ export const data = [
     ],
     price: "1999",
     cancelled: "2400",
+    newInfo: "chest x ray, ecg and ultrasound abdomen for just Rs. 2000",
   },
   {
     id: 2,
-    name: "HVD Advance",
+    name: "HVD ADVANCE",
     url: "hvd-advance",
     image: "/packages/new-2.png",
     number: 56,
@@ -100,6 +101,7 @@ export const data = [
     ],
     price: "2999 ",
     cancelled: "4400",
+    newInfo: "chest x ray, ecg and ultrasound abdomen for just Rs. 2000",
   },
   {
     id: 3,

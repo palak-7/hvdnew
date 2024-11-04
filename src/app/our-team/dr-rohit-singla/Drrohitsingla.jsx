@@ -1,19 +1,10 @@
 "use client";
 
 import React from "react";
-import { MdCastForEducation } from "react-icons/md";
-import { FaPenFancy } from "react-icons/fa";
-import { MdCardMembership } from "react-icons/md";
-import { MdFolderSpecial } from "react-icons/md";
-import { useState } from "react";
-
+import { PiCaretCircleRightBold } from "react-icons/pi";
 import Image from "next/image";
 const Drrohitsingla = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleReadMore = () => {
-    setIsExpanded(!isExpanded);
-  };
+  
   const data = [
     {
       original: "/team/dr5.jpg",
@@ -34,233 +25,150 @@ const Drrohitsingla = () => {
   ];
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center bg-lightgreen">
+      <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
         <Image
           src="/team/dr5.jpg"
           width={1000}
           height={1000}
-          className="w-full px-10 lg:px-20 lg:pt-5  pb-5"
-          alt="dr-rohit-singla"
+          className="w-full lg:px-20 lg:pt-5 pb-5"
+          alt="dr-rishu-singal"
         />
-        <div className="mx-5 leading-loose">
+        <div className="mx-10 leading-loose lg:mt-10">
           <div>
-            <h1 className="text-4xl font-extrabold text-white mb-2">
+            <h1 className="text-4xl font-extrabold text-black">
               Dr. Rohit Singla
             </h1>
-
-            <h3 className="text-white font-semibold leading-relaxed mb-4">
+            <h3 className="text-blue-500 font-semibold text-xl">
               MBBS (AIIMS), MD (AIIMS) <br /> DM Cardiology <br /> Senior
               Consultant Interventional Cardiologist
             </h3>
           </div>
+          <div>
+            <div className="inline-block">
+              <h1 className="text-3xl mt-5 font-semibold">BRIEF PROFILE</h1>
+              <div className="border border-lightgreen"></div>
+            </div>
+            <p className="text-justify dark:text-black text-xl">
+              Dr. Rohit Singla is one of the leading interventional cardiologist
+              of Delhi with more than 11 years of experience in interventional
+              cardiology. Dr. Rohit Singla is an alumnus from AIIMS, New Delhi.
+              He received his cardiology training at SMS Medical College,
+              Jaipur.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div
-        className="mx-5 lg:mx-10 mt-10 p-10 rounded-xl"
-        style={{
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-        }}
-      >
-        <div className="inline-block">
-          <h2 className="text-4xl font-semibold text-gray-700 ">
-            About Dr. Rohit Singla{" "}
-            <div className="border-t border-blue-700 my-2 font-extrabold"></div>
-          </h2>
-        </div>
-        <p className="text-justify leading-relaxed text-black dark:text-black pt-2">
-          Dr. Rohit Singla is one of the leading interventional cardiologist of
-          Delhi with more than 11 years of experience in interventional
-          cardiology. Dr. Rohit Singla is an alumnus from AIIMS, New Delhi. He
-          received his cardiology training at SMS Medical College, Jaipur.
+      <div className="mx-5 lg:mx-10 px-10 py-4 rounded-xl">
+        <p className="text-justify leading-relaxed text-black dark:text-black text-xl">
+          Dr Rohit Singla has been performing complex interventional procedures
+          for nearly a decade with highly successful outcomes. He is also
+          trained in the trans-radial angioplasty and is one of the few doctors
+          who perform it regularly.
         </p>
 
-        {isExpanded && (
-          <>
-            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
-              Dr Rohit Singla has been performing complex interventional
-              procedures for nearly a decade with highly successful outcomes. He
-              is also trained in the trans-radial angioplasty and is one of the
-              few doctors who perform it regularly.
-            </p>
+        <p className="text-justify leading-relaxed mt-2 text-black dark:text-black text-xl">
+          Dr. Rohit Singla has been involved in academics and research from his
+          days at AIIMS. He has more than 15 publications in various national
+          and international journals. He is also a reviewer for many cardiology
+          journals.
+        </p>
 
-            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
-              Dr. Rohit Singla has been involved in academics and research from
-              his days at AIIMS. He has more than 15 publications in various
-              national and international journals. He is also a reviewer for
-              many cardiology journals.
-            </p>
-
-            <p className="text-justify leading-relaxed mt-2 text-black dark:text-black">
-              Dr. Rohit Singla is a life member of multiple national and
-              international professional organizations in the field of
-              cardiology such as SCAI.
-            </p>
-          </>
-        )}
-
-        <button
-          onClick={toggleReadMore}
-          className="mt-4 text-white bg-blue-800 px-6 py-2 rounded-3xl hover:bg-blue-700 transition-all duration-300"
-        >
-          {isExpanded ? "Read Less" : "Read More"}
-        </button>
+        <p className="text-justify leading-relaxed mt-2 text-black dark:text-black text-xl">
+          Dr. Rohit Singla is a life member of multiple national and
+          international professional organizations in the field of cardiology
+          such as SCAI.
+        </p>
       </div>
 
-      <div className="relative lg:mx-10  bg-white shadow-xl ring-1 ring-gray-900/5 rounded-md sm:px-6 px-4 mb-10 mt-10">
-        <div className="w-full divide-y divide-neutral-200">
-          {/** EDUCATION Section **/}
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span className="flex gap-1 items-center">
-                  {" "}
-                  <MdCastForEducation className="text-lightgreen font-extrabold" />{" "}
-                  EDUCATION
-                </span>
-                <span className="transition-transform duration-200 group-open:rotate-180">
-                  <svg
-                    fill="none"
-                    height="24"
-                    shape-rendering="geometricPrecision"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    width="24"
-                  >
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside dark:text-black">
-                  <li>
-                    MBBS: All India Institute of Medical Sciences, New Delhi
-                  </li>
-                  <li>
-                    MD (Medicine): All India Institute of Medical Sciences, New
-                    Delhi
-                  </li>
-                  <li>DM Cardiology: SMS Hospital, Jaipur, Rajasthan</li>
-                </ul>
-              </div>
-            </details>
-          </div>
-
-          {/** WORK EXPERIENCE Section **/}
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span className="flex gap-1 items-center">
-                  {" "}
-                  <FaPenFancy className="text-lightgreen font-extrabold" /> WORK
-                  EXPERIENCE
-                </span>
-                <span className="transition-transform duration-200 group-open:rotate-180">
-                  <svg
-                    fill="none"
-                    height="24"
-                    shape-rendering="geometricPrecision"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    width="24"
-                  >
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside dark:text-black">
-                  <li>2013-2014: Delhi Heart & Lung Institute</li>
-                  <li>2014-2015: Balaji Action Cancer Hospital</li>
-                  <li>
-                    2016-2018: MAX Super Speciality Hospital, Shalimar Bagh
-                  </li>
-                  <li>
-                    2018-till date: Bhagwati Hospital, Rohini Sec-13, Delhi
-                  </li>
-                </ul>
-              </div>
-            </details>
-          </div>
-
-          {/** MEMBERSHIPS Section **/}
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span className="flex gap-1 items-center">
-                  {" "}
-                  <MdCardMembership className="text-lightgreen font-extrabold" />{" "}
-                  MEMBERSHIPS
-                </span>
-                <span className="transition-transform duration-200 group-open:rotate-180">
-                  <svg
-                    fill="none"
-                    height="24"
-                    shape-rendering="geometricPrecision"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    width="24"
-                  >
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside dark:text-black">
-                  <li>Lifetime Member of North Delhi Physician Forum</li>
-                  <li>Lifetime Member of Cardiology Society of India (CSI)</li>
-                  <li>IMA DNZ</li>
-                </ul>
-              </div>
-            </details>
-          </div>
-
-          {/** FELLOWSHIPS Section **/}
-          <div className="py-5">
-            <details className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium dark:text-black">
-                <span className="flex gap-1 items-center">
-                  {" "}
-                  <MdFolderSpecial className="text-lightgreen font-extrabold" />{" "}
-                  FELLOWSHIPS
-                </span>
-                <span className="transition-transform duration-200 group-open:rotate-180">
-                  <svg
-                    fill="none"
-                    height="24"
-                    shape-rendering="geometricPrecision"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    width="24"
-                  >
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <div className="group-open:animate-fadeIn mt-3 text-neutral-600 transition-all duration-300 ease-in-out">
-                <ul className="list-disc list-inside dark:text-black">
-                  <li>
-                    Fellow of the Society for Cardiovascular Angiography and
-                    Interventions (FSCAI)
-                  </li>
-                  <li>Fellow of American College of Cardiology (FACC)</li>
-                </ul>
-              </div>
-            </details>
-          </div>
+      {/** EDUCATION Section **/}
+      <div className="mx-5 lg:mx-10 px-10 rounded-xl">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold">EDUCATION</h1>
+          <div className="border border-lightgreen"></div>
         </div>
+
+        <p className="text-justify leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> MBBS: All India Institute of Medical
+          Sciences, New Delhi
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> MD (Medicine): All India Institute of
+          Medical Sciences, New Delhi
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> DM Cardiology: SMS Hospital, Jaipur,
+          Rajasthan
+        </p>
+      </div>
+
+      {/** EXPERIENCE Section **/}
+      <div className="mx-5 lg:mx-10 px-10 mt-5 rounded-xl">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold">WORK EXPERIENCE </h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <p className="text-justify leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> 2013-2014: Delhi Heart & Lung Institute
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> 2014-2015: Balaji Action Cancer Hospital
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> 2016-2018: MAX Super Speciality Hospital,
+          Shalimar Bagh
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> 2018-till date: Bhagwati Hospital, Rohini
+          Sec-13, Delhi
+        </p>
+      </div>
+
+      {/** MEMBERSHIPS Section **/}
+      <div className="mx-5 lg:mx-10 px-10 mt-5 rounded-xl">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold">MEMBERSHIPS</h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <p className="text-justify leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> Lifetime Member of North Delhi Physician
+          Forum
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> Lifetime Member of Cardiology Society of
+          India (CSI)
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold />
+          IMA DNZ
+        </p>
+      </div>
+
+      {/** FELLOWSHIPS Section **/}
+      <div className="mx-5 lg:mx-10 px-10 py-6 rounded-xl">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold"> FELLOWSHIPS </h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <p className="text-justify leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> Fellow of the Society for Cardiovascular
+          Angiography and Interventions (FSCAI)
+        </p>
+
+        <p className="text-justify leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
+          <PiCaretCircleRightBold /> Fellow of American College of Cardiology
+          (FACC)
+        </p>
       </div>
     </div>
   );
