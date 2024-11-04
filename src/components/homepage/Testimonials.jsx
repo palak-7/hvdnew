@@ -10,7 +10,7 @@ const Testimonials = () => {
           </h1>
           {/* <h3 className="text-lightblue text-lg font-semibold"></h3> */}
           <h3 className="text-lightblue text-xl font-semibold">
-          "What our patients say"
+          &ldquo;What Our Patients Say&rdquo;
         </h3>
         </div>
         <div className="lg:grid grid-cols-3 mx-5 space-x-4 ">
