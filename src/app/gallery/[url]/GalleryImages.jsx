@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/common/Breadcrumbs";
 const GalleryImages = ({ url }) => {
   let findImages = allImages.find((a) => a.categroy === url);
   const arrayImages = findImages.images;
+
   const bread = [
     { id: "1", name: "Home", url: "/", next:true },
     { id: "2", name: "Gallery", url: "/gallery", next: false },

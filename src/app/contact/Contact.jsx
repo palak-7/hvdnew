@@ -3,42 +3,59 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import React from "react";
 import Image from "next/image";
+import { sendFormData } from "@/services/form";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import Link from "next/link";
-import { form } from "@/services/form";
-import { useRouter } from "next/navigation";
 import { IoMdMail } from "react-icons/io";
+import { useRouter } from "next/navigation";
 
 const Contact = () => {
-  const router = useRouter();
-  const [formData, setformData] = useState({
+  const router = useRouter(); 
+  const [file, setFile] = useState(null);
+  const [formData, setFormData] = useState({
     name: "",
-    email: "",
     phone: "",
+    email: "",
     message: "",
   });
 
   const handleChange = (e) => {
-    setformData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await form(formData);
-    console.log(response);
+    const fileData = new FormData();
+
+    fileData.append("myFile", file);
+
+    // Append other form data fields to fileData
+    Object.entries(formData).forEach(([key, value]) => {
+      fileData.append(key, value);
+    });
+
+    const response = await sendFormData(fileData);
+    
     if (response.success) {
       Swal.fire({
-        title: "Form Submitted Successfully!",
-        text: "You clicked the button!",
+        title: "Success",
+        text: "Enquiry Form Sent!",
         icon: "success",
       });
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+      });
+      setFile(null);
       router.push("/");
     } else {
       Swal.fire({
+        title: "Oops!",
+        text: "Can't send enquiry form",
         icon: "error",
-        title: "Oops...",
-        text: "Something went wrong!",
       });
     }
   };
@@ -60,9 +77,7 @@ const Contact = () => {
 
       <div className="grid lg:grid-cols-3 gap-10 mx-4 lg:mx-10 mt-10 p-5">
         <div className="rounded-md">
-          <div
-            className="p-5 rounded-md shadow-lg shadow-lightgreen"
-          >
+          <div className="p-5 rounded-md shadow-lg shadow-lightgreen">
             <h1 className="font-bold text-xl">Our Address</h1>
             <Link
               href="https://www.google.com/maps/place/Health+Vista+Diagnostics+-+Best+Diagnostic+centre+in+Pitampura+%7C+Interventional+Radiology+%7C+Cardiology+%7C+ECG+in+Pitampura/@28.700161,77.126535,16z/data=!4m6!3m5!1s0x390d03a69dcf1acd:0x46473ecd32974e35!8m2!3d28.7001605!4d77.1265346!16s%2Fg%2F11y1m4m_hx?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
@@ -80,10 +95,7 @@ const Contact = () => {
             </Link>
           </div>
         </div>
-        <div
-          className="rounded-md shadow-lg shadow-lightgreen"
-          
-        >
+        <div className="rounded-md shadow-lg shadow-lightgreen">
           <div className="p-5 rounded-md translate-x-3 translate-y-3">
             <h1 className="font-bold text-xl mb-2">Phone Number</h1>
 
@@ -92,23 +104,29 @@ const Contact = () => {
               target="__blank"
               className="flex hover:text-lightgreen font-semibold text-primary duration-300"
             >
-              <IoCall className="mt-1 mr-1" />+91 9311883059
+              <IoCall className="mt-1 mr-1" />
+              +91 9311883059
             </Link>
             <Link
               href="tel:+011 46536898"
               target="__blank"
               className="flex hover:text-lightgreen font-semibold text-primary duration-300"
             >
-              <IoCall className="mt-1 mr-1" />+011 46536898
+              <IoCall className="mt-1 mr-1" />
+              +011 46536898
             </Link>
           </div>
         </div>
-        <div
-          className="rounded-md shadow-lg shadow-lightgreen"
-        >
+        <div className="rounded-md shadow-lg shadow-lightgreen">
           <div className="p-5 rounded-md translate-x-3 translate-y-3">
             <h1 className="font-bold text-xl mb-2">Email Address</h1>
-            <Link href="mailto:healthvista.diagnostics@gmail.com" className="text-primary hover:text-lightgreen duration-300 font-semibold flex "><IoMdMail className="mt-1 mr-1"/>healthvista.diagnostics@gmail.com</Link>
+            <Link
+              href="mailto:healthvista.diagnostics@gmail.com"
+              className="text-primary hover:text-lightgreen duration-300 font-semibold flex "
+            >
+              <IoMdMail className="mt-1 mr-1" />
+              healthvista.diagnostics@gmail.com
+            </Link>
           </div>
         </div>
       </div>
@@ -149,6 +167,23 @@ const Contact = () => {
                 value={formData.phone}
                 onChange={handleChange}
                 required
+              />
+            </div>
+
+            <div>
+              <input
+                type="file"
+                id="medical"
+                placeholder="Upload your medical file"
+                className="border border-gray-300 p-3 rounded-md focus:outline-none focus:border-[#04b67c] w-full"
+                name="medical"
+                accept="image/*, .pdf, .docx, .xlsx,"
+                onChange={({ target }) => {
+                  if (target.files) {
+                    const file = target.files[0];
+                    setFile(file);
+                  }
+                }}
               />
             </div>
 

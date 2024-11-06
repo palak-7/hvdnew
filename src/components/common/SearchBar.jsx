@@ -177,12 +177,16 @@ const SearchBar = () => {
                     className=""
                     onClick={handleResultClick}
                   >
+
                     <li className="hover:bg-blue-100 col-span-5 p-2 text-gray-800 rounded-md transition-colors duration-300">
-                      <div className="flex">
+  
+                     { p.category? (<div className="flex">
                         <div className="bg-blue-800 text-white px-2 py-1 rounded-md text-xs">
                           {p.category}
                         </div>
-                      </div>
+                      </div>): null}
+
+                      
                       <div className="grid grid-cols-6">
                         <div className="col-span-5">{p.name}</div>
                         <p className=" text-lightgreen font-extrabold flex">

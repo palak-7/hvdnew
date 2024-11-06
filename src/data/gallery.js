@@ -67,7 +67,7 @@ export const allImages = [
   },
   {
     id: 5,
-    categroy: "machines",
+    categroy: "instruments",
     images: [
       "instruments/1.jpg",
       "instruments/2.jpg",
@@ -120,7 +120,7 @@ export const allImages = [
       "instruments/5.jpg",
       "instruments/6.jpg",
       "instruments/7.jpg",
-      "instruments/8.jpg",
+      "instruments/8.1.png",
       "instruments/9.1.png",
       "launch_photos/1.jpg",
       "launch_photos/2.jpg",
