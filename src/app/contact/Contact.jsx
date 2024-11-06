@@ -60,7 +60,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="dark:bg-white dark:text-black">
+    <div className="dark:bg-white dark:text-black overflow-x-hidden">
       <div className="relative">
         <Image
           src={`/contact/contact-banner.png`}

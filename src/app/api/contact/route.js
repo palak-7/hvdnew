@@ -77,7 +77,7 @@ export const POST = async (req) => {
       await transporter.sendMail({
         from: process.env.MY_EMAIL,
         to: email,
-        subject: "Thank You for Contacting Health Vista!",
+        subject: "Thank You for Contacting Health Vista Diagnostic Center!",
         html: `<html>
                 <body>
                   <h2>Hey ${name},</h2>
