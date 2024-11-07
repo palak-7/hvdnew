@@ -102,61 +102,6 @@ const Drrishusangal = () => {
         </div>
       </div>
 
-      {/* <div className="lg:mx-20 mx-10 rounded-xl mt-8">
-        <div className="inline-block">
-          <h1 className="text-3xl font-semibold dark:text-black">WORK EXPERIENCE</h1>
-          <div className="border border-lightgreen"></div>
-        </div>
-
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <span className="font-semibold"> July 2011-March 2012:  </span>
-          Department of Radiology,
-          <strong> Bhagwan Mahavir Cancer Hospital, Jaipur,</strong> Rajasthan,
-          India
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <strong> April 2012- July 2013:</strong>
-          Department of Radiology,
-          <strong> Fortis-Escorts Hospital, Jaipur, </strong>
-          Rajasthan, India
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <strong> August 2013-April 2015: </strong>
-          Saral Diagnostic Centre, Pitampura, New Delhi, India
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <strong> June 2016- May 2017: </strong>
-          Department of Radiology, Rajiv Gandhi Cancer Institute, New Delhi,
-          India
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold />
-          <strong> June 2017- till June 2020: </strong> Department of Radiology,
-          Rajiv Gandhi Cancer Institute, New Delhi, India
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold />
-          <strong> July 2020- till Sep 2023: </strong> Department of Radiology,
-          BLK MAX Hospital, New Delhi, India.
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <strong> Sep 2023 till date: </strong>
-          Director & Consultant Radiology, Health Vista Diagnostics, Delhi.
-        </p>
-
-        <p className="text-gray-800 flex gap-2 items-center text-xl">
-          <PiCaretCircleRightBold /> <strong> June 2024 till date: </strong>
-          Senior Consultant Radiology, Andromeda Cancer Hospital, Kundli,
-          Sonipat, Haryana.
-        </p>
-      </div> */}
-
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
