@@ -148,17 +148,17 @@ const Xray = () => {
 
       <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
         <div className="col-start-1 col-span-4 py-4">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            className="rounded-lg shadow-lg lg:h-[315px] lg:w-[560px] h-[200px] w-[350px]"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
+          <div className="relative w-full overflow-hidden rounded-lg shadow-lg aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="absolute top-0 left-0 w-full h-full"
+            />
+          </div>
         </div>
       </div>
     </div>
