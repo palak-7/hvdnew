@@ -18,7 +18,7 @@ const Ultrasound = () => {
         />
         <div className="lg:absolute inset-0 lg:grid grid-cols-12">
           <div className="flex items-center -mt-10 col-start-2 col-span-6">
-            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md dark:text-black">
+            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md dark:text-black lg:mt-0 mt-10">
               <h1 className="font-extrabold text-4xl">
                 {servicesdata[1].content[0].ques}
               </h1>
@@ -28,7 +28,7 @@ const Ultrasound = () => {
               <div className="mt-3">
                 <Link
                   className="bg-lightgreen py-2 px-3 rounded-md text-white shadow-sm shadow-gray-400"
-                  href="/"
+                  href="/contact"
                 >
                   Contact us for best Liver fibroscan
                 </Link>
@@ -143,7 +143,7 @@ const Ultrasound = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center dark:text-black">
+            <div className="lg:grid grid-cols-12 items-center dark:text-black flex flex-col-reverse">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary text-lg font-bold mb-5">
                   An ultrasound is also a helpful way to guide interventinal

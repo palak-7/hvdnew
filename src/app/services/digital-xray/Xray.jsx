@@ -42,23 +42,21 @@ const Xray = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
                   {servicesdata[0].content[1].ques}
                 </h1>
                 <p className="text-lg mt-3">{servicesdata[0].content[1].ans}</p>
               </div>
-              <div className="col-span-2">
-                <div>
-                  <Image
-                    src="/services/xray/xraynew.jpg"
-                    className="rounded-md"
-                    width={1000}
-                    height={1000}
-                    alt="xray"
-                  />
-                </div>
+              <div className="col-span-2 lg:p-10 p-5">
+                <Image
+                  src="/services/xray/xraynew.jpg"
+                  className="rounded-md"
+                  width={1000}
+                  height={1000}
+                  alt="xray"
+                />
               </div>
             </div>
           </div>
@@ -148,21 +146,19 @@ const Xray = () => {
         </div>
       </div>
 
-      <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-5 bg-skyblue">
-          <div className="py-5 ml-5 ">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              className="rounded-lg shadow-lg lg:h-[315px] lg:w-[560px] h-[200px] w-[350px]"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-          </div>
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-start-1 col-span-4 py-4">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            className="rounded-lg shadow-lg lg:h-[315px] lg:w-[560px] h-[200px] w-[350px]"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
         </div>
       </div>
     </div>
