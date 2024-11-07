@@ -148,9 +148,9 @@ const Xray = () => {
         </div>
       </div>
 
-      <div className="overflow-x-hidden">
-        <div className="lg:grid grid-cols-12 mb-5 bg-skyblue">
-          <div className="col-start-2 col-span-4 py-5">
+      <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-5 bg-skyblue">
+          <div className="py-5 ml-5 ">
             <iframe
               width="560"
               height="315"
@@ -158,6 +158,7 @@ const Xray = () => {
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              className="rounded-lg shadow-lg lg:h-[315px] lg:w-[560px] h-[200px] w-[350px]"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             />

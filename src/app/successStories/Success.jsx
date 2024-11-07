@@ -77,7 +77,7 @@ const Success = () => {
               ))}
             </Slider>
           </div>
-          <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10">
+          <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10 lg:block hidden">
             <Image
               src="/success/happypatient.jpg"
               width={800}

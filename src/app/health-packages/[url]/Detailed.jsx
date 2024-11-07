@@ -77,7 +77,7 @@ const Detailed = ({ url }) => {
 
           {p.newInfo ? (
             <h1
-              className={`border-b bg-gray-100 hover:bg-gray-200 transition-colors duration-300 py-5 px-5 mt-10 flex gap-2 items-center`}
+              className={`border-b bg-gray-100 hover:bg-gray-200 transition-colors duration-300 py-5 px-5 mt-10 mb-5 flex gap-2 items-center dark:text-black`}
             >
               <GiCheckMark className="mr-2 text-green-600" />
               {p.newInfo}

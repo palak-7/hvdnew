@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaRegPlayCircle } from "react-icons/fa";
 const AboutUs = () => {
   return (
     <div className="bg-skyblue dark:text-black">
-      <div className="lg:grid grid-cols-12 mx-3 lg:mx-28 pt-10">
-        <div className="col-start-1 col-span-5">
+      <div className="lg:grid grid-cols-12 mx-3 lg:mx-28 lg:pt-10 pt-5 lg:pb-10 pb-5 flex flex-col-reverse">
+        <div className="col-start-1 col-span-5 pb-10 pt-3">
           <h1 className="text-lightblue text-3xl font-extrabold mb-2">
             About Us
           </h1>
@@ -28,7 +27,7 @@ const AboutUs = () => {
             Know More
           </Link>
         </div>
-        <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10">
+        <div className="col-start-6 lg:mt-0 col-span-8 relative mb-1">
           <Image
             src="/about/about.jpg"
             width={1000}
@@ -36,9 +35,6 @@ const AboutUs = () => {
             className="w-full rounded-bl-[30%] rounded-tr-[30%] p-2"
             alt="success"
           />
-          {/* <div className="absolute inset-0 flex justify-center mt-24">
-            <FaRegPlayCircle className="text-white w-[150px] h-[150px]" />
-          </div> */}
         </div>
       </div>
     </div>
