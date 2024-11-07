@@ -146,18 +146,36 @@ const Xray = () => {
         </div>
       </div>
 
-      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
-        <div className="col-start-1 col-span-4 py-4">
-          <div className="relative w-full overflow-hidden rounded-lg shadow-lg aspect-w-16 aspect-h-9">
+      {/* <div className="grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-start-2 col-span-4 py-4">
+          <iframe
+            width="560"
+            height="315"
+           src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div> */}
+
+      <div className="grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
             <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
               src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
-              className="absolute top-0 left-0 w-full h-full"
-            />
+            ></iframe>
           </div>
         </div>
       </div>
