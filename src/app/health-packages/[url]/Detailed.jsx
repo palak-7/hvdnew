@@ -42,7 +42,7 @@ const Detailed = ({ url }) => {
         </div>
       </div>
       <div className="lg:grid grid-cols-2 lg:mx-20">
-        <div className="col-span-2 lg:my-7 mx-5">
+        <div className="col-span-2 lg:my-7 mx-5 overflow-x-clip">
           <div className="lg:grid grid-cols-2">
             <div>
               <Image
