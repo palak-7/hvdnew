@@ -8,40 +8,12 @@ const Fibroscan = () => {
   return (
     <div className="dark:bg-white">
       <Head service={servicesdata[3]} />
-      {/* <div className="lg:relative">
-        <Image
-          src="/services/xray/overview2.png"
-          width={10000}
-          height={10000}
-          className="w-full"
-          alt="overview2"
-        />
-        <div className="lg:absolute inset-0 lg:grid grid-cols-12 dark:text-black">
-          <div className="flex items-center -mt-10 col-start-2 col-span-6">
-            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md">
-              <h1 className="font-extrabold text-4xl">
-                {servicesdata[0].content[0].ques}
-              </h1>
-              <p className="lg:text-xl font-semibold leading-relaxed">
-                {servicesdata[0].content[0].ans}
-              </p>
-              <div className="mt-3">
-                <Link
-                  className="bg-lightgreen py-2 px-3 rounded-md text-white shadow-sm shadow-gray-400"
-                  href="/"
-                >
-                  Contact us for best Digital X-Ray Services
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+
       {/* ques 2 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
                   What is Fibroscan?
@@ -81,11 +53,11 @@ const Fibroscan = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[450px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[450px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4">
-                <div>
+                <div className="p-4">
                   <Image
                     src="/services/fabroscan/fabroscan1.jpg"
                     className="rounded-md"
@@ -95,7 +67,7 @@ const Fibroscan = () => {
                   />
                 </div>
               </div>
-              <div className="col-span-4 p-5">
+              <div className="col-span-4 px-5">
                 <h1 className="text-primary font-extrabold text-4xl">
                   How do I prepare for my FibroScan?
                 </h1>
@@ -118,7 +90,7 @@ const Fibroscan = () => {
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
-            <div className="lg:grid grid-cols-12 items-center">
+            <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
                   What should I expect during the FibroScan?
@@ -156,9 +128,9 @@ const Fibroscan = () => {
         </div>
       </div>
 
-      {/* Oues 5 */}
+      {/* Oues 5 */}  
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[500px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[500px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -243,7 +215,7 @@ const Fibroscan = () => {
 
       {/* ques 6 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[200px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[200px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-start-3 col-span-4 p-5 lg:p-14">

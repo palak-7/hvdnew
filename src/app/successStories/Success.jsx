@@ -33,8 +33,8 @@ const Success = () => {
   return (
     <div className="pb-9">
       <div className="bg-skyblue dark:text-black">
-        <div className="lg:grid grid-cols-12 mx-3 lg:mx-28 pt-10">
-          <div className="col-start-1 col-span-5 pt-10">
+        <div className="lg:grid grid-cols-12 mx-3 lg:mx-28 flex flex-col-reverse">
+          <div className="col-start-1 col-span-5 py-5 px-10 text-center items-center md:mt-14 mt-0">
             <h1 className="text-lightblue text-3xl font-extrabold mb-2">
               Success Stories
             </h1>
@@ -43,7 +43,7 @@ const Success = () => {
               {story.map((s) => (
                 <div
                   key={s.id}
-                  className="flex flex-col max-w-md align-center justify-between border border-gray-200 bg-white rounded-xl shadow-md"
+                  className="flex flex-col max-w-md align-center border border-gray-200 bg-white rounded-xl shadow-md"
                 >
                   <div className="flex flex-col px-6 pt-8 mb-10 space-y-5">
                     <div className="flex justify-center">
@@ -77,12 +77,12 @@ const Success = () => {
               ))}
             </Slider>
           </div>
-          <div className="col-start-6 mt-5 lg:mt-0 col-span-8 relative mb-10 lg:block hidden">
+          <div className="col-start-7 mt-5 lg:mt-14 col-span-5 relative">
             <Image
               src="/success/happypatient.jpg"
-              width={800}
-              height={800}
-              className="w-full rounded-bl-[30%] rounded-tr-[30%] p-2"
+              width={350}
+              height={450}
+              className="w-full rounded-bl-[30%] rounded-tr-[30%] p-2 pb-14"
               alt="success"
             />
           </div>
