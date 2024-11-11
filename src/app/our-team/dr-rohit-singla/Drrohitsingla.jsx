@@ -110,7 +110,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** EXPERIENCE Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">WORK EXPERIENCE </h1>
           <div className="border border-lightgreen"></div>
@@ -144,7 +144,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** MEMBERSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">MEMBERSHIPS</h1>
           <div className="border border-lightgreen"></div>
@@ -173,7 +173,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** FELLOWSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black"> FELLOWSHIPS </h1>
           <div className="border border-lightgreen"></div>

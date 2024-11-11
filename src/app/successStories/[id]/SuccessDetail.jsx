@@ -21,7 +21,7 @@ const SuccessDetail = ({ id }) => {
             boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
           }}
         >
-          <div className="grid grid-cols-12 gap-4">
+          <div className="md:grid grid-cols-12 gap-4">
             {/* Image Section */}
             <div className="col-start-2 col-span-3 justify-center md:items-center">
               

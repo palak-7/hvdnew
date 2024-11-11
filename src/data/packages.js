@@ -12,29 +12,29 @@ export const data = [
           "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
       },
       {
-        heading: "Diabetes profile",
+        heading: "Diabetes Profile",
         content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
       },
       {
-        heading: "Lipid profile",
+        heading: "Lipid Profile",
         content:
           "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
       },
       {
-        heading: "Thyroid profile",
+        heading: "Thyroid Profile",
         content: "TSH, FT3, FT4",
       },
       {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
+        heading: "Kidney Profile",
+        content: "Urea, Creatinine, Uric acid, BUN, NA, K, Calcium",
       },
       {
-        heading: "Liver profile",
+        heading: "Liver Profile",
         content:
           "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
       },
       {
-        heading: "Bone health",
+        heading: "Bone Health",
         content: "Calcium, Phosphorus",
       },
       {
@@ -60,29 +60,29 @@ export const data = [
           "Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
       },
       {
-        heading: "Diabetes profile",
+        heading: "Diabetes Profile",
         content: "HbA1c, Fasting Glucose, Estimated Average Glucose",
       },
       {
-        heading: "Lipid profile",
+        heading: "Lipid Profile",
         content:
           "Triglycerides, Total Cholesterol, HDL, LDL, VLDL, Total/HDL, LDL/HDL ratio",
       },
       {
-        heading: "Thyroid profile",
+        heading: "Thyroid Profile",
         content: "TSH, FT3, FT4",
       },
       {
-        heading: "Kidney profile",
-        content: "Urea, Creatinine, Uric acid, BUN, Na, K, Calcium",
+        heading: "Kidney Profile",
+        content: "Urea, Creatinine, Uric acid, BUN, NA, K, Calcium",
       },
       {
-        heading: "Liver profile",
+        heading: "Liver Profile",
         content:
           "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, SGOT, SGPT, Alkaline Phosphatase, GGT, Total Protein, Albumin, Globulin, A/G ratio",
       },
       {
-        heading: "Bone health",
+        heading: "Bone Health",
         content: "Calcium, Phosphorus, Vitamin D",
       },
       {
@@ -122,7 +122,7 @@ export const data = [
         content: "",
       },
       {
-        heading: "SUGAR RANDOM, HBA1C, AVERAGE BLOOD SUGAR",
+        heading: "Sugar Random, HBA1C, Average Blood Sugar",
         content: "",
       },
       {
@@ -130,7 +130,7 @@ export const data = [
         content: "",
       },
       {
-        heading: "LIPID PROFILE",
+        heading: "Lipid Profile",
         content: "",
       },
     ],
@@ -189,11 +189,11 @@ export const data = [
         content: "",
       },
       {
-        heading: "BLOOD GROUP ",
+        heading: "Blood Group",
         content: "",
       },
       {
-        heading: "BLOOD SUGAR RANDOM",
+        heading: "Blood Sugar Random",
         content: "",
       },
       {
@@ -217,7 +217,7 @@ export const data = [
         content: "",
       },
       {
-        heading: "URINE ROUTINE",
+        heading: "Urine Routine",
         content: "",
       },
     ],
@@ -236,11 +236,11 @@ export const data = [
         content: "",
       },
       {
-        heading: "BLOOD GROUP",
+        heading: "Blood Group",
         content: "",
       },
       {
-        heading: "BLOOD SUGAR RANDOM",
+        heading: "Blood Sugar Random",
         content: "",
       },
       {
@@ -268,7 +268,7 @@ export const data = [
         content: "",
       },
       {
-        heading: "URINE ROUTINE",
+        heading: "Urine Routine",
         content: "",
       },
     ],
@@ -283,35 +283,35 @@ export const data = [
     image: "/packages/pcod.jpg",
     description: [
       {
-        heading: "GLUCOSE FASTING",
+        heading: "Glucose Fasting",
         content: "",
       },
       {
-        heading: "LH (LEUTINIZING HORMONE)",
+        heading: "LH (Leutinizing Hormone)",
         content: "",
       },
       {
-        heading: "PROLACTIN(PRL)",
+        heading: "Prolactin (PRL)",
         content: "",
       },
       {
-        heading: "FSH (FOLLICLE STIMULATING HORMONE)",
+        heading: "FSH (Follicle Stimulating Hormone)",
         content: "",
       },
       {
-        heading: "THYROID STIMULATING HORMONE (TSH)",
+        heading: "Thyroid Stimulating Hormone (TSH)",
         content: "",
       },
       {
-        heading: "INSULIN FASTING",
+        heading: "Insulin Fasting",
         content: "",
       },
       {
-        heading: "TESTOSTERONE TOTAL",
+        heading: "Testosterone Total",
         content: "",
       },
       {
-        heading: "DEHYDROEPIANDROSTERONE SULPHATE (DHEA-S)",
+        heading: "Dehydroepiandrosterone Sulphate (DHEA-S)",
         content: "",
       },
     ],
@@ -325,47 +325,47 @@ export const data = [
     image: "/packages/pcodAdv.avif",
     description: [
       {
-        heading: "GLUCOSE FASTING",
+        heading: "Glucose Fasting",
         content: "",
       },
       {
-        heading: "LH (LEUTINIZING HORMONE)",
+        heading: "LH (Leutinizing Hormone)",
         content: "",
       },
       {
-        heading: "PROLACTIN (PRL)",
+        heading: "Prolactin (PRL)",
         content: "",
       },
       {
-        heading: "FSH (FOLLICLE STIMULATING HORMONE)",
+        heading: "FSH (Follicle Stimulating Hormone)",
         content: "",
       },
       {
-        heading: "THYROID STIMULATING HORMONE (TSH)",
+        heading: "Thyroid Stimulating Hormone (TSH)",
         content: "",
       },
       {
-        heading: "INSULIN FASTING",
+        heading: "Insulin Fasting",
         content: "",
       },
       {
-        heading: "TESTOSTERONE TOTAL",
+        heading: "Testosterone Total",
         content: "",
       },
       {
-        heading: "DEHYDROEPIANDROSTERONE SULPHATE (DHEA-S)",
+        heading: "Dehydroepiandrosterone Sulphate (DHEA-S)",
         content: "",
       },
       {
-        heading: "ANTI MULLERIAN HORMONE (AMH)",
+        heading: "Anti Mullerian Hormone (AMH)",
         content: "",
       },
       {
-        heading: "LIPID PROFILE",
+        heading: "Lipid Profile",
         content: "",
       },
       {
-        heading: "BASIC HOMA -IR (INSULIN RESISTANCE INDEX)",
+        heading: "Basic Homa -IR (Insulin Resistance Index)",
         content: "",
       },
     ],
