@@ -1,7 +1,7 @@
 export const story = [
   {
     id: "1",
-    name: "Patient was Examined",
+    name: "Tubercular cervical lymphadenopathy",
     img: "/success/story1.jpeg",
     content:
       "A 56 year old female, resident of guwahati, visited delhi for her husband’s surgery. She herself was suffering from right cervical swelling with other symptoms such as weakness, malaise and evening rise of temperature.FNAC was done from cervical swelling but no definite diagnosis was made and her agony persisted.She was referred to us for guided FNAC / biopsy so that we reach definite diagnosis this time.",

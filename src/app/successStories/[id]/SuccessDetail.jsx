@@ -22,24 +22,20 @@ const SuccessDetail = ({ id }) => {
           }}
         >
           <div className="md:grid grid-cols-12 gap-4">
-            {/* Image Section */}
-            <div className="col-start-2 col-span-3 justify-center md:items-center">
-              
-              <Image
-                src={obj.img}
-                alt="successImage"
-                className="p-4 rounded-3xl"
-                width={350}
-                height={250}
-              />
+            <div className="col-start-2 col-span-3 flex justify-center items-center p-4">
+              <video className="w-full h-auto rounded-lg shadow-lg" controls>
+                <source src="/success/successStori1.mp4" type="video/mp4" />
+              </video>
             </div>
 
-            {/* Text Section */}
             <div className="col-span-6 flex flex-col justify-center p-4">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-black">
-                {obj.name}
+                <div className="inline-block">
+                  {obj.name}
+                  <div className="border border-blue-700"></div>
+                </div>
               </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-800">
+              <p className="font-normal text-gray-900 dark:text-gray-800 mt-2">
                 {obj.content}
               </p>
             </div>

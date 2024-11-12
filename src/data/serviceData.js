@@ -4,9 +4,9 @@ export const servicesdata = [
     name: "Digital X ray",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "service1.jpeg",
+    image: "digitalXRay.jpeg",
     url: "digital-xray",
-    imageurl: "main.png",
+    imageurl: "digitalXRay",
     content: [
       {
         id: 11,
@@ -41,7 +41,7 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Non-invasive scan which uses high frequency sound waves of the inside of your body.",
     image: "ultrasound.png",
     url: "ultrasound",
-    imageurl: "ultrasound.png",
+    imageurl: "ultrasound.jpg",
     content: [
       {
         id: 21,
@@ -185,7 +185,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "TMT",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "tmt.jpg",
+    image: "TMT.jpeg",
   },
 
   {
@@ -256,35 +256,35 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "EEG",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "service4.webp",
+    image: "EEG.jpeg",
   },
   {
     id: 15,
     name: "NCV",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "bp.png",
+    image: "NCV.jpeg",
   },
   {
     id: 16,
     name: "EMG",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "bp.png",
+    image: "EMG.jpeg",
   },
   {
     id: 17,
     name: "Pathology (Blood Tests)",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "pathology.jpg",
+    image: "pathology.png",
   },
   {
     id: 18,
     name: "Blood Pressure Monitoring",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "bloodPressure.jpg",
+    image: "BloodPressureMonitoring.jpg",
   },
 
 ];

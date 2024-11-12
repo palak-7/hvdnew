@@ -8,10 +8,12 @@ import { IoLocationSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import Link from "next/link";
 import { IoMdMail } from "react-icons/io";
+import { IoMail } from "react-icons/io5";
+
 import { useRouter } from "next/navigation";
 
 const Contact = () => {
-  const router = useRouter(); 
+  const router = useRouter();
   const [file, setFile] = useState(null);
   const [formData, setFormData] = useState({
     name: "",
@@ -36,7 +38,7 @@ const Contact = () => {
     });
 
     const response = await sendFormData(fileData);
-    
+
     if (response.success) {
       Swal.fire({
         title: "Success",
@@ -63,19 +65,21 @@ const Contact = () => {
     <div className="dark:bg-white dark:text-black overflow-x-hidden">
       <div className="relative">
         <Image
-          src={`/contact/contact-banner.png`}
+          src={`/contact/contactmedical.jpeg`}
           width={1000}
           height={1000}
           className="w-full h-[250px] object-cover hidden lg:block"
           alt="service"
         />
         <div className="absolute inset-0 bg-[#07a496] opacity-70 z-10"></div>
-        <h1 className="text-white font-serif text-center text-4xl font-bold my-4 absolute inset-0 z-20 flex items-center justify-center">
-          Contact Us
-        </h1>
+        
+          <h1 className="text-gray-800 font-sans text-center text-6xl font-bold my-4 absolute inset-0 z-20 flex items-center justify-center">
+            Contact Us
+          </h1>
+        
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-10 mx-4 lg:mx-10 mt-10 p-5">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 mx-4 lg:mx-10 mt-10 p-5">
         <div className="rounded-md">
           <div className="p-5 rounded-md shadow-lg shadow-lightgreen">
             <h1 className="font-bold text-xl">Our Address</h1>
@@ -118,15 +122,27 @@ const Contact = () => {
           </div>
         </div>
         <div className="rounded-md shadow-lg shadow-lightgreen">
-          <div className="p-5 rounded-md translate-x-3 translate-y-3">
+          <div className="py-5 rounded-md translate-x-3 translate-y-3">
             <h1 className="font-bold text-xl mb-2">Email Address</h1>
             <Link
               href="mailto:healthvista.diagnostics@gmail.com"
-              className="text-primary hover:text-lightgreen duration-300 font-semibold flex "
+              className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex"
             >
               <IoMdMail className="mt-1 mr-1" />
               healthvista.diagnostics@gmail.com
             </Link>
+          </div>
+        </div>
+
+        <div className="rounded-md shadow-lg shadow-lightgreen">
+          <div className="p-5 rounded-md translate-x-3 translate-y-3">
+            <h1 className="font-bold text-xl mb-2">Opening Hours</h1>
+            <p className="font-semibold text-primary hover:text-lightgreen duration-300">
+              8AM - 8PM (Mon to Sat)
+            </p>
+            <p className="font-semibold text-primary hover:text-lightgreen duration-300">
+              8AM - 4PM (Sunday)
+            </p>
           </div>
         </div>
       </div>
@@ -204,7 +220,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="col-span-12 lg:col-span-6 mt-8 lg:mt-0">
+        <div className="col-span-12 lg:col-span-6 mt-8 lg:mt-0 rounded-3xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6999.296899245843!2d77.126535!3d28.700161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a69dcf1acd%3A0x46473ecd32974e35!2sHealth%20Vista%20Diagnostics%20-%20Best%20Diagnostic%20centre%20in%20Pitampura%20%7C%20Interventional%20Radiology%20%7C%20Cardiology%20%7C%20ECG%20in%20Pitampura!5e0!3m2!1sen!2sin!4v1728645262781!5m2!1sen!2sin"
             width="100%"

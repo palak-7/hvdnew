@@ -30,7 +30,7 @@ const Ultrasound = () => {
                   className="bg-lightgreen py-2 px-3 rounded-md text-white shadow-sm shadow-gray-400"
                   href="/contact"
                 >
-                  Contact us for best Liver fibroscan
+                  Contact us for best Ultrasound
                 </Link>
               </div>
             </div>

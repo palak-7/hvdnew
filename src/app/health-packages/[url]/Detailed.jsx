@@ -3,6 +3,7 @@ import { data } from "@/data/packages";
 import Image from "next/image";
 import { GiCheckMark } from "react-icons/gi";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 const Detailed = ({ url }) => {
   const p = data.find((d) => d.url === url);
   return (
@@ -77,10 +78,12 @@ const Detailed = ({ url }) => {
 
           {p.newInfo ? (
             <h1
-              className={`border-b bg-gray-100 hover:bg-gray-200 transition-colors duration-300 py-5 px-5 mt-10 mb-5 flex gap-2 items-center dark:text-black`}
+              className={`bg-blue-700 text-white font-semibold py-2 rounded-3xl mt-5`}
             >
-              <GiCheckMark className="mr-2 text-green-600" />
-              {p.newInfo}
+              <Marquee>
+                <GiCheckMark className="mr-2 text-[#FFD447]" />
+                {p.newInfo}
+              </Marquee>
             </h1>
           ) : null}
         </div>

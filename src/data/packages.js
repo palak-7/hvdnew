@@ -45,7 +45,7 @@ export const data = [
     ],
     price: "1999",
     cancelled: "2400",
-    newInfo: "Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000",
+    newInfo: "Add Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000",
   },
   {
     id: 2,
