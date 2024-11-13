@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { data } from "@/data/packages";
+import { HealthPackage } from "@/data/packages";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Health = () => {
@@ -12,7 +12,7 @@ const Health = () => {
           Our Health Packages
         </h1>
         <div className="lg:grid grid-cols-3 mt-10">
-          {data.map((s) => (
+          {HealthPackage.map((s) => (
             <div
               key={s.id}
               className="bg-white hover:-translate-y-3 duration-300 lg:mx-10 mx-2 mb-10 rounded-br-[30%] rounded-tl-[30%] border shadow-lg"

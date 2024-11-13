@@ -1,4 +1,4 @@
-export const data = [
+export const HealthPackage = [
   {
     id: 1,
     name: "HVD ESSENTIAL",

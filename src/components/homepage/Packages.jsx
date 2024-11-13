@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { data } from "@/data/packages";
+import { HealthPackage } from "@/data/packages";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Packages = () => {
-  const filteredData = data.slice(0, 6);
+  const filteredData = HealthPackage.slice(0, 6);
 
   return (
     <div className="bg-skyblue">
