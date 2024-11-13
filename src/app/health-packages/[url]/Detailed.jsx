@@ -1,11 +1,11 @@
 import React from "react";
-import { data } from "@/data/packages";
+import { HealthPackage } from "@/data/packages";
 import Image from "next/image";
 import { GiCheckMark } from "react-icons/gi";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 const Detailed = ({ url }) => {
-  const p = data.find((d) => d.url === url);
+  const p = HealthPackage.find((d) => d.url === url);
   return (
     <div className="dark:bg-white">
       <div className="relative">
