@@ -1,4 +1,4 @@
-const menuData = [
+export const menuData = [
   {
     id: 1,
     title: "Home",
@@ -129,12 +129,6 @@ const menuData = [
         path: "/24hour-holter-monitoring",
         newTab: false,
       },
-      // {
-      //   id: 48,
-      //   title: "Holter",
-      //   path: "/holter",
-      //   newTab: false,
-      // },
       {
         id: 48,
         title: "ECHO",

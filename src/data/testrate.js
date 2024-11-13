@@ -728,5 +728,4 @@ export const rate = [
     name: "HSG ",
     url: "/",
     price: "4500",
-}
-];
+}];

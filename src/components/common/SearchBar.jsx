@@ -2,10 +2,9 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { service } from "@/data/service";
-import { data } from "@/data/packages";
+import { HealthPackage } from "@/data/packages";
 import { rate } from "@/data/testrate";
 import Link from "next/link";
-import { servicesdata } from "@/data/serviceData";
 const SearchBar = () => {
   const [query, setQuery] = useState("");
   const [filteredServices, setFilteredServices] = useState([]);
@@ -37,8 +36,8 @@ const SearchBar = () => {
       searchQuery.includes("health packages") ||
       searchQuery.includes("health") ||
       searchQuery.includes("health package")
-        ? data // Show all packages
-        : data.filter((p) => p.name.toLowerCase().includes(searchQuery)); // Normal filtering
+        ? HealthPackage // Show all packages
+        : HealthPackage.filter((p) => p.name.toLowerCase().includes(searchQuery)); // Normal filtering
 
     setFilteredServices(filteredServices);
     setFilteredPackages(filteredPackages);
@@ -80,27 +79,6 @@ const SearchBar = () => {
         onChange={handleSearch}
         className="bg-gray-50 border rounded-full border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full ps-5 p-2.5 dark:text-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:bg-white"
       />
-      {/* <button
-        type="submit"
-        className="p-2.5 ms-2 text-sm font-medium text-white bg-lightgreen rounded-full border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-      >
-        <svg
-          className="w-4 h-4"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 20 20"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-          />
-        </svg>
-        <span className="sr-only">Search</span>
-      </button> */}
 
       {isDropdownVisible && (
         <div className="absolute top-20 left-0 right-0 z-50 bg-white border shadow-lg rounded-lg p-6 max-h-[500px] overflow-y-auto">
