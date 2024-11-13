@@ -33,7 +33,6 @@ Tell your healthcare provider about your health history, allergies and any medic
       },
     ],
   },
-
   {
     id: 2,
     name: "Ultrasound",
@@ -59,7 +58,6 @@ Tell your healthcare provider about your health history, allergies and any medic
       },
     ],
   },
-
   {
     id: 3,
     name: "Color Doppler",
@@ -67,14 +65,14 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "colorDoppler.jpg",
   },
-
   {
     id: 4,
     name: "Liver Fibroscan",
     url: "liver-fibroscan",
-    short_desc: "The FibroScan is a noninvasive way to gauge the health of your liver and determine what stage of liver disease you and your care team might be up against.",
+    short_desc:
+      "The FibroScan is a noninvasive way to gauge the health of your liver and determine what stage of liver disease you and your care team might be up against.",
     image: "liverFibro.webp",
-    content: [  
+    content: [
       {
         id: 41,
         ques: "What is Fibroscan?",
@@ -86,13 +84,11 @@ Tell your healthcare provider about your health history, allergies and any medic
         ques: "How do I prepare for my FibroScan?",
         ans: `<p style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-family: Calibri, sans-serif; font-size: 20px; color: rgb(0, 0, 0);">FibroScan preparation is simple and straightforward. On the day of your procedure, do not eat or drink anything <strong><em>3 hours before your test</em></strong>. You should wear comfortable clothes (e.g. shirt, loose dress) that can be moved/repositioned to allow the nurse to examine your right upper abdomen. Please do not wear any tight clothing to your appointment.</span></p> <p><strong><span style="font-size: 20px; line-height: 115%; font-family: Calibri, sans-serif; color: rgb(0, 0, 0);">GOOD NEWS: FIBROSCAN IS PAINLESS TEST.</span></strong></p>`,
       },
-
       {
         id: 43,
         ques: "What should I expect during the FibroScan? ",
         ans: `<p style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 20px; line-height: 115%; font-family: Calibri, sans-serif; color: rgb(0, 0, 0);">During the exam, you will be lying down on your back with the right arm raised and tucked behind your head. Preparation includes no food or drink three hours before the exam and you may wish to wear a looser fitting shirt as the skin covering your right rib cage area will need to be exposed in order to complete the exam. A doctor will place a probe, on your side near where your liver is. That probe sends painless sound vibration through your body and into your liver. The probe measures how fast it takes the vibration to travel through the liver. The faster it takes the vibration to travel through the liver, the stiffer the liver is. The examination itself takes about 10-15 minutes. You should plan to spend about 45 minutes at the clinic total. You may drive yourself to and from the test.</span></p>`,
       },
-
       {
         id: 44,
         // ques: "What is Fibroscan?",
@@ -107,7 +103,6 @@ Tell your healthcare provider about your health history, allergies and any medic
     <li style="font-size: 20px;">Non-Alcoholic Steatohepatitis (NASH)</li>
 </ul>`,
       },
-
       {
         id: 45,
         ques: "What should I expect after the FibroScan?",
@@ -146,7 +141,6 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "holter.png",
   },
-
   {
     id: 8,
     name: "ECHO",
@@ -179,7 +173,6 @@ Tell your healthcare provider about your health history, allergies and any medic
       },
     ],
   },
-
   {
     id: 9,
     name: "TMT",
@@ -187,7 +180,6 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "TMT.jpeg",
   },
-
   {
     id: 10,
     name: "Ambulatory BP monitoring (ABPM)",
@@ -195,14 +187,12 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "abpm.png",
   },
-
   {
     id: 11,
     name: "Ultrasound Guided Interventions",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "ultrasoundInative.png",
-
     subnames: [
       {
         id: 111,
@@ -286,5 +276,4 @@ Tell your healthcare provider about your health history, allergies and any medic
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
     image: "BloodPressureMonitoring.jpg",
   },
-
 ];
