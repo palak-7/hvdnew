@@ -142,7 +142,7 @@ const Header = () => {
               />
               <span
                 className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
-                  navbarOpen ? " top-[-8px] -rotate-45" : ""
+                  navbarOpen ? "top-[-8px] -rotate-45" : ""
                 }`}
               />
             </button>

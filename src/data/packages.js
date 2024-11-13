@@ -45,7 +45,7 @@ export const data = [
     ],
     price: "1999",
     cancelled: "2400",
-    newInfo: "Add Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000",
+    newInfo: "Add Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000"
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ export const data = [
     ],
     price: "2999 ",
     cancelled: "4400",
-    newInfo: "Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000",
+    newInfo: "Chest X RAY, ECG and Ultrasound Abdomen for just Rs. 2000"
   },
   {
     id: 3,
@@ -177,7 +177,6 @@ export const data = [
     price: "1999",
     cancelled: "3000",
   },
-
   {
     id: 5,
     name: "HVD ANC 1 PACKAGE",
@@ -224,7 +223,6 @@ export const data = [
     price: "2999",
     cancelled: "3000",
   },
-
   {
     id: 6,
     name: "HVD ANC 2 PACKAGE",
@@ -275,7 +273,6 @@ export const data = [
     price: "4499",
     cancelled: "3000",
   },
-
   {
     id: 7,
     name: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE",
