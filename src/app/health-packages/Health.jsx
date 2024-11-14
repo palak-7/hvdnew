@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { HealthPackage } from "@/data/packages";
 import { FaArrowRightLong } from "react-icons/fa6";
-
 const Health = () => {
   return (
     <div>

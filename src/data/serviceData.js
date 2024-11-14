@@ -71,7 +71,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     url: "liver-fibroscan",
     short_desc:
       "The FibroScan is a noninvasive way to gauge the health of your liver and determine what stage of liver disease you and your care team might be up against.",
-    image: "liverFibro.webp",
+    image: "liverFibroscan.jpeg",
     content: [
       {
         id: 41,
@@ -115,7 +115,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Breast elastography",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "breast.png",
+    image: "Breastelastography.jpeg",
   },
   {
     id: 6,
@@ -146,7 +146,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "ECHO",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "echo.png",
+    image: "echo.jpeg",
     subnames: [
       {
         id: 81,
@@ -185,14 +185,14 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Ambulatory BP monitoring (ABPM)",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "abpm.png",
+    image: "abpm.jpeg",
   },
   {
     id: 11,
     name: "Ultrasound Guided Interventions",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "ultrasoundInative.png",
+    image: "ultrasoundguidedintervention.jpeg",
     subnames: [
       {
         id: 111,
@@ -239,7 +239,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Uroflow Metry",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "uroflowmetry.avif",
+    image: "Uroflowmetry.jpeg",
   },
   {
     id: 14,
