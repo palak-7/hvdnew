@@ -319,7 +319,7 @@ export const HealthPackage = [
     id: 8,
     name: "POLYCYSTIC OVARIAN DISEASE (PCOD) PROFILE ADVANCE",
     url: "polycystic-ovarian-desease-profile-advance",
-    image: "/packages/pcodAdv.avif",
+    image: "/packages/pcodadv.avif",
     description: [
       {
         heading: "Glucose Fasting",

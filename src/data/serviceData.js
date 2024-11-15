@@ -63,7 +63,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Color Doppler",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "colorDoppler.jpg",
+    image: "colordoppler.jpg",
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     url: "liver-fibroscan",
     short_desc:
       "The FibroScan is a noninvasive way to gauge the health of your liver and determine what stage of liver disease you and your care team might be up against.",
-    image: "liverFibroscan.jpeg",
+    image: "liverfibroscan.jpeg",
     content: [
       {
         id: 41,
@@ -115,7 +115,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Breast elastography",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "Breastelastography.jpeg",
+    image: "breastelastography.jpeg",
   },
   {
     id: 6,
@@ -178,7 +178,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "TMT",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "TMT.jpeg",
+    image: "tmt.jpeg",
   },
   {
     id: 10,
@@ -239,28 +239,28 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Uroflow Metry",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "Uroflowmetry.jpeg",
+    image: "uroflowmetry.jpeg",
   },
   {
     id: 14,
     name: "EEG",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "EEG.jpeg",
+    image: "eeg.jpeg",
   },
   {
     id: 15,
     name: "NCV",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "NCV.jpeg",
+    image: "ncv.jpeg",
   },
   {
     id: 16,
     name: "EMG",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "EMG.jpeg",
+    image: "emg.jpeg",
   },
   {
     id: 17,
@@ -274,6 +274,6 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Blood Pressure Monitoring",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "BloodPressureMonitoring.jpg",
+    image: "bloodpressuremonitoring.jpg",
   },
 ];

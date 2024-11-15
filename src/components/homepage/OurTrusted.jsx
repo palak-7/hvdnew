@@ -33,7 +33,7 @@ const OurTrusted = () => {
               width={1000}
               height={1000}
               className="h-auto w-full"
-              alt="Fujifilm Logo"
+              alt="fujifilm Logo"
             />
           </div>
         </div>
