@@ -4,7 +4,7 @@ export const servicesdata = [
     name: "Digital X ray",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "digitalXRay.jpeg",
+    image: "digital-xray.jpeg",
     url: "digital-xray",
     imageurl: "digitalXRay",
     content: [
