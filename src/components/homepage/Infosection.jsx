@@ -45,7 +45,7 @@ const Infosection = () => {
       </div>
 
       <Image
-        src="/banner/hvd(2).png"
+        src="/banner/hvd-two.png"
         width={1000}
         height={1000}
         className="lg:h-[120px] h-[400px] w-full object-cover"

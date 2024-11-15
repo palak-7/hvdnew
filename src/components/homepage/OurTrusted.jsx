@@ -17,7 +17,7 @@ const OurTrusted = () => {
         <div className="flex items-center justify-center">
           <div className="p-5 rounded-3xl shadow-transparent w-full max-w-[200px] sm:max-w-[250px] lg:max-w-none">
             <Image
-              src="/ourtrusted/Samsung_Logo.png"
+              src="/ourtrusted/samsung-logo.png"
               width={1000}
               height={1000}
               className="h-auto w-full"
@@ -29,7 +29,7 @@ const OurTrusted = () => {
         <div className="flex items-center justify-center">
           <div className="p-5 rounded-3xl shadow-transparent w-full max-w-[200px] sm:max-w-[250px] lg:max-w-none">
             <Image
-              src="/ourtrusted/Fujifilm-logo.png"
+              src="/ourtrusted/fujifilm-logo.png"
               width={1000}
               height={1000}
               className="h-auto w-full"
@@ -77,7 +77,7 @@ const OurTrusted = () => {
         <div className="flex items-center justify-center">
           <div className="p-5 rounded-3xl shadow-transparent w-full max-w-[200px] sm:max-w-[250px] lg:max-w-none">
             <Image
-              src="/ourtrusted/cardioVision.png"
+              src="/ourtrusted/cardio-vision.png"
               width={1000}
               height={1000}
               className="h-auto w-full"

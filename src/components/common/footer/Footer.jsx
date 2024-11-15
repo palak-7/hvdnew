@@ -108,7 +108,7 @@ const Footer = () => {
       </div>
 
       <Image
-        src="/banner/hvd(1).png"
+        src="/banner/hvd-one.png"
         width={1000}
         height={1000}
         className="lg:h-[450px] h-[1300px] w-full object-cover"
