@@ -19,7 +19,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/team/dr1.jpg"
+              src="/team/dr.jpg"
               alt="Dr. B.S. Singla"
               width={150}
               height={150}
@@ -43,7 +43,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/team/dr7.jpg"
+              src="/team/rohitsir1.jpg"
               alt="Dr. Rohit Singla"
               width={150}
               height={150}
@@ -67,7 +67,7 @@ const Doctors = () => {
         >
           <div className="p-2 rounded-[100%] border">
             <Image
-              src="/team/rishumam.jpg"
+              src="/team/rishumam1.jpg"
               alt="Dr. Rishu Sangal"
               width={150}
               height={150}

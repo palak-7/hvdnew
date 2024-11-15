@@ -51,7 +51,7 @@ const Xray = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/xray/xraynew.jpg"
+                  src="/services/digitalXRay.jpeg"
                   className="rounded-md"
                   width={1000}
                   height={1000}
@@ -70,7 +70,7 @@ const Xray = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <div>
                   <Image
-                    src="/services/xray/xray-2.png"
+                    src="/services/digiXray.jpg"
                     className="rounded-md"
                     width={1000}
                     height={1000}
@@ -145,21 +145,6 @@ const Xray = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="grid grid-cols-12 bg-skyblue mb-4">
-        <div className="col-start-2 col-span-4 py-4">
-          <iframe
-            width="560"
-            height="315"
-           src="https://www.youtube.com/embed/fdwI5AzTDQQ?si=04B-ZDjrfMjGeJ7v"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div> */}
 
       <div className="grid grid-cols-12 bg-skyblue mb-4">
         <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
