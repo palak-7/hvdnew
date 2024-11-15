@@ -1,15 +1,13 @@
 "use client";
 import { useState } from "react";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 import React from "react";
 import Image from "next/image";
 import { sendFormData } from "@/services/form";
-// import { IoLocationSharp } from "react-icons/io5";
-// import { IoCall } from "react-icons/io5";
+import { IoLocationSharp } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
 import Link from "next/link";
-// import { IoMdMail } from "react-icons/io";
-// import { IoMail } from "react-icons/io5";
-
+import { IoMdMail } from "react-icons/io";
 import { useRouter } from "next/navigation";
 
 const Contact = () => {
@@ -89,7 +87,7 @@ const Contact = () => {
               className="flex text-primary hover:text-lightgreen"
             >
               <div>
-                {/* <IoLocationSharp className="mt-1 mr-1" /> */}
+                <IoLocationSharp className="mt-1 mr-1" />
               </div>
               <p className="font-semibold flex ">
                 C 546, Upper Ground floor, near Pitampura, Block C, Saraswati
@@ -107,7 +105,7 @@ const Contact = () => {
               target="__blank"
               className="flex hover:text-lightgreen font-semibold text-primary duration-300"
             >
-              {/* <IoCall className="mt-1 mr-1" /> */}
+              <IoCall className="mt-1 mr-1" />
               +91 9311883059
             </Link>
             <Link
@@ -115,7 +113,7 @@ const Contact = () => {
               target="__blank"
               className="flex hover:text-lightgreen font-semibold text-primary duration-300"
             >
-              {/* <IoCall className="mt-1 mr-1" /> */}
+              <IoCall className="mt-1 mr-1" />
               +011 46536898
             </Link>
           </div>
@@ -127,7 +125,7 @@ const Contact = () => {
               href="mailto:healthvista.diagnostics@gmail.com"
               className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex"
             >
-              {/* <IoMdMail className="mt-1 mr-1" /> */}
+              <IoMdMail className="mt-1 mr-1" />
               healthvista.diagnostics@gmail.com
             </Link>
           </div>
