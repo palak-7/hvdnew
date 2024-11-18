@@ -48,7 +48,7 @@ const Services = () => {
                     width={1000}
                     height={1000}
                     className="w-full h-[250px] object-cover rounded-tl-[30%]"
-                    src={`/services/${s.image}`}
+                    src={`${s.image}`}
                     alt="service"
                   />
                   <div className="px-10 py-5">
