@@ -63,7 +63,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Color Doppler",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "/services/colordoppler.jpg",
+    image: "/services/colordoppler.png",
   },
   {
     id: 4,
@@ -178,7 +178,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "TMT",
     short_desc:
       "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    image: "/services/tmt.jpeg",
+    image: "/services/tmt.png",
   },
   {
     id: 10,
