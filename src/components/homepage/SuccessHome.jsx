@@ -61,7 +61,7 @@ const SuccessHome = () => {
     {
       title: "Weekly Ultrasound Procedures",
       description: "Ultrasound-guided procedures available 7 days a week.",
-      img: "/success/ultrasound.png",
+      img: "/services/ultrasound.png",
       alt: "ultrasound procedures",
     },
   ];
