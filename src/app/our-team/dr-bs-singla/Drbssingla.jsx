@@ -2,67 +2,160 @@
 
 import Image from "next/image";
 import React from "react";
-import ImageGallery from "react-image-gallery";
+import { PiCaretCircleRightBold } from "react-icons/pi";
+
 const Drbssingla = () => {
-  const data = [
-    {
-      original: "/team/dr1.jpg",
-      thumbnail: "/team/dr1.jpg",
-    },
-    {
-      original: "/team/dr2.jpg",
-      thumbnail: "/team/dr2.jpg",
-    },
-    {
-      original: "/team/dr3.jpg",
-      thumbnail: "/team/dr3.jpg",
-    },
-    {
-      original: "/team/dr4.jpg",
-      thumbnail: "/team/dr4.jpg",
-    },
-  ];
+
   return (
     <div>
-      <div className="lg:grid grid-cols-2 lg:mx-20 lg:mt-10">
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
         <Image
           src="/team/dr1.jpg"
           width={1000}
           height={1000}
-          className="w-full"
+          className="w-full lg:px-10 lg:pt-12 pb-5"
           alt="dr-bs-singla"
         />
-        {/* <ImageGallery
-          items={data}
-          thumbnailPosition="bottom"
-          showNav={false}
-          showPlayButton={false}
-          showFullscreenButton={false}
-        /> */}
-        <div className="lg:mt-0 my-10 mx-10 leading-loose">
+
+        <div className="mx-10 leading-loose lg:mt-10">
           <div>
-            <h1 className="text-4xl font-extrabold text-primary">
+            <h1 className="text-4xl font-extrabold text-black">
               Dr B. S. Singla
             </h1>
-            <h3 className="text-primary font-semibold">
-              Consultant Physician & Non Invasive Cardiologist
+            <h3 className="text-blue-500 font-semibold text-lg">
+              Senior Consultant Non Invasive Cardiologist
             </h3>
-            <h4 className="text-lightblue">
-              ( MBBS, MD (Medicine), FIAE (Echocardiography)){" "}
+            <h4 className="text-blue-500 text-lg font-semibold">
+              MBBS, MD (PGI CHANDIGARH)
             </h4>
-            <div className="border border-lightgreen"></div>
-
-            <p className="text-justify">
-              Dr B.S.Singla is an eminent physician and detail oriented doctor
-              with expertise in a range of medical disciplines, from acute care
-              to chronic disease management. He has vast experience of over 40
-              years and is an alumnus of prestigious medical institute PGI
-              Chandigarh. He is an avid reader and keeps updating himself with
-              latest advances in the field of medicine and actively engages in
-              ongoing medical education to provide the highest standard of care
-              to patients.
+          </div>
+          <div>
+            <div className="inline-block">
+              <h1 className="text-3xl mt-5 font-semibold dark:text-black">
+                BRIEF PROFILE
+              </h1>
+              <div className="border border-lightgreen"></div>
+            </div>
+            <p className="dark:text-black text-xl leading-8">
+              Dr. B S Singla is one of the leading non invasive cardiologist of Delhi with more than 40 years of experience in cardiology. Dr. B S Singla is an alumnus from PGI Chandigarh.
+            </p>
+            <p className="dark:text-black text-xl leading-8 mt-3">
+              He was previously associated with leading hospitals such as Apollo Clinics, Chandigarh, Oxford Hospitals Chandigarh and currently also working at HOD Ashok Vihar.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="lg:mx-10 px-10 py-4 rounded-xl">
+        <p className="leading-relaxed mt-2 text-black dark:text-black text-xl">
+          Dr B S Singla has been performing ECHO, TMT, HOLTER and ABPM for nearly four decades with highly accurate results.
+        </p>
+
+        <p className="leading-relaxed text-black dark:text-black text-xl">
+          Dr. B S SIngla is a life member of multiple national professional organizations in the field of cardiology.
+        </p>
+      </div>
+
+
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
+        <div>
+          <div className="inline-block">
+            <h1 className="text-3xl font-semibold dark:text-black">
+              EDUCATION
+            </h1>
+            <div className="border border-lightgreen"></div>
+          </div>
+
+          <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
+            <span className="lg:text-xl text-2xl">
+              <PiCaretCircleRightBold />
+            </span>
+            MBBS: Government Medical College, Patiala
+          </p>
+
+          <p className="text-gray-800 flex gap-2 items-center text-xl">
+            <span className="lg:text-xl text-2xl">
+              <PiCaretCircleRightBold />
+            </span>
+            MD (Medicine): PGIMER, Chandigarh
+          </p>
+        </div>
+      </div>
+
+
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold dark:text-black">
+            WORK EXPERIENCE
+          </h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <div className="mt-4 space-y-2">
+          <p className="text-gray-800 flex gap-2 items-center text-xl">
+            <span className="lg:text-xl text-2xl">
+              <PiCaretCircleRightBold />
+            </span>
+            Non Invasive Cardiologist at Apollo Clinic, Chandigarh, Oxford Hospital, Chandigarh and PARK Hospital Mohali.
+          </p>
+
+          <p className="text-gray-800 flex gap-2 items-center text-xl">
+            <span className="lg:text-xl text-2xl">
+              <PiCaretCircleRightBold />
+            </span>
+            Non invasive Cardiologist at HOD Ashok Vihar and Madhu MRI, GTB Nagar, Delhi
+          </p>
+        </div>
+      </div>
+
+      {/** MEMBERSHIPS Section **/}
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold dark:text-black">
+            MEMBERSHIPS
+          </h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <span className="lg:text-xl text-2xl">
+            <PiCaretCircleRightBold />
+          </span>
+          Life Member Indian Medical Association
+        </p>
+
+        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <span className="lg:text-xl text-2xl">
+            <PiCaretCircleRightBold />
+          </span>
+          Life Member IAE Delhi
+        </p>
+
+        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
+          <span className="lg:text-xl text-2xl">
+            <PiCaretCircleRightBold />
+          </span>
+          Life Member IAE NCR Chapter
+        </p>
+      </div>
+
+
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl">
+        <div className="inline-block">
+          <h1 className="text-3xl font-semibold dark:text-black">
+            FELLOWSHIPS
+          </h1>
+          <div className="border border-lightgreen"></div>
+        </div>
+
+        <div className="mt-2 space-y-2">
+          <p className="text-gray-800 flex gap-2 items-center text-xl mb-4">
+            <span className="lg:text-xl text-2xl">
+              <PiCaretCircleRightBold />
+            </span>
+            Fellowship in Echocardiography of IAE Delhi
+          </p>
         </div>
       </div>
     </div>

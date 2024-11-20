@@ -33,7 +33,6 @@ export const menuData = [
         path: "/health-packages/hvd-fever",
         newTab: false,
       },
-     
 
       {
         id: 34,
@@ -89,7 +88,7 @@ export const menuData = [
       {
         id: 43,
         title: "COLOR DOPPLER",
-        path: "/services/color-doppler",
+        path: "/services/colordoppler",
         newTab: false,
       },
       {
@@ -101,7 +100,7 @@ export const menuData = [
       {
         id: 45,
         title: "BREAST ELASTOGRAPHY",
-        path: "/breast-elastrography",
+        path: "/services/breast-elastography",
         newTab: false,
       },
       {
@@ -112,13 +111,13 @@ export const menuData = [
           {
             id: 461,
             title: "ECG TESTING",
-            path: "/ecg-testing",
+            path: "/services/ecg/ecg-testing",
             newTab: false,
           },
           {
             id: 462,
             title: "ECG MONITORING (AT HOME)",
-            path: "/ecg-monitoring",
+            path: "/services/ecg/ecgmonitoring",
             newTab: false,
           },
         ],
@@ -126,7 +125,7 @@ export const menuData = [
       {
         id: 47,
         title: "24 HOUR HOLTER MONITORING",
-        path: "/24hour-holter-monitoring",
+        path: "/services/holter-monitoring",
         newTab: false,
       },
       {
@@ -136,19 +135,19 @@ export const menuData = [
           {
             id: 481,
             title: "2D ECHO",
-            path: "/2d-echo",
+            path: "/services/echo/2d_echo",
             newTab: false,
           },
           {
             id: 482,
             title: "EXERCISE STRESS ECHO",
-            path: "/exercise-stress-echo",
+            path: "/services/echo/exercisestress",
             newTab: false,
           },
           {
             id: 483,
             title: "DOBUTAMINE STRESS ECHO",
-            path: "/dobutamine-stress-echo",
+            path: "/services/echo/dobutamine-stress-echo",
             newTab: false,
           },
           {
@@ -160,7 +159,7 @@ export const menuData = [
           {
             id: 485,
             title: "FETAL ECHO",
-            path: "/fetal-echo",
+            path: "/services/echo/fetal-echo",
             newTab: false,
           },
         ],
@@ -176,7 +175,7 @@ export const menuData = [
       {
         id: 50,
         title: "AMBULATORY BP MONITORING (ABPM)",
-        path: "/ambulatory-bp-monitoring",
+        path: "/services/ambulatory",
         newTab: false,
       },
       {
@@ -186,19 +185,19 @@ export const menuData = [
           {
             id: 510,
             title: "FNAC",
-            path: "/fanc",
+            path: "/services/ultrasoundguided/fnac",
             newTab: false,
           },
           {
             id: 511,
             title: "BIOPSY",
-            path: "/biopsy",
+            path: "/services/ultrasoundguided/biopsy",
             newTab: false,
           },
           {
             id: 512,
             title: "BREAST BIOPSY",
-            path: "/breast-biopsy",
+            path: "/services/ultrasoundguided/breastbiospy",
             newTab: false,
           },
 
@@ -211,20 +210,20 @@ export const menuData = [
           {
             id: 514,
             title: "PRP INJECTION",
-            path: "/prp injection",
+            path: "/services/ultrasoundguided/prp-injection",
             newTab: false,
           },
 
           {
             id: 515,
             title: "ASPIRATION",
-            path: "/aspiration",
+            path: "/services/ultrasoundguided/aspiration",
             newTab: false,
           },
           {
             id: 516,
             title: "CATHETER DRAINAGE",
-            path: "/catheter-drainage",
+            path: "/services/ultrasoundguided/catheter-drainage",
             newTab: false,
           },
         ],
@@ -232,7 +231,7 @@ export const menuData = [
       {
         id: 52,
         title: "PULMONARY FUNCTION TEST (PFT)",
-        path: "/pulmonary-function-test",
+        path: "/services/pulmonary-function-test",
         newTab: false,
       },
       {
@@ -244,32 +243,32 @@ export const menuData = [
       {
         id: 54,
         title: "EEG",
-        path: "/eeg",
+        path: "/services/eeg",
         newTab: false,
       },
       {
         id: 55,
         title: "NCV",
-        path: "/ncv",
+        path: "/services`/ncv",
         newTab: false,
       },
       {
         id: 56,
         title: "EMG",
-        path: "/emg",
+        path: "/services/emg",
         newTab: false,
       },
 
       {
         id: 57,
         title: "PATHOLOGY (BLOOD TESTS)",
-        path: "/pathology",
+        path: "/services/pathology",
         newTab: false,
       },
       {
         id: 58,
         title: "BLOOD PRESSURE MONITORING",
-        path: "/blood-pressure-monitoring",
+        path: "/services/bloodpressuremonitoring",
         newTab: false,
       },
     ],

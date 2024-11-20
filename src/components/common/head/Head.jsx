@@ -5,7 +5,7 @@ const Head = ({ service }) => {
   return (
     <div className="relative">
       <Image
-        src={`/services/${service.image}`}
+        src={`${service.image}`}
         width={1000}
         height={1000}
         className="w-full h-[300px] object-cover"

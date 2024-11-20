@@ -27,7 +27,6 @@ const SuccessDetail = ({ id }) => {
                 <source src="/success/successstori1.mp4" type="video/mp4" />
               </video> */}
 
-
               <video controls width="100%" height="auto" className="rounded">
                 <source src="/success/successstori1.mp4" type="video/mp4" />
 

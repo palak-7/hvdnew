@@ -2,42 +2,12 @@ import React from "react";
 import { servicesdata } from "@/data/serviceData";
 import Head from "@/components/common/head/Head";
 import Image from "next/image";
-import Link from "next/link";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Xray = () => {
   return (
     <div className="dark:bg-white">
       <Head service={servicesdata[0]} />
-      {/* <div className="lg:relative">
-        <Image
-          src="/services/xray/overview2.png"
-          width={10000}
-          height={10000}
-          className="w-full"
-          alt="overview2"
-        />
-        <div className="lg:absolute inset-0 lg:grid grid-cols-12 dark:text-black">
-          <div className="flex items-center -mt-10 col-start-2 col-span-6">
-            <div className="lg:bg-white p-4 bg-opacity-70 rounded-md">
-              <h1 className="font-extrabold text-4xl">
-                {servicesdata[0].content[0].ques}
-              </h1>
-              <p className="lg:text-xl font-semibold leading-relaxed">
-                {servicesdata[0].content[0].ans}
-              </p>
-              <div className="mt-3">
-                <Link
-                  className="bg-lightgreen py-2 px-3 rounded-md text-white shadow-sm shadow-gray-400"
-                  href="/"
-                >
-                  Contact us for best Digital X-Ray Services
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       {/* ques 2 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">

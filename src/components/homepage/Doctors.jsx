@@ -30,11 +30,11 @@ const Doctors = () => {
             Dr. B.S. Singla
           </h1>
           <h2 className="text-md text-center text-lightblue">
-            Consultant Physician & Non Invasive Cardiologist
+            Senior Consultant Non Invasive Cardiologist
           </h2>
           <div className="border border-lightblue my-4 w-full"></div>
           <p className="text-gray-800 text-center text-sm">
-            MBBS, MD (Medicine), FIAE (Echocardiography)
+            MBBS, MD (PGI CHANDIGARH)
           </p>
         </Link>
         <Link
