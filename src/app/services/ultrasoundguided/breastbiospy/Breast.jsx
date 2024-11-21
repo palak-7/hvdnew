@@ -69,7 +69,7 @@ const Breast = () => {
         </div>
         {/* ques 3 */}
         <div className="overflow-x-hidden">
-          <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[1000px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+          <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[830px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
             <div className=" h-full dark:text-black">
               <div className="lg:grid grid-cols-12 items-center">
                 <div className="col-span-2 col-start-4 p-4">
@@ -140,8 +140,12 @@ const Breast = () => {
                       which numbs the biopsy site.
                     </div>
                   </p>
+                </div>
+              </div>
 
-                  <p className="text-lg mt-2 flex">
+              <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
+                <div className="col-start-4 col-span-6">
+                  <p className="text-lg mt-2 flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />
                     </div>
@@ -155,7 +159,7 @@ const Breast = () => {
                     </div>
                   </p>
 
-                  <p className="text-lg mt-2 flex">
+                  <p className="text-lg mt-2 flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />
                     </div>
@@ -170,7 +174,7 @@ const Breast = () => {
                     </div>
                   </p>
 
-                  <p className="text-lg mt-2 flex">
+                  <p className="text-lg mt-2 flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />
                     </div>
@@ -184,7 +188,7 @@ const Breast = () => {
                     </div>
                   </p>
 
-                  <p className="text-lg mt-2 flex">
+                  <p className="text-lg mt-2 flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />
                     </div>
@@ -197,12 +201,8 @@ const Breast = () => {
                       avoiding strenuous activities for a few days.
                     </div>
                   </p>
-                </div>
-              </div>
 
-              <div className="lg:grid grid-cols-12">
-                <div className="col-start-4 col-span-6">
-                  <p className="ml-10 font-semibold text-xl">
+                  <p className="mx-5 font-semibold text-xl lg:pb-0 pb-4">
                     A breast biopsy is a valuable tool for diagnosing breast
                     conditions, providing essential information to guide
                     treatment decisions and manage potential health concerns

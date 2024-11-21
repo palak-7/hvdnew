@@ -2,21 +2,21 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MdArrowRightAlt } from "react-icons/md";
-const Prp = () => {
+const Tmt = () => {
   return (
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/tmt.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
-          alt="prp"
+          alt="tmt"
         />
         <div className="bg-lightblue absolute inset-0 opacity-70"></div>
         <div className=" absolute inset-0 text-center text-white  grid grid-rows-8">
           <div className="row-start-2 mt-6 font-bold font-serif text-5xl">
-            PRP Injection
+            TMT
           </div>
           <div className="row-start-5 flex justify-center">
             <Link
@@ -36,29 +36,31 @@ const Prp = () => {
             <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
-                  What is PRP Injection?
+                  What is TMT?
                 </h1>
 
                 <p className="text-lg mt-2 flex">
-                  PRP (Platelet-Rich Plasma) injection is a medical treatment
-                  that uses a patient’s own blood to promote healing and tissue
-                  regeneration. The process involves drawing a small amount of
-                  blood from the patient, which is then processed in a
-                  centrifuge to concentrate the platelets, which are rich in
-                  growth factors. The concentrated plasma is injected into the
-                  area needing treatment, such as joints, muscles, tendons, or
-                  ligaments. PRP injections are commonly used to treat
-                  conditions like tendonitis, osteoarthritis, muscle injuries,
-                  and hair loss.
+                  TMT (Treadmill Test), also known as a stress test, is a
+                  diagnostic procedure used to assess how well the heart
+                  functions during physical exertion. During the test, the
+                  patient walks on a treadmill while their heart rate, blood
+                  pressure, and ECG (electrocardiogram) are continuously
+                  monitored. The treadmill gradually increases in speed and
+                  incline, simulating exercise to stress the heart. TMT is
+                  commonly used to detect coronary artery disease, abnormal
+                  heart rhythms, and other cardiovascular conditions. It helps
+                  doctors evaluate how well the heart responds to physical
+                  stress, providing valuable information about heart health and
+                  the risk of heart-related problems.
                 </p>
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
+                  src="/services/tmt.png"
                   className="rounded-md"
                   width={1000}
                   height={1000}
-                  alt="prp"
+                  alt="tmt"
                 />
               </div>
             </div>
@@ -67,21 +69,21 @@ const Prp = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[790px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[780px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
+                  src="/services/tmt1.jpg"
                   className="rounded-md mt-10"
                   width={1000}
                   height={1000}
-                  alt="prp"
+                  alt="tmt"
                 />
               </div>
               <div className="col-span-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
-                  How to Prepare for PRP Injection:
+                  How to Prepare for TMT:
                 </h1>
                 <p className="text-lg mt-2 flex">
                   <div>
@@ -89,11 +91,25 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Wear Comfortable Clothing:{" "}
+                    Wear Comfortable Clothing and Footwear:{" "}
                     </span>
-                    On the day of the procedure, wear loose, comfortable
-                    clothing, especially around the area being treated (e.g.,
-                    knee, shoulder, or scalp).
+                    Choose loose, comfortable clothes and wear proper athletic
+                    shoes or sneakers suitable for walking. This will help you
+                    move comfortably during the test.
+                  </div>
+                </p>
+
+                <p className="text-lg mt-2 flex">
+                  <div>
+                    <MdArrowRightAlt className="mr-2 mt-1" />
+                  </div>
+                  <div>
+                    <span className="font-semibold">
+                    Avoid Eating Heavy Meals Before the Test:{" "}
+                    </span>
+                    It is recommended to avoid eating a heavy meal 2-3 hours
+                    before the test to prevent discomfort while exercising. A
+                    light snack is okay, but avoid greasy or spicy foods.
                   </div>
                 </p>
 
@@ -103,8 +119,8 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">Stay Hydrated: </span>
-                    Drink plenty of water before the procedure to help ensure a
-                    smooth blood draw and optimal PRP concentration.
+                    Drink water before the test, but avoid excessive consumption
+                    right before the procedure to avoid feeling bloated.
                   </div>
                 </p>
 
@@ -114,43 +130,42 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Avoid Blood Thinners:{" "}
+                    Refrain from Caffeine and Alcohol:{" "}
                     </span>
-                    Inform your doctor if you are taking blood-thinning
-                    medications like aspirin, warfarin, or anti-inflammatory
-                    drugs. You may need to stop taking these medications for a
-                    few days prior to the procedure to reduce the risk of
-                    bruising or bleeding.
-                  </div>
-                </p>
-
-                <p className="text-lg mt-2 flex">
-                  <div>
-                    <MdArrowRightAlt className="mr-2 mt-1" />
-                  </div>
-                  <div>
-                    <span className="font-semibold">
-                    Fasting Guidelines (if required): </span>
-                    If your PRP injection involves anesthesia, you may be asked
-                    to fast for several hours before the procedure
+                    Avoid consuming caffeine (coffee, tea, energy drinks) or
+                    alcohol at least 24 hours before the test, as these can
+                    affect your heart rate and blood pressure, potentially
+                    influencing the test results.
                   </div>
                 </p>
               </div>
             </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-12">
+            <div className="lg:grid grid-cols-12 lg:-mt-11">
               <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5 -mt-3">
+                <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Inform Your Doctor About Health Conditions:{" "}
+                    Inform Your Doctor About Medications:{" "}
                     </span>
-                    Share your medical history, including any allergies, chronic
-                    conditions, or ongoing treatments. This will help ensure the
-                    procedure is safe for you.
+                    Inform your healthcare provider about any medications you're
+                    currently taking, especially heart or blood pressure
+                    medications. Some medications may need to be temporarily
+                    adjusted before the test.
+                  </div>
+                </p>
+
+                <p className="text-lg mt-2 flex px-5">
+                  <div>
+                    <MdArrowRightAlt className="mr-2 mt-1" />
+                  </div>
+                  <div>
+                    <span className="font-semibold">Avoid Smoking: </span>
+                    Refrain from smoking for at least 2 hours before the test,
+                    as nicotine can affect your heart rate and blood pressure.
                   </div>
                 </p>
 
@@ -160,10 +175,11 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Expect Mild Discomfort:{" "}
+                    Be Prepared for Mild Discomfort:{" "}
                     </span>
-                    The procedure involves a blood draw and an injection into
-                    the target area.
+                    The treadmill test may make you feel fatigued, out of
+                    breath, or slightly dizzy due to the increased physical
+                    activity.
                   </div>
                 </p>
 
@@ -173,34 +189,18 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Post-Procedure Care:{" "}
+                    Arrive Early and Relax:{" "}
                     </span>
-                    After the injection, you may experience swelling, redness,
-                    or mild soreness at the injection site. You should rest the
-                    treated area and avoid strenuous activities for a few days.
+                    Arrive at the testing center a few minutes early to complete
+                    any required paperwork and allow yourself time to relax
+                    before the test begins.
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex px-5">
-                  <div>
-                    <MdArrowRightAlt className="mr-2 mt-1" />
-                  </div>
-                  <div>
-                    <span className="font-semibold">
-                    Arrange for Transportation (if necessary):{" "}
-                    </span>
-                    If sedation or local anesthesia is used, arrange for someone
-                    to drive you home, as you may feel drowsy after the
-                    procedure.
-                  </div>
-                </p>
-
-                <p className="text-lg mt-5 font-semibold px-5 lg:pb-0 pb-3">
-                  PRP injections offer an effective, minimally invasive
-                  treatment option for various musculoskeletal conditions and
-                  promote natural healing. By using your body’s own healing
-                  factors, PRP helps stimulate recovery without the need for
-                  surgery.
+                <p className="text-lg mt-5 font-semibold px-5">
+                  TMT is a safe and effective method to evaluate heart health
+                  and identify potential cardiovascular problems by monitoring
+                  how the heart performs under stress.
                 </p>
               </div>
             </div>
@@ -211,4 +211,4 @@ const Prp = () => {
   );
 };
 
-export default Prp;
+export default Tmt;

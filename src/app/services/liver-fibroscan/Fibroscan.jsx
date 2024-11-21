@@ -128,7 +128,7 @@ const Fibroscan = () => {
         </div>
       </div>
 
-      {/* Oues 5 */}  
+      {/* Oues 5 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[500px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="lg:flex items-center justify-center h-full dark:text-black">
@@ -228,6 +228,25 @@ const Fibroscan = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
+              src="https://www.youtube.com/embed/TXxI4bB_CQY?si=ZihkWb5TtbkpiWkZ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

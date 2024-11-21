@@ -68,7 +68,7 @@ const Aspiration = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[800px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[720px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -141,8 +141,12 @@ const Aspiration = () => {
                     to avoid potential allergic reactions.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-16">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -157,7 +161,7 @@ const Aspiration = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -171,7 +175,7 @@ const Aspiration = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -183,12 +187,8 @@ const Aspiration = () => {
                     after the procedure, as you may feel drowsy afterward.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12">
-              <div className="col-start-4 col-span-6">
-                <p className="ml-10 font-semibold text-xl">
+                <p className="mx-5 font-semibold text-xl lg:pb-0 pb-3 mt-5">
                   Aspiration is a minimally invasive and effective way to
                   diagnose and treat various conditions, offering relief from
                   symptoms and enabling better treatment planning.

@@ -44,7 +44,7 @@ const Eeg = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[800px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[750px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -65,9 +65,7 @@ const Eeg = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                    Consult Your Doctor:{" "}
-                    </span>
+                    <span className="font-semibold">Consult Your Doctor: </span>
                     Discuss any symptoms you are experiencing, such as seizures,
                     headaches, or confusion. It’s also important to inform your
                     doctor about any medications you are taking, as some drugs
@@ -102,7 +100,7 @@ const Eeg = () => {
                   </div>
                 </p>
 
-                <p className="text-lg flex">
+                <p className="text-lg mt-2 flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -119,16 +117,14 @@ const Eeg = () => {
               </div>
             </div>
 
-            <div className="lg:grid grid-cols-12">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-3">
               <div className="col-start-4 col-span-6">
                 <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                      Prepare for Comfort:{" "}
-                    </span>
+                    <span className="font-semibold">Prepare for Comfort: </span>
                     Wear loose, comfortable clothing, as you will be sitting or
                     lying down during the test. The procedure typically does not
                     involve pain, but you may be asked to relax and stay still
@@ -151,13 +147,13 @@ const Eeg = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex px-5">
+                <p className="text-lg mt-2 flex px-5 lg:pb-0 pb-3">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Be Prepared for Electrodes Placement:{" "}
+                      Be Prepared for Electrodes Placement:{" "}
                     </span>
                     During the procedure, electrodes will be attached to your
                     scalp with a gel-like substance. This may feel slightly cold
@@ -166,6 +162,25 @@ const Eeg = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
+              src="https://www.youtube.com/embed/p38nzOGJZtI?si=u9jtbIOtFNkY7PEF"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

@@ -68,7 +68,8 @@ const Elastography = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Wear Comfortable, Loose-Fitting Clothing: </span>
+                      Wear Comfortable, Loose-Fitting Clothing:{" "}
+                    </span>
                     This makes it easier to access the breast area. You may also
                     be asked to wear a hospital gown during the procedure.
                   </div>
@@ -80,7 +81,8 @@ const Elastography = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Avoid Using Deodorants or Creams: </span>
+                      Avoid Using Deodorants or Creams:{" "}
+                    </span>
                     On the day of your appointment, avoid applying deodorants,
                     powders, or lotions on the chest area, as these can
                     interfere with imaging.
@@ -93,7 +95,8 @@ const Elastography = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Provide Medical History: </span>
+                      Provide Medical History:{" "}
+                    </span>
                     Inform your healthcare provider about any previous breast
                     surgeries, implants, or known issues, as these can affect
                     the results.
@@ -105,7 +108,9 @@ const Elastography = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">Discuss Medications and Health Conditions: </span>
+                    <span className="font-semibold">
+                      Discuss Medications and Health Conditions:{" "}
+                    </span>
                     Share any medications you are taking and any current health
                     conditions with your doctor to ensure a smooth and safe
                     procedure.
@@ -124,6 +129,25 @@ const Elastography = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
+              src="https://www.youtube.com/embed/lq9cCsOLBv4?si=1KQuFQ4jJpKR0Jhk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

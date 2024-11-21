@@ -73,7 +73,7 @@ const Ncv = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[800px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[770px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -133,7 +133,7 @@ const Ncv = () => {
                   </div>
                 </p>
 
-                <p className="text-lg flex">
+                <p className="text-lg mt-2 flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -150,7 +150,7 @@ const Ncv = () => {
               </div>
             </div>
 
-            <div className="lg:grid grid-cols-12">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-3">
               <div className="col-start-4 col-span-6">
                 <p className="text-lg flex px-5">
                   <div>
@@ -179,7 +179,7 @@ const Ncv = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex px-5">
+                <p className="text-lg mt-2 flex px-5 lg:pb-0 pb-3">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

@@ -69,7 +69,7 @@ const Fetal = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[800px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[750px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className=" h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -145,7 +145,7 @@ const Fetal = () => {
               </div>
             </div>
 
-            <div className="lg:grid grid-cols-12">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-4">
               <div className="col-start-4 col-span-6">
                 <p className="text-lg flex px-5">
                   <div>
@@ -190,7 +190,7 @@ const Fetal = () => {
                   </div>
                 </p>
 
-                <p className="ml-10 font-semibold text-xl">
+                <p className="ml-10 font-semibold text-xl mt-5">
                   Fetal echo is a valuable tool to identify heart conditions in
                   unborn babies, ensuring early diagnosis and treatment if
                   necessary, and providing peace of mind to expecting parents.

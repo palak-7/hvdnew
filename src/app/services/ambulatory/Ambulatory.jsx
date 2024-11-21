@@ -41,7 +41,7 @@ const Ambulatory = () => {
                   className="rounded-md"
                   width={1000}
                   height={1000}
-                  alt="xray"
+                  alt="bp-monitoring"
                 />
               </div>
             </div>
@@ -50,16 +50,16 @@ const Ambulatory = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[1000px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[830px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className=" h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/digi-xray.jpg"
+                  src="/services/"
                   className="rounded-md"
                   width={1000}
                   height={1000}
-                  alt="xray"
+                  alt="bp-monitoring"
                 />
               </div>
               <div className="col-span-4 p-5 lg:p-14">
@@ -126,8 +126,12 @@ const Ambulatory = () => {
                     your arm or body.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -143,7 +147,7 @@ const Ambulatory = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -159,7 +163,7 @@ const Ambulatory = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -173,18 +177,33 @@ const Ambulatory = () => {
                     collected data.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12">
-              <div className="col-start-4 col-span-6">
-                <p className="ml-10 font-semibold text-xl">
+                <p className="mx-5 font-semibold text-xl mt-5 pb-5 lg:pb-0">
                   Ambulatory BP monitoring provides an accurate and
                   comprehensive assessment of blood pressure patterns, helping
                   doctors diagnose and manage hypertension more effectively.
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
+              src="https://www.youtube.com/embed/waOXya_Tr98?si=oSEnrsY6izMtOd8O"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

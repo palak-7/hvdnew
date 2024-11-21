@@ -153,7 +153,7 @@ export const menuData = [
           {
             id: 484,
             title: "PEDIATRIC ECHO",
-            path: "/pediatric-echo",
+            path: "/services/echo/pediatric-echo",
             newTab: false,
           },
           {
@@ -168,7 +168,7 @@ export const menuData = [
       {
         id: 49,
         title: "TMT",
-        path: "/tmt",
+        path: "/services/tmt",
         newTab: false,
       },
 
@@ -204,7 +204,7 @@ export const menuData = [
           {
             id: 513,
             title: "PAIN INJECTION",
-            path: "/pain-injection",
+            path: "/services/ultrasoundguided/pain-injection",
             newTab: false,
           },
           {
@@ -237,7 +237,7 @@ export const menuData = [
       {
         id: 53,
         title: "UROFLOW METRY",
-        path: "/uroflometry",
+        path: "/services/uroflowmetry",
         newTab: false,
       },
       {
@@ -249,7 +249,7 @@ export const menuData = [
       {
         id: 55,
         title: "NCV",
-        path: "/services`/ncv",
+        path: "/services/ncv",
         newTab: false,
       },
       {

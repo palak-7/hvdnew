@@ -150,6 +150,25 @@ const Testing = () => {
           </div>
         </div>
       </div>
+
+      <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
+        <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
+          <div
+            className="relative"
+            style={{ paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
+              src="https://www.youtube.com/embed/qfmWoOkKHB8?si=SwstEAdAprTmTH5d"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

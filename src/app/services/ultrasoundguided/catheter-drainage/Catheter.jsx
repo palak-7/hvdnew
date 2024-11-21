@@ -64,7 +64,7 @@ const Catheter = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[700px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[630px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -119,8 +119,12 @@ const Catheter = () => {
                     assess your condition.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-24 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -131,12 +135,8 @@ const Catheter = () => {
                     especially if you feel anxious about the procedure.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg flex px-5 mt-2">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -150,7 +150,7 @@ const Catheter = () => {
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex px-5">
+                <p className="text-lg mt-2 flex px-5 lg:pb-0 pb-3">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

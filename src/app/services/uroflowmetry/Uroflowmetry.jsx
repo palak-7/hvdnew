@@ -2,21 +2,21 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MdArrowRightAlt } from "react-icons/md";
-const Monitoring = () => {
+const Uroflowmetry = () => {
   return (
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/uroflowmetry.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
-          alt="ecg-monitoring"
+          alt="uroflowmetry"
         />
         <div className="bg-lightblue absolute inset-0 opacity-70"></div>
         <div className=" absolute inset-0 text-center text-white  grid grid-rows-8">
           <div className="row-start-2 mt-6 font-bold font-serif text-5xl">
-            ECG Monitoring (At Home)
+            Uroflowmetry
           </div>
           <div className="row-start-5 flex justify-center">
             <Link
@@ -36,30 +36,27 @@ const Monitoring = () => {
             <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
-                  What is ECG Monitoring (At Home)?
+                  What is Uroflowmetry?
                 </h1>
 
                 <p className="text-lg mt-2 flex">
-                  ECG monitoring at home is a way to continuously track the
-                  heart’s electrical activity while you go about your daily
-                  activities. This monitoring typically involves wearing a
-                  small, portable ECG device like a Holter monitor or event
-                  monitor, which records heart rhythms over an extended period,
-                  usually 24-48 hours, or even longer. Home ECG monitoring is
-                  beneficial for identifying intermittent heart issues, such as
-                  arrhythmias, palpitations, or dizziness, that may not appear
-                  in a brief, in-clinic ECG test. The recorded data is later
-                  reviewed by healthcare providers to assess heart health and
-                  detect potential problems.
+                  Uroflowmetry is a diagnostic test that measures the flow rate
+                  and pattern of urine as it is passed from the bladder through
+                  the urethra. This test helps doctors evaluate how well the
+                  urinary system is functioning and can help diagnose conditions
+                  such as urinary tract obstructions, bladder dysfunction, or
+                  prostate issues in men. The results of uroflowmetry provide
+                  information about the speed of urination, the volume of urine,
+                  and whether the bladder is emptying properly.
                 </p>
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
+                  src="/services/uroflowmetry.png"
                   className="rounded-md"
                   width={1000}
                   height={1000}
-                  alt="ecg-monitoring"
+                  alt="uroflowmetry"
                 />
               </div>
             </div>
@@ -68,7 +65,7 @@ const Monitoring = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[850px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[730px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
@@ -77,26 +74,47 @@ const Monitoring = () => {
                   className="rounded-md mt-10"
                   width={1000}
                   height={1000}
-                  alt="ecg-monitoring"
+                  alt="uroflowmetry"
                 />
               </div>
               <div className="col-span-4 p-5 lg:p-14">
                 <h1 className="text-primary font-extrabold text-4xl">
-                  How to Prepare for ECG Monitoring (At Home):
+                  How to Prepare for Uroflowmetry:
                 </h1>
                 <p className="text-lg mt-2 flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                      Wear Comfortable, Loose Clothing:{" "}
-                    </span>
-                    Before the procedure, consult your healthcare provider to
-                    Choose loose, comfortable clothing to make it easier to
-                    attach and wear the monitor throughout the day. Button-up
-                    shirts are especially helpful for easy access to the chest
-                    area.
+                    <span className="font-semibold">Consult Your Doctor: </span>
+                    Before the test, discuss any symptoms you are experiencing,
+                    such as difficulty urinating or pain. Inform your doctor
+                    about any medications or health conditions that may affect
+                    the test, especially those that impact the urinary system.
+                  </div>
+                </p>
+
+                <p className="text-lg mt-2 flex">
+                  <div>
+                    <MdArrowRightAlt className="mr-2 mt-1" />
+                  </div>
+                  <div>
+                    <span className="font-semibold">Hydration: </span>
+                    You may be asked to drink fluids before the test to ensure
+                    your bladder is full enough for an accurate reading. Avoid
+                    excessive intake, as overhydration may cause discomfort.
+                  </div>
+                </p>
+
+                <p className="text-lg mt-2 flex">
+                  <div>
+                    <MdArrowRightAlt className="mr-2 mt-1" />
+                  </div>
+                  <div>
+                    <span className="font-semibold">Empty Your Bladder: </span>
+                    In some cases, you may be asked to empty your bladder just
+                    before the test to ensure it starts at a typical level of
+                    fullness, allowing the measurement to be accurate.
                   </div>
                 </p>
 
@@ -106,46 +124,18 @@ const Monitoring = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      {" "}
-                      Avoid Lotions or Creams on Your Chest :{" "}
+                      Avoid Using Diuretics:{" "}
                     </span>
-                    Before applying the monitor, avoid using any lotions,
-                    creams, or oils on the chest, as they can prevent the
-                    electrodes from sticking properly to your skin.
-                  </div>
-                </p>
-
-                <p className="text-lg mt-2 flex">
-                  <div>
-                    <MdArrowRightAlt className="mr-2 mt-1" />
-                  </div>
-                  <div>
-                    <span className="font-semibold">
-                      Discuss Medications with Your Doctor:{" "}
-                    </span>
-                    Inform your healthcare provider of any medications you are
-                    currently taking, especially heart medications, as they may
-                    impact heart rhythm and interpretation of the results.
-                  </div>
-                </p>
-
-                <p className="text-lg mt-2 flex">
-                  <div>
-                    <MdArrowRightAlt className="mr-2 mt-1" />
-                  </div>
-                  <div>
-                    <span className="font-semibold">
-                      Avoid Caffeine and Alcohol:{" "}
-                    </span>
-                    On the day of the test, avoid caffeine and alcohol unless
-                    directed otherwise, as these substances can increase heart
-                    rate and may affect the readings.
+                    If you are taking medications such as diuretics, your doctor
+                    may advise you to stop taking them temporarily before the
+                    test. These medications can increase urine production and
+                    affect the results.
                   </div>
                 </p>
               </div>
             </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-12 -mt-3">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-3">
               <div className="col-start-4 col-span-6">
                 <p className="text-lg flex px-5">
                   <div>
@@ -153,13 +143,11 @@ const Monitoring = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      Follow Instructions for Daily Activities:{" "}
+                      Wear Comfortable Clothing:{" "}
                     </span>
-                    Generally, you’ll be encouraged to go about your normal
-                    routine. However, check with your provider if there are
-                    specific activities, like intense exercise, that you should
-                    avoid, as excessive sweating might affect the electrodes’
-                    adherence.
+                    Wear clothing that is easy to remove, as you will be
+                    required to urinate into a special device. This helps ensure
+                    ease and privacy during the procedure.
                   </div>
                 </p>
 
@@ -168,41 +156,25 @@ const Monitoring = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                      Keep a Symptom Diary:{" "}
-                    </span>
-                    During monitoring, keep a diary to note any symptoms like
-                    chest pain, dizziness, or palpitations, along with the time
-                    they occur. This helps doctors correlate symptoms with
-                    recorded ECG data for more accurate diagnosis.
+                    <span className="font-semibold">Plan for Privacy:</span>
+                    Uroflowmetry is typically performed in a private setting
+                    where you will urinate into a measuring device. You may be
+                    asked to void in a private bathroom while the equipment
+                    records the data.
                   </div>
                 </p>
 
-                <p className="text-lg mt-2 flex px-5">
+                <p className="text-lg mt-2 flex px-5 lg:pb-0 pb-3">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                      Avoid Electromagnetic Interference:{" "}
+                      Avoid Caffeine and Alcohol:{" "}
                     </span>
-                    Stay away from high-power electronics like microwave ovens
-                    or electric blankets, as these can interfere with the signal
-                    of some ECG monitors.
-                  </div>
-                </p>
-
-                <p className="text-lg mt-2 flex px-5">
-                  <div>
-                    <MdArrowRightAlt className="mr-2 mt-1" />
-                  </div>
-                  <div>
-                    <span className="font-semibold">
-                      Do Not Tamper with the Device:{" "}
-                    </span>
-                    Avoid adjusting or removing the monitor yourself unless
-                    instructed. If there is discomfort or device malfunction,
-                    contact your healthcare provider for guidance.
+                    These substances can affect bladder function and may alter
+                    the results. It is best to avoid consuming caffeine or
+                    alcohol for at least 24 hours before the test.
                   </div>
                 </p>
               </div>
@@ -219,7 +191,7 @@ const Monitoring = () => {
           >
             <iframe
               className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
-              src="https://www.youtube.com/embed/iitRJd1gc5g?si=b1_6qR9YxlcvSL3w"
+              src="https://www.youtube.com/embed/5VmMUG0TDlA?si=mqvLqmh7wnmmk6r1"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -233,4 +205,4 @@ const Monitoring = () => {
   );
 };
 
-export default Monitoring;
+export default Uroflowmetry;

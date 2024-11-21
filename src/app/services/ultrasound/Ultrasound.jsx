@@ -264,21 +264,6 @@ const Ultrasound = () => {
         </div>
       </div>
 
-      {/* <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
-        <div className="col-start-2 col-span-4 py-4">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/0RL2QgdGK7o?si=-IF-DQ88hqx7BcCR"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div> */}
-
       <div className="lg:grid grid-cols-12 bg-skyblue mb-4">
         <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-2 lg:col-span-4 py-4">
           <div

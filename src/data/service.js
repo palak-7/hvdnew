@@ -193,7 +193,7 @@ export const service = [
     category: "USG",
     name: "USG LOWER ABD TVS ",
     url: "/services/ultrasound",
-    price: "1800",
+    price: "1600",
   },
   {
     id: 29,
@@ -221,7 +221,7 @@ export const service = [
     category: "USG",
     name: "USG WHOLE ABD ",
     url: "/services/ultrasound",
-    price: "2000",
+    price: "1800",
   },
   {
     id: 33,
@@ -347,7 +347,7 @@ export const service = [
     category: "USG",
     name: "USG OBS WITH COLOR DOPPLER ",
     url: "/services/ultrasound",
-    price: "3000",
+    price: "2500",
   },
   {
     id: 51,
@@ -1580,5 +1580,5 @@ export const service = [
     name: "Loopogram ",
     price: "5000",
   },
-
+ 
 ];

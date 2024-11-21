@@ -3,7 +3,7 @@ export const servicesdata = [
     id: 1,
     name: "Digital X ray",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "An X-ray is a type of medical imaging that uses radiation to take pictures of the inside of your body.",
     image: "/services/digital-xray.jpeg",
     url: "digital-xray",
     imageurl: "digitalXRay",
@@ -11,7 +11,7 @@ export const servicesdata = [
       {
         id: 11,
         ques: "Overview",
-        ans: "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+        ans: "",
       },
       {
         id: 12,
@@ -62,8 +62,9 @@ Tell your healthcare provider about your health history, allergies and any medic
     id: 3,
     name: "Color Doppler",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Color Doppler is an advanced ultrasound imaging technique used to visualize blood flow in the body. It combines traditional ultrasound imaging with Doppler ultrasound, using color coding to display the direction and speed of blood flow.",
     image: "/services/colordoppler.png",
+    url: "colordoppler",
   },
   {
     id: 4,
@@ -114,166 +115,112 @@ Tell your healthcare provider about your health history, allergies and any medic
     id: 5,
     name: "Breast elastography",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Elastography is a specialized ultrasound technique used to measure the stiffness or elasticity of tissue, often used to detect abnormalities in organs like the liver, breast, and thyroid.",
     image: "/services/breastelastography.png",
+    url: "breast-elastography",
   },
   {
     id: 6,
     name: "ECG",
     image: "/services/ecg.png",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
-    subnames: [
-      {
-        id: 61,
-        name: "ECG Testing",
-      },
-      {
-        id: 62,
-        name: "ECG Monitoring",
-      },
-    ],
+      "An Electrocardiogram (ECG or EKG) is a medical test that records the electrical activity of the heart.",
+    url: "ecg/ecg-testing",
   },
   {
     id: 7,
     name: "24 Hours Holter Monitoring",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "24-hour Holter monitoring is a type of continuous ECG (electrocardiogram) that records the electrical activity of your heart over a full 24-hour period.",
     image: "/services/holter.png",
+    url: "holter-monitoring",
   },
   {
     id: 8,
     name: "ECHO",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "2D ECHO, also known as 2D Echocardiography, is a non-invasive ultrasound test that uses sound waves to create real-time images of the heart.",
     image: "/services/echo.jpeg",
-    subnames: [
-      {
-        id: 81,
-        name: "2D ECHO",
-      },
-      {
-        id: 82,
-        name: "Exercise Stress echo",
-      },
-
-      {
-        id: 83,
-        name: "Dobutamine Stress echo",
-      },
-
-      {
-        id: 84,
-        name: "Pediatric echo",
-      },
-
-      {
-        id: 85,
-        name: "Fetal echo",
-      },
-    ],
+    url: "echo/2d_echo",
   },
   {
     id: 9,
     name: "TMT",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "TMT (Treadmill Test), also known as a stress test, is a diagnostic procedure used to assess how well the heart functions during physical exertion.",
     image: "/services/tmt.png",
+    url: "tmt",
   },
   {
     id: 10,
     name: "Ambulatory BP monitoring (ABPM)",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Ambulatory blood pressure monitoring (ABPM) is a method used to measure blood pressure over a 24-hour period while a patient goes about their normal daily activities.",
     image: "/services/abpm.jpeg",
+    url: "ambulatory",
   },
   {
     id: 11,
     name: "Ultrasound Guided Interventions",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Fine Needle Aspiration Cytology (FNAC) is a diagnostic procedure used to investigate lumps or abnormalities in the body by collecting a small sample of tissue or fluid using a thin, hollow needle.",
     image: "/services/ultrasoundguidedintervention.jpeg",
-    subnames: [
-      {
-        id: 111,
-        name: "FNAC",
-      },
-      {
-        id: 112,
-        name: "Biopsy",
-      },
-
-      {
-        id: 113,
-        name: "Breast Biopsy",
-      },
-
-      {
-        id: 114,
-        name: "Pain Injection",
-      },
-
-      {
-        id: 115,
-        name: "PRP Injection",
-      },
-      {
-        id: 116,
-        name: "Aspiration",
-      },
-      {
-        id: 117,
-        name: "Catheter drainage",
-      },
-    ],
+    url: "/ultrasoundguided/fnac",
   },
   {
     id: 12,
     name: "Pulmonary function test (PFT)",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "A Pulmonary Function Test (PFT) is a set of non-invasive tests used to measure how well your lungs are functioning.",
     image: "/services/pulmunory.png",
+    url: "pulmonary-function-test",
   },
   {
     id: 13,
     name: "Uroflow Metry",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Uroflowmetry is a diagnostic test that measures the flow rate and pattern of urine as it is passed from the bladder through the urethra.",
     image: "/services/uroflowmetry.png",
+    url: "uroflowmetry",
   },
   {
     id: 14,
     name: "EEG",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "An Electroencephalogram (EEG) is a diagnostic test that measures the electrical activity of the brain. It records brain wave patterns through small electrodes placed on the scalp.",
     image: "/services/eeg.png",
+    url: "eeg",
   },
   {
     id: 15,
     name: "NCV",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Nerve Conduction Velocity (NCV) is a diagnostic test that measures the speed at which electrical signals travel along a nerve.",
     image: "/services/ncv.png",
+    url: "ncv",
   },
   {
     id: 16,
     name: "EMG",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Electromyography (EMG) is a diagnostic procedure used to assess the health and functionality of muscles and the nerve cells that control them.",
     image: "/services/emg.png",
+    url: "emg",
   },
   {
     id: 17,
     name: "Pathology (Blood Tests)",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Blood tests are important diagnostic tools that assess overall health, detect diseases, and monitor various health conditions.",
     image: "/services/pathology.png",
+    url: "pathology",
   },
   {
     id: 18,
     name: "Blood Pressure Monitoring",
     short_desc:
-      "Providers can use X-rays to diagnose broken bones, arthritis, infections in your lungs, spine conditions, kidney stones, abnormal fluid or air in your chest, bowel obstruction and to ascertain correct positioning of certain medical devices.",
+      "Blood pressure monitoring is the process of measuring the force of blood against the walls of your arteries as your heart pumps it through your body.",
     image: "/services/bloodpressuremonitoring.png",
+    url: "bloodpressuremonitoring",
   },
 ];
