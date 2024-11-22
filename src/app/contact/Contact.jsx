@@ -119,11 +119,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="rounded-md shadow-lg shadow-lightgreen">
-          <div className="py-5 rounded-md translate-x-3 translate-y-3">
+          <div className="py-5 rounded-md translate-x-2 translate-y-3">
             <h1 className="font-bold text-xl mb-2">Email Address</h1>
             <Link
               href="mailto:healthvista.diagnostics@gmail.com"
-              className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex"
+              className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex text-lg md:text-sm"
             >
               <IoMdMail className="mt-1 mr-1" />
               healthvista.diagnostics@gmail.com

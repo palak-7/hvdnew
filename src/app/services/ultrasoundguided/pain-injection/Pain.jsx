@@ -129,7 +129,7 @@ const Pain = () => {
                   </div>
                 </p>
 
-                <p className="text-lg flex">
+                <p className="text-lg mt-2 flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
