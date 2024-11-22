@@ -208,12 +208,17 @@ const Dobutamine = () => {
             style={{ paddingBottom: "56.25%", height: 0 }}
           >
             <iframe
-              className="absolute top-0 left-0 w-full h-full p-5 lg:p-0 rounded-2xl"
-              src="https://youtube.com/shorts/N6sVwx760Do?si=lkSuEUATk7-cH54L"
-              title="YouTube video player"
+              src="https://www.youtube.com/embed/N6sVwx760Do"
+              title="YouTube Short"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>

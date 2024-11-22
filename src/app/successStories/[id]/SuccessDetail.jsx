@@ -23,13 +23,8 @@ const SuccessDetail = ({ id }) => {
         >
           <div className="md:grid grid-cols-12 gap-4">
             <div className="col-start-2 col-span-3 flex justify-center items-center p-4">
-              {/* <video className="w-full h-auto rounded-lg shadow-lg" controls>
-                <source src="/success/successstori1.mp4" type="video/mp4" />
-              </video> */}
-
               <video controls width="100%" height="auto" className="rounded">
-                <source src="/success/successstori1.mp4" type="video/mp4" />
-
+                <source src="/success/succes1.mp4" type="video/mp4" />
               </video>
             </div>
 
