@@ -44,7 +44,7 @@ export const rate = [
   {
     id: 7,
     category: "Service",
-    name: "X-R ABD LAT ",
+    name: "X-R ABDOMEN LAT ",
     url: "/",
     price: "450",
   },

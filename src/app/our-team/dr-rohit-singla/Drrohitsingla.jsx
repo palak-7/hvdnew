@@ -4,24 +4,7 @@ import React from "react";
 import { PiCaretCircleRightBold } from "react-icons/pi";
 import Image from "next/image";
 const Drrohitsingla = () => {
-  const data = [
-    {
-      original: "/team/dr5.jpg",
-      thumbnail: "/team/dr5.jpg",
-    },
-    {
-      original: "/team/dr6.jpg",
-      thumbnail: "/team/dr6.jpg",
-    },
-    {
-      original: "/team/dr7.jpg",
-      thumbnail: "/team/dr7.jpg",
-    },
-    {
-      original: "/team/dr8.jpg",
-      thumbnail: "/team/dr8.jpg",
-    },
-  ];
+  
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
@@ -44,7 +27,7 @@ const Drrohitsingla = () => {
           </div>
           <div>
             <div className="inline-block">
-              <h1 className="text-3xl mt-5 font-semibold">BRIEF PROFILE</h1>
+              <h1 className="text-3xl mt-5 font-semibold dark:text-black">BRIEF PROFILE</h1>
               <div className="border border-lightgreen"></div>
             </div>
             <p className=" dark:text-black text-xl leading-8">
@@ -81,7 +64,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** EDUCATION Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-6">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">EDUCATION</h1>
           <div className="border border-lightgreen"></div>
