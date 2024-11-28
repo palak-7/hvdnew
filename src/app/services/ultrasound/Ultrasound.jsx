@@ -8,9 +8,9 @@ const Ultrasound = () => {
   return (
     <div className=" dark:bg-white">
       <Head service={servicesdata[1]} />
-      <div className="lg:relative">
+      {/* <div className="lg:relative">
         <Image
-          src="/services/ultrasound/overview.png"
+          src=""
           width={10000}
           height={10000}
           className="w-full"
@@ -36,7 +36,40 @@ const Ultrasound = () => {
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div className="overflow-x-hidden">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
+          <div className="lg:flex items-center justify-center h-full">
+            <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
+              <div className="col-span-4 col-start-4 p-5 lg:p-14">
+                <h1 className="text-primary font-extrabold text-4xl">
+                  What is an Ultrasound scan?
+                </h1>
+
+                <p className="text-lg mt-2 flex">
+                  Ultrasound is a non-invasive scan which uses high frequency
+                  sound waves of the inside of your body. During your private
+                  Ultrasound scan, a probe is passed over the skin and this
+                  emits sound waves. These sound waves bounce off your organs
+                  and send a signal via the microphone to the computer which
+                  then displays the sound as an image.
+                </p>
+              </div>
+              <div className="col-span-2 lg:p-10 p-5">
+                <Image
+                  src="/services/newultrasoundimg.png"
+                  className="rounded-md lg:-ml-10"
+                  width={1000}
+                  height={1000}
+                  alt="ultrasound"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
       {/* ques 2 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[550px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
@@ -46,14 +79,14 @@ const Ultrasound = () => {
                 <div>
                   <Image
                     src="/services/ultrasound/ultrasound-2.png"
-                    className="rounded-md"
+                    className="rounded-md lg:ml-20"
                     width={1000}
                     height={1000}
                     alt="ultrasound"
                   />
                 </div>
               </div>
-              <div className="col-span-4 p-5 lg:p-14">
+              <div className="col-span-4 p-5 lg:ml-32">
                 <h1 className="text-primary text-lg font-bold">
                   Ultrasound is highly effective so can be used for a range of
                   medical concerns:
@@ -187,7 +220,7 @@ const Ultrasound = () => {
                 <div>
                   <Image
                     src="/services/ultrasound/ultrasound-3.png"
-                    className="rounded-md"
+                    className="rounded-md lg:-ml-10"
                     width={1000}
                     height={1000}
                     alt="ultrasound"
@@ -207,7 +240,7 @@ const Ultrasound = () => {
                 <div>
                   <Image
                     src="/services/ultrasound/ultrasound-4.png"
-                    className="rounded-md"
+                    className="rounded-md lg:ml-10"
                     width={1000}
                     height={1000}
                     alt="ultrasound"

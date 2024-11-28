@@ -52,7 +52,7 @@ const Pulmonary = () => {
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
                   src="/services/pulmunory.png"
-                  className="rounded-md"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="prp"
@@ -70,7 +70,7 @@ const Pulmonary = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <Image
                   src="/services/pulmunory1.jpg"
-                  className="rounded-md mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="prp"

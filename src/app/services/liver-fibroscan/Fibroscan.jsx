@@ -39,8 +39,8 @@ const Fibroscan = () => {
               <div className="col-span-2 p-4">
                 <div>
                   <Image
-                    src="/services/fabroscan/fabroscan.jpg"
-                    className="rounded-md"
+                    src="/services/liverfibroscan.png"
+                    className="rounded-md lg:-ml-10"
                     width={1000}
                     height={1000}
                     alt="fabroscan"
@@ -59,19 +59,19 @@ const Fibroscan = () => {
               <div className="col-span-2 col-start-4">
                 <div className="p-4">
                   <Image
-                    src="/services/fabroscan/fabroscan1.jpg"
-                    className="rounded-md"
+                    src="/services/lfibroscan2.jpg"
+                    className="rounded-md lg:ml-10"
                     width={1000}
                     height={1000}
                     alt="xray"
                   />
                 </div>
               </div>
-              <div className="col-span-4 px-5">
+              <div className="col-span-4 col-start-6 lg:ml-12 px-5">
                 <h1 className="text-primary font-extrabold text-4xl">
                   How do I prepare for my FibroScan?
                 </h1>
-                <p className="text-lg mt-2">
+                <p className="text-lg mt-2 lg:pb-0 pb-5">
                   FibroScan preparation is simple and straightforward. On the
                   day of your procedure, do not eat or drink anything 3 hours
                   before your test. You should wear comfortable clothes (e.g.
@@ -88,7 +88,7 @@ const Fibroscan = () => {
       </div>
       {/* Ques 4 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[550px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
             <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
@@ -115,11 +115,11 @@ const Fibroscan = () => {
               <div className="col-span-2 p-4">
                 <div>
                   <Image
-                    src="/services/fabroscan/fabroscan2.jpg"
-                    className="rounded-md"
+                    src="/services/lfibroscan3.jpg"
+                    className="rounded-md lg:-ml-10"
                     width={1000}
                     height={1000}
-                    alt="xray"
+                    alt="fibroscan"
                   />
                 </div>
               </div>
@@ -137,14 +137,14 @@ const Fibroscan = () => {
                 <div>
                   <Image
                     src="/services/liver-fibroscan.jpg"
-                    className="rounded-md"
+                    className="rounded-md lg:ml-10"
                     width={1000}
                     height={1000}
                     alt="xray"
                   />
                 </div>
               </div>
-              <div className="col-span-4 p-5 lg:p-14">
+              <div className="col-span-4 p-5 lg:ml-10 lg:p-14">
                 <h1 className="text-primary font-extrabold text-2xl">
                   Your physician may recommend a FibroScan test if you have one
                   of the following chronic liver conditions:

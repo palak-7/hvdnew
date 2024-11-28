@@ -7,7 +7,7 @@ const Exercise = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/exercise-stress-echo1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -53,10 +53,10 @@ const Exercise = () => {
                   detect any abnormalities.
                 </p>
               </div>
-              <div className="col-span-2 lg:p-10 p-5">
+              <div className="col-span-2 lg:p-10 p-5 ">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/exercise-stress-echo1.jpg"
+                  className="rounded-md md:-ml-10"
                   width={1000}
                   height={1000}
                   alt="excercise"
@@ -73,8 +73,8 @@ const Exercise = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/exercise-stress-echo2.jpg"
+                  className="rounded-md md:ml-10 md:mt-10"
                   width={1000}
                   height={1000}
                   alt="excercise"
@@ -125,8 +125,12 @@ const Exercise = () => {
                     and potentially interfere with the test results.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-10 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -140,12 +144,7 @@ const Exercise = () => {
                     the test.
                   </div>
                 </p>
-              </div>
-            </div>
-
-            <div className="lg:grid grid-cols-12 lg:-mt-10 -mt-3">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

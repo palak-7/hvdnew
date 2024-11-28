@@ -8,7 +8,7 @@ const Twodecho = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/echo.jpeg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -55,7 +55,7 @@ const Twodecho = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
+                  src="/services/echo.jpeg"
                   className="rounded-md"
                   width={1000}
                   height={1000}
@@ -71,9 +71,9 @@ const Twodecho = () => {
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[700px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className=" h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
-              <div className="col-span-2 col-start-4 p-4">
+              <div className="col-span-2 col-start-4 lg:ml-5 p-4">
                 <Image
-                  src="/services/"
+                  src="/services/2d-echo2.jpg"
                   className="rounded-md"
                   width={1000}
                   height={1000}
@@ -175,7 +175,7 @@ const Twodecho = () => {
                   </div>
                 </p>
 
-                <p className="ml-10 font-semibold text-xl mt-5">
+                <p className="ml-10 font-semibold text-xl mt-5 lg:pb-0 pb-5">
                   2D ECHO is a safe, effective diagnostic tool that provides
                   vital information about your heart health. The procedure is
                   quick, painless, and plays a crucial role in detecting and

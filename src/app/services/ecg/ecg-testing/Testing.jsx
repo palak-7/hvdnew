@@ -7,7 +7,7 @@ const Testing = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ecg.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -52,8 +52,8 @@ const Testing = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ecg.png"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="ecg-testing"
@@ -65,13 +65,13 @@ const Testing = () => {
       </div>
       {/* ques 3 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[500px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
+        <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[520px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
           <div className="h-full dark:text-black">
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/ecg-testing2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="ecg-testing"

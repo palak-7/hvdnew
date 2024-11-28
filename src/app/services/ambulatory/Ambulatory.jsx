@@ -38,7 +38,7 @@ const Ambulatory = () => {
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
                   src="/services/abpm.jpeg"
-                  className="rounded-md"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="bp-monitoring"
@@ -55,8 +55,8 @@ const Ambulatory = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/abmp2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="bp-monitoring"

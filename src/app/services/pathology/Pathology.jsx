@@ -54,7 +54,7 @@ const Pathology = () => {
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
                   src="/services/pathology.png"
-                  className="rounded-md"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="pathology"
@@ -72,7 +72,7 @@ const Pathology = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <Image
                   src="/services/pathology1.jpg"
-                  className="rounded-md mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="pathology"
@@ -123,8 +123,12 @@ const Pathology = () => {
                     ensure more accurate results.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-10 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg  flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -138,12 +142,7 @@ const Pathology = () => {
                     specific instructions on what to avoid for the best results.
                   </div>
                 </p>
-              </div>
-            </div>
-
-            <div className="lg:grid grid-cols-12 lg:-mt-10 -mt-3">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

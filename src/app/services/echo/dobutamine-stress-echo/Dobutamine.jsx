@@ -7,7 +7,7 @@ const Dobutamine = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/dobutamine-stress-echo1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -58,8 +58,8 @@ const Dobutamine = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/dobutamine-stress-echo1.jpg"
+                  className="rounded-md md:-ml-10"
                   width={1000}
                   height={1000}
                   alt="dobutamine-stress-echo"
@@ -76,8 +76,8 @@ const Dobutamine = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/dobutamine-stress-echo2.avif"
+                  className="rounded-md md:mt-10 md:ml-10"
                   width={1000}
                   height={1000}
                   alt="dobutamine-stress-echo"
@@ -190,7 +190,7 @@ const Dobutamine = () => {
                   </div>
                 </p>
 
-                <p className="text-xl flex px-5 font-semibold mt-5">
+                <p className="text-xl flex px-5 font-semibold mt-5 lg:pb-0 pb-5">
                   A Dobutamine Stress Echo is a safe and effective way to
                   evaluate heart function under stress, providing valuable
                   insights into heart health and the diagnosis of heart disease.

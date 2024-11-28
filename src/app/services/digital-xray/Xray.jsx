@@ -22,7 +22,7 @@ const Xray = () => {
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
                   src="/services/digital-xray.jpeg"
-                  className="rounded-md"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="xray"
@@ -41,7 +41,7 @@ const Xray = () => {
                 <div>
                   <Image
                     src="/services/digi-xray.jpg"
-                    className="rounded-md"
+                    className="rounded-md lg:ml-10 lg:mt-10"
                     width={1000}
                     height={1000}
                     alt="xray"

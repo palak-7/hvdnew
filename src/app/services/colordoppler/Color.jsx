@@ -32,8 +32,8 @@ const Color = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/colordoppler/colordoppler.jpg"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="color-doppler"
@@ -50,8 +50,8 @@ const Color = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/colordoppler/colordoppler2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="color-doppler"
@@ -102,12 +102,8 @@ const Color = () => {
                     results.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-28 -mt-3">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -117,8 +113,12 @@ const Color = () => {
                     anxiety can sometimes affect blood flow readings.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex px-5">
+            <div className="lg:grid grid-cols-12 -mt-4">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

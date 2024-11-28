@@ -7,7 +7,7 @@ const Monitoring = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ecgmonitoring1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -55,8 +55,8 @@ const Monitoring = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ecgmonitoring1.jpg"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="ecg-monitoring"
@@ -73,8 +73,8 @@ const Monitoring = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/ecgmonitoring2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="ecg-monitoring"
@@ -128,8 +128,12 @@ const Monitoring = () => {
                     impact heart rhythm and interpretation of the results.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-12 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -142,12 +146,8 @@ const Monitoring = () => {
                     rate and may affect the readings.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-12 -mt-3">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>

@@ -57,7 +57,7 @@ const Tmt = () => {
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
                   src="/services/tmt.png"
-                  className="rounded-md"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="tmt"
@@ -75,7 +75,7 @@ const Tmt = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <Image
                   src="/services/tmt1.jpg"
-                  className="rounded-md mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-10"
                   width={1000}
                   height={1000}
                   alt="tmt"
@@ -91,7 +91,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Wear Comfortable Clothing and Footwear:{" "}
+                      Wear Comfortable Clothing and Footwear:{" "}
                     </span>
                     Choose loose, comfortable clothes and wear proper athletic
                     shoes or sneakers suitable for walking. This will help you
@@ -105,7 +105,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Avoid Eating Heavy Meals Before the Test:{" "}
+                      Avoid Eating Heavy Meals Before the Test:{" "}
                     </span>
                     It is recommended to avoid eating a heavy meal 2-3 hours
                     before the test to prevent discomfort while exercising. A
@@ -130,7 +130,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Refrain from Caffeine and Alcohol:{" "}
+                      Refrain from Caffeine and Alcohol:{" "}
                     </span>
                     Avoid consuming caffeine (coffee, tea, energy drinks) or
                     alcohol at least 24 hours before the test, as these can
@@ -149,7 +149,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Inform Your Doctor About Medications:{" "}
+                      Inform Your Doctor About Medications:{" "}
                     </span>
                     Inform your healthcare provider about any medications you're
                     currently taking, especially heart or blood pressure
@@ -175,7 +175,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Be Prepared for Mild Discomfort:{" "}
+                      Be Prepared for Mild Discomfort:{" "}
                     </span>
                     The treadmill test may make you feel fatigued, out of
                     breath, or slightly dizzy due to the increased physical
@@ -189,7 +189,7 @@ const Tmt = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Arrive Early and Relax:{" "}
+                      Arrive Early and Relax:{" "}
                     </span>
                     Arrive at the testing center a few minutes early to complete
                     any required paperwork and allow yourself time to relax
