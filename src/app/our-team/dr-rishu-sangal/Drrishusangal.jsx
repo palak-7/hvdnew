@@ -86,15 +86,15 @@ const Drrishusangal = () => {
             <div className="border border-lightgreen"></div>
           </div>
 
-          <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             MBBS: LLRM Medical College, Meerut, UP
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             MD (Radiology): LLRM Medical College, Meerut, UP
@@ -111,33 +111,34 @@ const Drrishusangal = () => {
         </div>
 
         <div className="mt-4 space-y-2">
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
-           <span className="font-semibold"> July 2011-March 2012: </span> Department of Radiology, Bhagwan Mahavir
-            Cancer Hospital, Jaipur, Rajasthan, India
+            <span className="font-semibold"> July 2011-March 2012: </span>{" "}
+            Department of Radiology, Bhagwan Mahavir Cancer Hospital, Jaipur,
+            Rajasthan, India
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">April 2012-July 2013:</span>
-            Department of Radiology,
-             Fortis-Escorts Hospital, Jaipur, Rajasthan, India
+            Department of Radiology, Fortis-Escorts Hospital, Jaipur, Rajasthan,
+            India
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">August 2013-April 2015:</span> Saral
             Diagnostic Centre, Pitampura, New Delhi, India
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">June 2016-May 2017:</span>
@@ -145,8 +146,8 @@ const Drrishusangal = () => {
             India
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">June 2017-June 2020:</span>
@@ -154,24 +155,24 @@ const Drrishusangal = () => {
             India
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">July 2020-Sep 2023:</span>
             Department of Radiology, BLK MAX Hospital, New Delhi, India.
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">Sep 2023 till date:</span> Director
             & Consultant Radiology, Health Vista Diagnostics, Delhi.
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[5px] lg:mt-[4px]">
               <PiCaretCircleRightBold />
             </span>
             <span className="font-semibold">June 2024 till date:</span> Senior
@@ -190,29 +191,29 @@ const Drrishusangal = () => {
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[5px] lg:mt-[4px]">
             <PiCaretCircleRightBold />
           </span>
           Lifetime Member- Indian Radiological & Imaging Association (IRIA)
         </p>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[5px] lg:mt-[4px]">
             <PiCaretCircleRightBold />
           </span>
           Lifetime Member- Breast Imaging Society of India (BISI)
         </p>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[5px] lg:mt-[4px]">
             <PiCaretCircleRightBold />
           </span>
           Member- European Society of Oncology Imaging (ESOI)
         </p>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[5px] lg:mt-[4px]">
             <PiCaretCircleRightBold />
           </span>
           Lifetime Member- Society of Oncologic Imaging India (SOII)

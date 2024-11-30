@@ -5,10 +5,8 @@ import React from "react";
 import { PiCaretCircleRightBold } from "react-icons/pi";
 
 const Drbssingla = () => {
-
   return (
     <div>
-
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
         <Image
           src="/team/dr1.jpg"
@@ -38,10 +36,14 @@ const Drbssingla = () => {
               <div className="border border-lightgreen"></div>
             </div>
             <p className="dark:text-black text-xl leading-8">
-              Dr. B S Singla is one of the leading non invasive cardiologist of Delhi with more than 40 years of experience in cardiology. Dr. B S Singla is an alumnus from PGI Chandigarh.
+              Dr. B S Singla is one of the leading non invasive cardiologist of
+              Delhi with more than 40 years of experience in cardiology. Dr. B S
+              Singla is an alumnus from PGI Chandigarh.
             </p>
             <p className="dark:text-black text-xl leading-8 mt-3">
-              He was previously associated with leading hospitals such as Apollo Clinics, Chandigarh, Oxford Hospitals Chandigarh and currently also working at HOD Ashok Vihar.
+              He was previously associated with leading hospitals such as Apollo
+              Clinics, Chandigarh, Oxford Hospitals Chandigarh and currently
+              also working at HOD Ashok Vihar.
             </p>
           </div>
         </div>
@@ -49,14 +51,15 @@ const Drbssingla = () => {
 
       <div className="lg:mx-10 px-10 py-4 rounded-xl">
         <p className="leading-relaxed mt-2 text-black dark:text-black text-xl">
-          Dr B S Singla has been performing ECHO, TMT, HOLTER and ABPM for nearly four decades with highly accurate results.
+          Dr B S Singla has been performing ECHO, TMT, HOLTER and ABPM for
+          nearly four decades with highly accurate results.
         </p>
 
         <p className="leading-relaxed text-black dark:text-black text-xl">
-          Dr. B S SIngla is a life member of multiple national professional organizations in the field of cardiology.
+          Dr. B S SIngla is a life member of multiple national professional
+          organizations in the field of cardiology.
         </p>
       </div>
-
 
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
         <div>
@@ -67,22 +70,21 @@ const Drbssingla = () => {
             <div className="border border-lightgreen"></div>
           </div>
 
-          <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[7px] lg:mt-[5px]">
               <PiCaretCircleRightBold />
             </span>
             MBBS: Government Medical College, Patiala
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[7px] lg:mt-[5px]">
               <PiCaretCircleRightBold />
             </span>
             MD (Medicine): PGIMER, Chandigarh
           </p>
         </div>
       </div>
-
 
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
         <div className="inline-block">
@@ -93,18 +95,20 @@ const Drbssingla = () => {
         </div>
 
         <div className="mt-4 space-y-2">
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[7px] lg:mt-[5px]">
               <PiCaretCircleRightBold />
             </span>
-            Non Invasive Cardiologist at Apollo Clinic, Chandigarh, Oxford Hospital, Chandigarh and PARK Hospital Mohali.
+            Non Invasive Cardiologist at Apollo Clinic, Chandigarh, Oxford
+            Hospital, Chandigarh and PARK Hospital Mohali.
           </p>
 
-          <p className="text-gray-800 flex gap-2 items-center text-xl">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl">
+            <span className="text-xl mt-[7px] lg:mt-[5px]">
               <PiCaretCircleRightBold />
             </span>
-            Non invasive Cardiologist at HOD Ashok Vihar and Madhu MRI, GTB Nagar, Delhi
+            Non invasive Cardiologist at HOD Ashok Vihar and Madhu MRI, GTB
+            Nagar, Delhi
           </p>
         </div>
       </div>
@@ -118,28 +122,27 @@ const Drbssingla = () => {
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[7px] lg:mt-[5px]">
             <PiCaretCircleRightBold />
           </span>
           Life Member Indian Medical Association
         </p>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[7px] lg:mt-[5px]">
             <PiCaretCircleRightBold />
           </span>
           Life Member IAE Delhi
         </p>
 
-        <p className="mt-2 text-gray-800 flex gap-2 items-center text-xl">
-          <span className="lg:text-xl text-2xl">
+        <p className="mt-2 text-gray-800 flex gap-2 text-xl">
+          <span className="text-xl mt-[7px] lg:mt-[5px]">
             <PiCaretCircleRightBold />
           </span>
           Life Member IAE NCR Chapter
         </p>
       </div>
-
 
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl">
         <div className="inline-block">
@@ -150,8 +153,8 @@ const Drbssingla = () => {
         </div>
 
         <div className="mt-2 space-y-2">
-          <p className="text-gray-800 flex gap-2 items-center text-xl mb-4">
-            <span className="lg:text-xl text-2xl">
+          <p className="text-gray-800 flex gap-2 text-xl mb-4">
+            <span className="text-xl mt-[7px] lg:mt-[5px]">
               <PiCaretCircleRightBold />
             </span>
             Fellowship in Echocardiography of IAE Delhi

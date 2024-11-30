@@ -4,7 +4,6 @@ import React from "react";
 import { PiCaretCircleRightBold } from "react-icons/pi";
 import Image from "next/image";
 const Drrohitsingla = () => {
-  
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
@@ -27,7 +26,9 @@ const Drrohitsingla = () => {
           </div>
           <div>
             <div className="inline-block">
-              <h1 className="text-3xl mt-5 font-semibold dark:text-black">BRIEF PROFILE</h1>
+              <h1 className="text-3xl mt-5 font-semibold dark:text-black">
+                BRIEF PROFILE
+              </h1>
               <div className="border border-lightgreen"></div>
             </div>
             <p className=" dark:text-black text-xl leading-8">
@@ -70,86 +71,92 @@ const Drrohitsingla = () => {
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
+        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 text-xl">
           <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
           </span>
           MBBS: All India Institute of Medical Sciences, New Delhi
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> MD (Medicine): All India Institute of
-          Medical Sciences, New Delhi
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          MD (Medicine): All India Institute of Medical Sciences, New Delhi
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> DM Cardiology: SMS Hospital, Jaipur,
-          Rajasthan
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          DM Cardiology: SMS Hospital, Jaipur, Rajasthan
         </p>
       </div>
 
       {/** EXPERIENCE Section **/}
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
-          <h1 className="text-3xl font-semibold dark:text-black">WORK EXPERIENCE </h1>
+          <h1 className="text-3xl font-semibold dark:text-black">
+            WORK EXPERIENCE{" "}
+          </h1>
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> 2013-2014: Delhi Heart & Lung Institute
+        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          2013-2014: Delhi Heart & Lung Institute
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> 2014-2015: Balaji Action Cancer Hospital
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          2014-2015: Balaji Action Cancer Hospital
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> 2016-2018: MAX Super Speciality Hospital,
-          Shalimar Bagh
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          2016-2018: MAX Super Speciality Hospital, Shalimar Bagh
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> 2018-till date: Bhagwati Hospital, Rohini
-          Sec-13, Delhi
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          2018-till date: Bhagwati Hospital, Rohini Sec-13, Delhi
         </p>
       </div>
 
       {/** MEMBERSHIPS Section **/}
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
-          <h1 className="text-3xl font-semibold dark:text-black">MEMBERSHIPS</h1>
+          <h1 className="text-3xl font-semibold dark:text-black">
+            MEMBERSHIPS
+          </h1>
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> Lifetime Member of North Delhi Physician
-          Forum
+        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          Lifetime Member of North Delhi Physician Forum
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> Lifetime Member of Cardiology Society of
-          India (CSI)
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          Lifetime Member of Cardiology Society of India (CSI)
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
           </span>
           IMA DNZ
         </p>
@@ -158,22 +165,26 @@ const Drrohitsingla = () => {
       {/** FELLOWSHIPS Section **/}
       <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
-          <h1 className="text-3xl font-semibold dark:text-black"> FELLOWSHIPS </h1>
+          <h1 className="text-3xl font-semibold dark:text-black">
+            {" "}
+            FELLOWSHIPS{" "}
+          </h1>
           <div className="border border-lightgreen"></div>
         </div>
 
-        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> Fellow of the Society for Cardiovascular
-          Angiography and Interventions (FSCAI)
+        <p className="leading-relaxed mt-2 text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          Fellow of the Society for Cardiovascular Angiography and Interventions
+          (FSCAI)
         </p>
 
-        <p className="leading-relaxed text-gray-800 flex gap-2 items-center text-xl">
-         <span>
-            <PiCaretCircleRightBold className="lg:text-xl text-2xl" />
-          </span> Fellow of American College of Cardiology
-          (FACC)
+        <p className="leading-relaxed text-gray-800 flex gap-2 text-xl">
+          <span>
+            <PiCaretCircleRightBold className="text-xl mt-[7px] lg:mt-[5px]" />
+          </span>{" "}
+          Fellow of American College of Cardiology (FACC)
         </p>
       </div>
     </div>
