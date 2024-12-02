@@ -8,11 +8,13 @@ import { IoLocationSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import Link from "next/link";
 import { IoMdMail } from "react-icons/io";
+import { RotatingLines } from "react-loader-spinner";
 import { useRouter } from "next/navigation";
 
 const Contact = () => {
   const router = useRouter();
   const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false); // Add a loading state
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -26,8 +28,9 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const fileData = new FormData();
+    setLoading(true); // Start loading
 
+    const fileData = new FormData();
     fileData.append("myFile", file);
 
     // Append other form data fields to fileData
@@ -36,6 +39,8 @@ const Contact = () => {
     });
 
     const response = await sendFormData(fileData);
+
+    setLoading(false); // End loading
 
     if (response.success) {
       Swal.fire({
@@ -59,6 +64,7 @@ const Contact = () => {
       });
     }
   };
+
   return (
     <div className="dark:bg-white dark:text-black overflow-x-hidden">
       <div className="relative py-20 lg:py-0">
@@ -212,9 +218,23 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="bg-green-500 text-white p-3 rounded-md hover:bg-green-700 transition duration-300 cursor-pointer">
-              Send Message
-            </button>
+            <div>
+              {loading ? (
+                <div className="flex justify-center items-center w-full h-full bg-gray-500 bg-opacity-50 rounded-md fixed top-0 left-0 z-50">
+                  <RotatingLines
+                    width="60"
+                    height="60"
+                    color="#07a496"
+                    ariaLabel="loading"
+                    className="animate-spin"
+                  />
+                </div>
+              ) : (
+                <button className="bg-green-500 text-white p-3 rounded-md hover:bg-green-700 transition duration-300 cursor-pointer">
+                  Send Message
+                </button>
+              )}
+            </div>
           </form>
         </div>
 
