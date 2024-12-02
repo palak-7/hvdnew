@@ -9,12 +9,13 @@ const Eeg = () => {
       <Head service={servicesdata[13]} />
 
       {/* ques 2 */}
+
       <div className="overflow-x-hidden">
         <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
             <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
-              <div className="col-span-4 col-start-4 p-5 lg:p-14">
-                <h1 className="text-primary font-extrabold text-4xl">
+              <div className="col-span-4 col-start-4 p-5 lg:p-14 mx-5 ">
+                <h1 className="text-primary font-extrabold lg:text-4xl text-3xl">
                   What is an Electroencephalogram (EEG)?
                 </h1>
 
@@ -42,6 +43,7 @@ const Eeg = () => {
           </div>
         </div>
       </div>
+
       {/* ques 3 */}
       <div className="overflow-x-hidden">
         <div className="bottom-0 mb-10 lg:ml-[-50%] lg:h-[750px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue">
@@ -50,14 +52,14 @@ const Eeg = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <Image
                   src="/services/eeg1.jpg"
-                  className="rounded-md lg:ml-10 lg:mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-20"
                   width={1000}
                   height={1000}
                   alt="eeg"
                 />
               </div>
               <div className="col-span-4 p-5 lg:p-14">
-                <h1 className="text-primary font-extrabold text-4xl">
+                <h1 className="text-primary font-extrabold lg:text-4xl text-3xl">
                   How to Prepare for an Electroencephalogram (EEG):
                 </h1>
                 <p className="text-lg mt-2 flex">

@@ -63,7 +63,7 @@ Tell your healthcare provider about your health history, allergies and any medic
     name: "Color Doppler",
     short_desc:
       "Color Doppler is an advanced ultrasound imaging technique used to visualize blood flow in the body. It combines traditional ultrasound imaging with Doppler ultrasound, using color coding to display the direction and speed of blood flow.",
-    image: "/services/colordoppler.png",
+    image: "/services/colordoppler/colordoppler.jpg",
     url: "colordoppler",
   },
   {
@@ -185,7 +185,7 @@ Tell your healthcare provider about your health history, allergies and any medic
   },
   {
     id: 14,
-    name: "EEG",
+    name: "Electroencephalogram (EEG)",
     short_desc:
       "An Electroencephalogram (EEG) is a diagnostic test that measures the electrical activity of the brain. It records brain wave patterns through small electrodes placed on the scalp.",
     image: "/services/eeg.png",

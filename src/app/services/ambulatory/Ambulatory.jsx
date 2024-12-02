@@ -56,7 +56,7 @@ const Ambulatory = () => {
               <div className="col-span-2 col-start-4 p-4">
                 <Image
                   src="/services/abmp2.jpg"
-                  className="rounded-md lg:ml-10 lg:mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="bp-monitoring"

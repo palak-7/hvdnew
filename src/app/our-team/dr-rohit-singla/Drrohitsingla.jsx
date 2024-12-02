@@ -11,10 +11,10 @@ const Drrohitsingla = () => {
           src="/team/dr5.jpg"
           width={1000}
           height={1000}
-          className="w-full lg:px-20 lg:pt-5 pb-5"
+          className="w-full lg:px-10 lg:pt-12 pb-5"
           alt="dr-rishu-singal"
         />
-        <div className="mx-10 leading-loose lg:mt-10">
+        <div className="mx-10 leading-loose lg:mt-14">
           <div>
             <h1 className="text-4xl font-extrabold text-black">
               Dr. Rohit Singla
@@ -42,7 +42,7 @@ const Drrohitsingla = () => {
         </div>
       </div>
 
-      <div className="lg:mx-10 px-10 py-4 rounded-xl">
+      <div className="px-10 py-4 rounded-xl">
         <p className="leading-relaxed text-black dark:text-black text-xl">
           Dr Rohit Singla has been performing complex interventional procedures
           for nearly a decade with highly successful outcomes. He is also
@@ -65,7 +65,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** EDUCATION Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-6">
+      <div className=" ml-10 mr-5 lg:mr-0 rounded-xl pb-6">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">EDUCATION</h1>
           <div className="border border-lightgreen"></div>
@@ -94,7 +94,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** EXPERIENCE Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
+      <div className=" ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             WORK EXPERIENCE{" "}
@@ -132,7 +132,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** MEMBERSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
+      <div className=" ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             MEMBERSHIPS
@@ -163,7 +163,7 @@ const Drrohitsingla = () => {
       </div>
 
       {/** FELLOWSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
+      <div className=" ml-10 mr-5 lg:mr-0 rounded-xl pb-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             {" "}

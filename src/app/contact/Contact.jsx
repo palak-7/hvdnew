@@ -61,7 +61,7 @@ const Contact = () => {
   };
   return (
     <div className="dark:bg-white dark:text-black overflow-x-hidden">
-      <div className="relative">
+      <div className="relative py-20 lg:py-0">
         <Image
           src={`/contact/contactmedical.jpeg`}
           width={1000}
@@ -70,10 +70,10 @@ const Contact = () => {
           alt="service"
         />
         <div className="absolute inset-0 bg-[#07a496] opacity-70 z-10"></div>
-        
-          <h1 className="text-gray-800 font-sans text-center text-6xl font-bold my-4 absolute inset-0 z-20 flex items-center justify-center">
-            Contact Us
-          </h1>
+
+        <h1 className="text-gray-800 font-sans text-center text-6xl font-bold absolute inset-0 z-20 flex items-center justify-center">
+          Contact Us
+        </h1>
       </div>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 mx-4 lg:mx-10 mt-10 p-5">
@@ -119,14 +119,15 @@ const Contact = () => {
           </div>
         </div>
         <div className="rounded-md shadow-lg shadow-lightgreen">
-          <div className="py-5 rounded-md translate-x-2 translate-y-3">
+          <div className="p-5 rounded-md translate-x-3 translate-y-3">
             <h1 className="font-bold text-xl mb-2">Email Address</h1>
             <Link
               href="mailto:healthvista.diagnostics@gmail.com"
-              className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex text-lg md:text-sm"
+              className="text-primary hover:text-lightgreen duration-300 font-semibold object-cover flex text-base"
             >
               <IoMdMail className="mt-1 mr-1" />
-              healthvista.diagnostics@gmail.com
+              healthvista.diagnostics@ <br className="lg:hidden block" />{" "}
+              gmail.com
             </Link>
           </div>
         </div>

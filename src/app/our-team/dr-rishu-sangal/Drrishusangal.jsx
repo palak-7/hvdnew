@@ -12,10 +12,10 @@ const Drrishusangal = () => {
           src="/team/rishumam.jpg"
           width={1000}
           height={1000}
-          className="w-full lg:px-20 lg:pt-5 pb-5"
+          className="w-full lg:px-10 lg:pt-12 pb-5"
           alt="dr-rishu-singal"
         />
-        <div className="mx-10 leading-loose lg:mt-10">
+        <div className="mx-10 leading-loose lg:mt-14">
           <div>
             <h1 className="text-4xl font-extrabold text-black">
               Dr Rishu Sangal
@@ -52,7 +52,7 @@ const Drrishusangal = () => {
         </div>
       </div>
 
-      <div className="lg:mx-10 px-10 py-4 rounded-xl">
+      <div className="px-10 py-4 rounded-xl">
         <p className="leading-relaxed mt-2 text-black dark:text-black text-xl">
           She has been trained in Interventional radiology from Rajiv Gandhi
           Cancer Hospital, New Delhi and attended short training course on
@@ -77,7 +77,7 @@ const Drrishusangal = () => {
         </p>
       </div>
 
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
         <div>
           <div className="inline-block">
             <h1 className="text-3xl font-semibold dark:text-black">
@@ -102,7 +102,7 @@ const Drrishusangal = () => {
         </div>
       </div>
 
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             WORK EXPERIENCE
@@ -183,7 +183,7 @@ const Drrishusangal = () => {
       </div>
 
       {/** MEMBERSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl py-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             MEMBERSHIPS

@@ -13,7 +13,7 @@ const Head = ({ service }) => {
       />
       <div className="bg-lightblue absolute inset-0 opacity-70"></div>
       <div className=" absolute inset-0 text-center text-white  grid grid-rows-8">
-        <div className="row-start-2 mt-6 font-bold font-serif text-5xl">
+        <div className="row-start-2 mt-6 font-bold font-serif lg:text-5xl text-3xl">
           {service.name}
         </div>
         <div className="row-start-5 flex justify-center">

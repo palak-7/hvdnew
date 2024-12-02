@@ -49,7 +49,7 @@ const Drbssingla = () => {
         </div>
       </div>
 
-      <div className="lg:mx-10 px-10 py-4 rounded-xl">
+      <div className="px-10 py-4 rounded-xl">
         <p className="leading-relaxed mt-2 text-black dark:text-black text-xl">
           Dr B S Singla has been performing ECHO, TMT, HOLTER and ABPM for
           nearly four decades with highly accurate results.
@@ -61,7 +61,7 @@ const Drbssingla = () => {
         </p>
       </div>
 
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl mt-4">
         <div>
           <div className="inline-block">
             <h1 className="text-3xl font-semibold dark:text-black">
@@ -86,7 +86,7 @@ const Drbssingla = () => {
         </div>
       </div>
 
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl mt-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             WORK EXPERIENCE
@@ -114,7 +114,7 @@ const Drbssingla = () => {
       </div>
 
       {/** MEMBERSHIPS Section **/}
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl py-8">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl py-8">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             MEMBERSHIPS
@@ -144,7 +144,7 @@ const Drbssingla = () => {
         </p>
       </div>
 
-      <div className="lg:ml-20 ml-10 mr-5 lg:mr-0 rounded-xl">
+      <div className="ml-10 mr-5 lg:mr-0 rounded-xl">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold dark:text-black">
             FELLOWSHIPS

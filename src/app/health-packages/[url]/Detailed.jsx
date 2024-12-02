@@ -76,16 +76,18 @@ const Detailed = ({ url }) => {
             </table>
           </div>
 
-          {p.newInfo ? (
-            <h1
-              className={`bg-blue-700 text-white font-semibold py-2 rounded-3xl mt-5`}
-            >
-              <Marquee>
-                <GiCheckMark className="mr-2 text-[#FFD447]" />
-                {p.newInfo}
-              </Marquee>
-            </h1>
-          ) : null}
+          <div className="lg:pb-0 pb-4">
+            {p.newInfo ? (
+              <h1
+                className={`bg-blue-700 text-white font-semibold py-2 rounded-3xl mt-5`}
+              >
+                <Marquee>
+                  <GiCheckMark className="mr-2 text-[#FFD447]" />
+                  {p.newInfo}
+                </Marquee>
+              </h1>
+            ) : null}
+          </div>
         </div>
         {/* <div className="lg:block hidden">
           <Sidebar url={p.url} />
