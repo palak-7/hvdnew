@@ -8,7 +8,7 @@ const Breast = () => {
       <div>
         <div className="relative">
           <Image
-            src={`/services/`}
+            src={`/services/ultrasoundguided/brease-biopsy2.jpg`}
             width={1000}
             height={1000}
             className="w-full h-[300px] object-cover"
@@ -32,7 +32,7 @@ const Breast = () => {
 
         {/* ques 2 */}
         <div className="overflow-x-hidden">
-          <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
+          <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[500px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
             <div className="lg:flex items-center justify-center h-full">
               <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
                 <div className="col-span-4 col-start-4 p-5 lg:p-14">
@@ -56,7 +56,7 @@ const Breast = () => {
                 </div>
                 <div className="col-span-2 lg:p-10 p-5">
                   <Image
-                    src="/services/"
+                    src="/services/ultrasoundguided/brease-biopsy.png"
                     className="rounded-md"
                     width={1000}
                     height={1000}
@@ -74,8 +74,8 @@ const Breast = () => {
               <div className="lg:grid grid-cols-12 items-center">
                 <div className="col-span-2 col-start-4 p-4">
                   <Image
-                    src="/services/"
-                    className="rounded-md"
+                    src="/services/ultrasoundguided/brease-biopsy2.jpg"
+                    className="rounded-md lg:ml-10 lg:mt-12"
                     width={1000}
                     height={1000}
                     alt="Breast Biopsy"
@@ -127,8 +127,12 @@ const Breast = () => {
                       tissue and potentially complicate the procedure.
                     </div>
                   </p>
+                </div>
+              </div>
 
-                  <p className="text-lg mt-2 flex">
+              <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
+                <div className="col-start-4 col-span-6">
+                  <p className="text-lg flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />
                     </div>
@@ -140,11 +144,7 @@ const Breast = () => {
                       which numbs the biopsy site.
                     </div>
                   </p>
-                </div>
-              </div>
 
-              <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
-                <div className="col-start-4 col-span-6">
                   <p className="text-lg mt-2 flex mx-5">
                     <div>
                       <MdArrowRightAlt className="mr-2 mt-1" />

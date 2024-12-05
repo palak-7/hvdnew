@@ -7,7 +7,7 @@ const Biopsy = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ultrasoundguided/biopsy.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -54,8 +54,8 @@ const Biopsy = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/biopsy.png"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="biopsy"
@@ -72,8 +72,8 @@ const Biopsy = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/biopsy2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="biopsy"
@@ -128,8 +128,12 @@ const Biopsy = () => {
                     carefully.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -143,11 +147,6 @@ const Biopsy = () => {
                     ratio (INR).
                   </div>
                 </p>
-              </div>
-            </div>
-
-            <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-3">
-              <div className="col-start-4 col-span-6">
                 <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />

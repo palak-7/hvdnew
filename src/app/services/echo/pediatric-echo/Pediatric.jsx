@@ -7,7 +7,7 @@ const Pediatric = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/echo/peditric-echo/pediatric-echo-new.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -56,8 +56,8 @@ const Pediatric = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/echo/peditric-echo/pediatric-echo-new.png"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="pediatric-echo"
@@ -74,8 +74,8 @@ const Pediatric = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/echo/peditric-echo/pediatric-echo2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="pediatric-echo"
@@ -91,7 +91,7 @@ const Pediatric = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      1. Explain the Procedure to Your Child:{" "}
+                      Explain the Procedure to Your Child:{" "}
                     </span>
                     If your child is old enough to understand, explain the
                     procedure in simple terms to help them feel more
@@ -105,7 +105,7 @@ const Pediatric = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      2. Wear Comfortable Clothing:{" "}
+                      Wear Comfortable Clothing:{" "}
                     </span>
                     Dress your child in loose, comfortable clothing, especially
                     with easy access to the chest area. This makes it easier for
@@ -119,7 +119,7 @@ const Pediatric = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      3. Avoid Eating Before the Test (if instructed):{" "}
+                      Avoid Eating Before the Test (if instructed):{" "}
                     </span>
                     In some cases, your doctor may advise you to avoid feeding
                     your child for 1-2 hours before the procedure, especially
@@ -127,14 +127,18 @@ const Pediatric = () => {
                     before the test.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-4">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg lg:mt-9 mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                      4. Inform the Doctor About Medical History:
+                      Inform the Doctor About Medical History:
                     </span>
                     Provide your child’s healthcare provider with a complete
                     medical history, including any known heart conditions,
@@ -143,18 +147,14 @@ const Pediatric = () => {
                     the results.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-4">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                      5. Stay Calm and Reassuring:
+                      Stay Calm and Reassuring:
                     </span>
                     Children may feel anxious about medical tests, so it’s
                     important to remain calm and reassuring throughout the
@@ -168,7 +168,7 @@ const Pediatric = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      6. Prepare for the Duration:{" "}
+                      Prepare for the Duration:{" "}
                     </span>
                     The pediatric echo usually takes around 30-60 minutes,
                     depending on the complexity of the heart condition being
@@ -183,7 +183,7 @@ const Pediatric = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                      7. Avoid Lotions or Oils:{" "}
+                      Avoid Lotions or Oils:{" "}
                     </span>
                     On the day of the test, avoid applying lotions, oils, or
                     creams to your child’s chest area, as they can interfere

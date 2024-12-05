@@ -74,7 +74,7 @@ const Twodecho = () => {
               <div className="col-span-2 col-start-4 lg:ml-5 p-4">
                 <Image
                   src="/services/2d-echo2.jpg"
-                  className="rounded-md lg:mt-10"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="2d-echo"

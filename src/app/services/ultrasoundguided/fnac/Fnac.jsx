@@ -7,7 +7,7 @@ const Fnac = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ultrasoundguided/ultrasound-guided-fnac.jpeg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -31,7 +31,7 @@ const Fnac = () => {
 
       {/* ques 2 */}
       <div className="overflow-x-hidden">
-        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[400px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
+        <div className="bottom-0 my-10 lg:ml-[-50%] lg:h-[480px] lg:w-[200%] lg:rounded-t-[100%] lg:rounded-b-[100%] bg-skyblue dark:text-black">
           <div className="lg:flex items-center justify-center h-full">
             <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse lg:0">
               <div className="col-span-4 col-start-4 p-5 lg:p-14">
@@ -55,7 +55,7 @@ const Fnac = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
+                  src="/services/ultrasoundguided/ultrasound-guided-fnac.jpeg"
                   className="rounded-md"
                   width={1000}
                   height={1000}
@@ -73,8 +73,8 @@ const Fnac = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/ultrasound-guided-fnac-2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="fnac"
@@ -90,7 +90,7 @@ const Fnac = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Wear Comfortable Clothing:
+                      Wear Comfortable Clothing:
                     </span>
                     On the day of the procedure, wear loose, comfortable
                     clothing, especially around the area being tested (e.g.,
@@ -129,8 +129,12 @@ const Fnac = () => {
                     and drink.
                   </div>
                 </p>
+              </div>
+            </div>
 
-                <p className="text-lg mt-2 flex">
+            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-3">
+              <div className="col-start-4 col-span-6">
+                <p className="text-lg px-5 flex">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
@@ -142,18 +146,14 @@ const Fnac = () => {
                     sample collection.
                   </div>
                 </p>
-              </div>
-            </div>
 
-            <div className="lg:grid grid-cols-12 lg:-mt-11 -mt-3">
-              <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg mt-2 flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Discuss Allergies or Sensitivities:
+                      Discuss Allergies or Sensitivities:
                     </span>
                     If you have any allergies (especially to local anesthetics
                     or iodine), inform your doctor ahead of time to avoid any
@@ -167,7 +167,7 @@ const Fnac = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Bring Someone with You:
+                      Bring Someone with You:
                     </span>
                     While FNAC is typically a quick outpatient procedure, it’s
                     helpful to bring a friend or family member to provide
@@ -180,10 +180,8 @@ const Fnac = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                       Post-Procedure Care:
-                    </span>
-                     After the procedure, you may experience mild bruising,
+                    <span className="font-semibold">Post-Procedure Care:</span>
+                    After the procedure, you may experience mild bruising,
                     swelling, or tenderness at the site. It is advisable to
                     avoid strenuous activities for a few days to allow the area
                     to heal.

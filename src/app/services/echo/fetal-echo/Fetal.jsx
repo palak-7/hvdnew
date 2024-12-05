@@ -7,7 +7,7 @@ const Fetal = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/echo/fetal-echo/fetal-echo1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -56,8 +56,8 @@ const Fetal = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/echo/fetal-echo/fetal-echo1.jpg"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="fetal-echo"
@@ -74,8 +74,8 @@ const Fetal = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/echo/fetal-echo/fetal-echo2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="fetal-echo"
@@ -90,9 +90,7 @@ const Fetal = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                       Consult Your Doctor:
-                    </span>
+                    <span className="font-semibold">Consult Your Doctor:</span>
                     Discuss with your healthcare provider whether a fetal echo
                     is necessary. They may refer you for this test based on risk
                     factors or if they detect potential issues during routine
@@ -106,7 +104,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Wear Comfortable Clothing:
+                      Wear Comfortable Clothing:
                     </span>
                     On the day of the test, wear loose and comfortable clothing.
                     You may be asked to expose your abdomen for the ultrasound
@@ -120,7 +118,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Ensure a Full Bladder (if instructed):
+                      Ensure a Full Bladder (if instructed):
                     </span>
                     In some cases, you may be asked to drink water before the
                     test to ensure a full bladder, which helps provide clearer
@@ -135,7 +133,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Avoid Eating (if necessary):
+                      Avoid Eating (if necessary):
                     </span>
                     You may be advised to avoid eating for 1-2 hours before the
                     procedure to ensure optimal imaging, although this is
@@ -153,7 +151,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Prepare for a Longer Appointment:
+                      Prepare for a Longer Appointment:
                     </span>
                     Fetal echocardiograms can take 30-60 minutes or longer,
                     depending on the baby’s position and the complexity of the
@@ -168,7 +166,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Relax During the Test:
+                      Relax During the Test:
                     </span>
                     Stay relaxed, as it may take some time to get clear images
                     of the heart. The technician may ask you to shift positions
@@ -182,7 +180,7 @@ const Fetal = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                       Do Not Apply Lotion or Oils:
+                      Do Not Apply Lotion or Oils:
                     </span>
                     On the day of the procedure, avoid applying lotions, oils,
                     or creams on your abdomen, as they may interfere with the

@@ -7,7 +7,7 @@ const Catheter = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ultrasoundguided/catheter-drainage.png`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -51,8 +51,8 @@ const Catheter = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/catheter-drainage.png"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="catheter-drainage"
@@ -69,8 +69,8 @@ const Catheter = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/ultrasoundguided/catheter-drainage2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="catheter-drainage"
@@ -123,7 +123,7 @@ const Catheter = () => {
             </div>
 
             <div className="lg:grid grid-cols-12 lg:-mt-24 -mt-3">
-              <div className="col-start-4 col-span-6">
+              <div className="col-start-4 lg:mt-16 col-span-6">
                 <p className="text-lg flex px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />

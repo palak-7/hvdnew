@@ -7,7 +7,7 @@ const Pain = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ultrasoundguided/pain-injection1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -57,8 +57,8 @@ const Pain = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/pain-injection1.jpg"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="pain-injection"
@@ -75,8 +75,8 @@ const Pain = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/ultrasoundguided/pain-injection2.jpg"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="pain-injection"
@@ -92,7 +92,7 @@ const Pain = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Wear Comfortable Clothing:{" "}
+                      Wear Comfortable Clothing:{" "}
                     </span>
                     On the day of the procedure, wear loose and comfortable
                     clothes, allowing easy access to the area being treated
@@ -106,7 +106,7 @@ const Pain = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Discuss Medications with Your Doctor:{" "}
+                      Discuss Medications with Your Doctor:{" "}
                     </span>
                     Inform your doctor about any medications you are taking,
                     especially blood thinners (like aspirin, warfarin) or
@@ -120,7 +120,7 @@ const Pain = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                     Avoid Eating (if necessary):{" "}
+                      Avoid Eating (if necessary):{" "}
                     </span>
                     If the pain injection is being done near the neck, spine, or
                     under sedation, your doctor may instruct you to fast for a
@@ -145,13 +145,13 @@ const Pain = () => {
 
             <div className="lg:grid grid-cols-12 lg:-mt-14 -mt-4">
               <div className="col-start-4 col-span-6">
-                <p className="text-lg flex px-5">
+                <p className="text-lg flex mt-10 px-5">
                   <div>
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Explain Any Allergies:
+                      Explain Any Allergies:
                     </span>
                     Inform your doctor if you have any allergies to medications,
                     particularly anesthetics, or contrast dyes used during
@@ -165,7 +165,7 @@ const Pain = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Expect Mild Discomfort:{" "}
+                      Expect Mild Discomfort:{" "}
                     </span>
                     You may feel some pressure or discomfort when the needle is
                     inserted, but the procedure is generally well-tolerated. The
@@ -180,7 +180,7 @@ const Pain = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Arrange for Someone to Drive You (if necessary):{" "}
+                      Arrange for Someone to Drive You (if necessary):{" "}
                     </span>
                     If sedation is used, arrange for a friend or family member
                     to drive you home, as you may feel drowsy afterward.
@@ -192,9 +192,7 @@ const Pain = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                    Post-Procedure Care:{" "}
-                    </span>
+                    <span className="font-semibold">Post-Procedure Care: </span>
                     After the injection, you may experience temporary soreness
                     or swelling at the injection site. Follow any post-procedure
                     instructions, such as applying ice or resting the area.

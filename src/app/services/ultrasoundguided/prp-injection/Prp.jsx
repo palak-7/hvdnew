@@ -7,7 +7,7 @@ const Prp = () => {
     <div>
       <div className="relative">
         <Image
-          src={`/services/`}
+          src={`/services/ultrasoundguided/prp-injection1.jpg`}
           width={1000}
           height={1000}
           className="w-full h-[300px] object-cover"
@@ -54,8 +54,8 @@ const Prp = () => {
               </div>
               <div className="col-span-2 lg:p-10 p-5">
                 <Image
-                  src="/services/"
-                  className="rounded-md"
+                  src="/services/ultrasoundguided/prp-injection1.jpg"
+                  className="rounded-md lg:-ml-10"
                   width={1000}
                   height={1000}
                   alt="prp"
@@ -72,8 +72,8 @@ const Prp = () => {
             <div className="lg:grid grid-cols-12 items-center">
               <div className="col-span-2 col-start-4 p-4">
                 <Image
-                  src="/services/"
-                  className="rounded-md mt-10"
+                  src="/services/ultrasoundguided/prp-injection2.png"
+                  className="rounded-md lg:ml-10 lg:mt-14"
                   width={1000}
                   height={1000}
                   alt="prp"
@@ -89,7 +89,7 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Wear Comfortable Clothing:{" "}
+                      Wear Comfortable Clothing:{" "}
                     </span>
                     On the day of the procedure, wear loose, comfortable
                     clothing, especially around the area being treated (e.g.,
@@ -114,7 +114,7 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Avoid Blood Thinners:{" "}
+                      Avoid Blood Thinners:{" "}
                     </span>
                     Inform your doctor if you are taking blood-thinning
                     medications like aspirin, warfarin, or anti-inflammatory
@@ -130,7 +130,8 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Fasting Guidelines (if required): </span>
+                      Fasting Guidelines (if required):{" "}
+                    </span>
                     If your PRP injection involves anesthesia, you may be asked
                     to fast for several hours before the procedure
                   </div>
@@ -146,7 +147,7 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Inform Your Doctor About Health Conditions:{" "}
+                      Inform Your Doctor About Health Conditions:{" "}
                     </span>
                     Share your medical history, including any allergies, chronic
                     conditions, or ongoing treatments. This will help ensure the
@@ -160,7 +161,7 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Expect Mild Discomfort:{" "}
+                      Expect Mild Discomfort:{" "}
                     </span>
                     The procedure involves a blood draw and an injection into
                     the target area.
@@ -172,9 +173,7 @@ const Prp = () => {
                     <MdArrowRightAlt className="mr-2 mt-1" />
                   </div>
                   <div>
-                    <span className="font-semibold">
-                    Post-Procedure Care:{" "}
-                    </span>
+                    <span className="font-semibold">Post-Procedure Care: </span>
                     After the injection, you may experience swelling, redness,
                     or mild soreness at the injection site. You should rest the
                     treated area and avoid strenuous activities for a few days.
@@ -187,7 +186,7 @@ const Prp = () => {
                   </div>
                   <div>
                     <span className="font-semibold">
-                    Arrange for Transportation (if necessary):{" "}
+                      Arrange for Transportation (if necessary):{" "}
                     </span>
                     If sedation or local anesthesia is used, arrange for someone
                     to drive you home, as you may feel drowsy after the
