@@ -27,7 +27,7 @@ const GalleryImages = ({ url }) => {
       <Breadcrumbs bread={bread} />
       <h1 className="text-center font-extrabold text-5xl my-4 text-primary underline">
         <span className="uppercase">{findImages.categroy[0]}</span>
-        {findImages.categroy.slice(1)} Images
+        {findImages.categroy.slice(1)}
       </h1>
       <div className="grid lg:grid-cols-3 gap-3">
         {arrayImages.map((i, index) => (
@@ -51,8 +51,8 @@ const GalleryImages = ({ url }) => {
             <Image
               src={selectedImage}
               alt="Selected"
-              // width={1000}
-              // height={1000}
+              width={750}
+              height={750}
               className="max-w-[90vw] max-h-[90vh] object-contain" // Set max width/height and maintain aspect ratio
             />
 

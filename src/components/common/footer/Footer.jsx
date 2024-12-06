@@ -71,7 +71,7 @@ const Footer = () => {
           <br />
           <Link href="/gallery">Gallery</Link>
           <br />
-          <Link href="/success-stories">Success Stories</Link>
+          <Link href="/successStories">Success Stories</Link>
           <br />
           <Link href="/our-team">Our Team</Link>
           <br />
@@ -89,7 +89,7 @@ const Footer = () => {
           <br />
           <Link href="/services/pathology">Pathology</Link>
           <br />
-          <Link href="/services/holter">Holter</Link>
+          <Link href="/services/holter-monitoring">Holter</Link>
           <br />
         </div>
 
