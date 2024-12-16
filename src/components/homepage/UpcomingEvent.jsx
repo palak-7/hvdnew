@@ -51,26 +51,26 @@ const UpcomingEvent = () => {
                 width={1000}
                 height={1000}
                 className="object-cover w-full rounded-t-lg md:w-60 md:rounded-none md:rounded-s-lg h-60"
-                src="/events/workshops.jpeg"
+                src="/events/health-checkup.jpg"
                 alt=""
               />
-              <div className="flex flex-col justify-between p-4 leading-normal mb-20">
+              <div className="flex flex-col justify-between p-4 leading-normal">
                 <p className="mb-3 text-xl font-semibold tracking-tight text-primary">
-                  Health & Wellness Workshop
+                  health check up camp for health and fitness enthusiasts at
+                  Anytime fitness
                 </p>
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
-                  <SlCalender className="text-xl text-primary font-bold" />
+                  <SlCalender className="text-xl text-primary font-bold mt-[3px]" />
                   <span className="font-medium opacity-70 dark:text-gray-900">
-                    {" "}
-                    August 15, 2024, 9:00 AM 4:00 PM{" "}
+                    December 16, 2024, 9:00 AM 4:00 PM
                   </span>
                 </p>
 
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
-                  <IoLocationSharp className="text-xl text-primary font-bold" />
+                  <IoLocationSharp className="text-xl text-primary font-bold mt-[3px]" />
                   <span className="font-medium opacity-70 dark:text-gray-900">
                     {" "}
-                    Diagnostic Center Main Hall{" "}
+                    Shakti Vihar, Pitampura on 16 December
                   </span>
                 </p>
               </div>
@@ -91,21 +91,19 @@ const UpcomingEvent = () => {
               />
               <div className="flex flex-col justify-between p-4 leading-normal mb-20">
                 <h5 className="mb-2 text-xl font-semibold tracking-tight text-primary">
-                  Free Diabetes Screening Day
+                  Another health check up camp
                 </h5>
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
-                  <SlCalender className="text-xl text-primary font-bold" />
+                  <SlCalender className="text-xl text-primary font-bold mt-[3px]" />
                   <span className="font-medium opacity-70 dark:text-gray-900">
-                    {" "}
-                    August 15, 2024, 9:00 AM 4:00 PM{" "}
+                    December 22, 2024, 9:00 AM 4:00 PM
                   </span>
                 </p>
 
                 <p className="mb-3 font-normal dark:text-gray-400 flex gap-2">
-                  <IoLocationSharp className="text-xl text-primary font-bold" />
+                  <IoLocationSharp className="text-xl text-primary font-bold mt-[3px]" />
                   <span className="font-medium opacity-70 dark:text-gray-900">
-                    {" "}
-                    Diagnostic Center Main Hall{" "}
+                    BW Shalimar bagh
                   </span>
                 </p>
               </div>

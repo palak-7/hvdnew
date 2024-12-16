@@ -29,17 +29,27 @@ const GalleryImages = ({ url }) => {
         <span className="uppercase">{findImages.categroy[0]}</span>
         {findImages.categroy.slice(1)}
       </h1>
-      <div className="grid lg:grid-cols-3 gap-3">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-3">
         {arrayImages.map((i, index) => (
           <div key={index}>
-            <Image
-              src={`/gallery/${i}`}
-              width={1000}
-              height={1000}
-              alt={findImages}
-              className="cursor-pointer h-[300px] object-cover rounded-md"
-              onClick={() => openImage(`/gallery/${i}`)}
-            />
+            {i.endsWith(".mp4") ? ( // Check if the file is a video
+              <video
+                style={{ width: "100%", height: "450px", borderRadius: "10px" }}
+                controls
+              >
+                <source src={`/gallery/${i}`} type="video/mp4" />
+              </video>
+            ) : (
+              // Render an image if it's not a video
+              <Image
+                src={`/gallery/${i}`}
+                width={1000}
+                height={1000}
+                alt="Gallery Image"
+                className="cursor-pointer h-[300px] object-cover rounded-md"
+                onClick={() => openImage(`/gallery/${i}`)}
+              />
+            )}
           </div>
         ))}
       </div>

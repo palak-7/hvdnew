@@ -1,7 +1,6 @@
 import React from "react";
 import { story } from "@/data/success";
-import Image from "next/image";
-import Link from "next/link";
+
 const SuccessDetail = ({ id }) => {
   const obj = story.find((item) => item.id === id);
   return (
@@ -24,7 +23,7 @@ const SuccessDetail = ({ id }) => {
           <div className="md:grid grid-cols-12 gap-4">
             <div className="col-start-2 col-span-3 flex justify-center items-center p-4">
               <video controls width="100%" height="auto" className="rounded">
-                <source src="/success/succes1.mp4" type="video/mp4" />
+                <source src={obj.vid} type="video/mp4" />
               </video>
             </div>
 
