@@ -160,12 +160,6 @@ export const allImages = [
     name: "Videos",
     url: "gallery/videos",
     image: "/interior/1.jpg",
-    images: [
-      "videos/1.mp4",
-      "videos/2.mp4",
-      "videos/3.mp4",
-      "videos/4.mp4",
-      "videos/5.mp4",
-    ],
+    images: [],
   },
 ];
