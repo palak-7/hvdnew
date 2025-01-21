@@ -308,6 +308,12 @@ export const menuData = [
         path: "/gallery",
         newTab: false,
       },
+      {
+        id: 64,
+        title: "BLOGS",
+        path: "/blog",
+        newTab: false,
+      },
     ],
   },
 ];
